@@ -8,14 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css"/>
 		<script type="text/javascript">
 			var model={
-				user:"adam",
-				items:[
-					{action:"buy flowers",done:false},
-					{action:"get shoes",done:false},
-					{action:"collect tickets",done:true},
-					{action:"call join",done:false},
-					{action:"eat lunch",done:true}
-				]
+				user:"adam"
 			};
 			var todoapp=angular.module("todoapp",[]);
 			todoapp.controller('todoctrl',function($scope){
@@ -27,20 +20,48 @@
 					});
 					return count;
 				};
+				$scope.warmlevel=function(){
+					return $scope.incompleteCount()<3?"label-success":"label-warning";
+				};
+				$scope.additem=function(actiontext){
+					$scope.todo.items.push({
+						action:actiontext,
+						done:false
+					});
+				};
 				console.log($scope);
+			});
+			todoapp.run(function($http){
+				$http.get("todo.json").success(function(data){
+					model.items=data;
+				}).error(function(){
+					console.log('error')
+				});
+			});
+			todoapp.filter("checkitems",function(){
+				return function(items,showComplete){
+					var resultarr=[];
+					angular.forEach(items,function(item){
+						console.log(!!showComplete);
+						if(item.done==false || showComplete==true){
+							resultarr.push(item);
+						}
+					});
+					return resultarr;
+				}
 			})
 		</script>
 	</head>
 	<body ng-controller='todoctrl'>
 		<div class="page-header">
 			<h1>{{todo.user}}'s To Do List</h1>
-			<span class="label label-default" ng-hide="incompleteCount()==0">{{incompleteCount()}}</span>
+			<span class="label label-default" ng-class="warmlevel()" ng-hide="incompleteCount()==0">{{incompleteCount()}}</span>
 		</div>
 		<div class="panel">
 			<div class="input-group">
-				<input type="text" class="form-control" />
+				<input type="text" class="form-control" ng-model="actiontext"/>
 				<span class="input-group-btn">
-					<button class="btn btn-default">add</button>
+					<button class="btn btn-default" ng-click="additem(actiontext)">add</button>
 				</span>
 			</div>
 			<table class="table table-striped">
@@ -51,13 +72,16 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr ng-repeat="item in todo.items">
+					<tr ng-repeat="item in todo.items | checkitems:showComplete | orderBy:'action'">
 						<td>{{item.action}}</td>
 						<td><input type="checkbox" ng-model="item.done"/></td>
 						<td>{{item.done}}</td>
 					</tr>
 				</tbody>
 			</table>
+			<div class="checkbox-inline">
+				<label for=""><input type="checkbox" ng-model="showComplete" />show complete</label>
+			</div>
 		</div>
 	</body>
 </html>

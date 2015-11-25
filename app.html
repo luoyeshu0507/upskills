@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="sportsStore">
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">	
+		<title>sportsStroe</title>
+		<script src="bower_components/angular/angular.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css"/>
+		<script type="text/javascript">
+			angular.module("sportsStore",["customFilters","cart","ngRoute"])
+			.config(function($routeProvider){
+				$routeProvider.when("/checkout",{
+					templateUrl:"/views/checkoutSummary.html"
+				});
+				$routeProvider.when("/products",{
+					templateUrl:"/views/productList.html"
+				});
+				$routeProvider.when("/complete",{
+					templateUrl:"/views/thankYou.html"
+				});
+				$routeProvider.when("/placeorder",{
+					templateUrl:"/views/placeOrder.html"
+				});
+				$routeProvider.otherwise({
+					templateUrl:"/views/productList.html"
+				});
+			});
+		</script>
+		<script src="controllers/sportsStore.js" type="text/javascript" charset="utf-8"></script>
+		<script src="filters/customFilters.js" type="text/javascript" charset="utf-8"></script>
+		<script src="controllers/productListControllers.js" type="text/javascript" charset="utf-8"></script>
+		<script src="components/cart/cart.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bower_components/angular-route/angular-route.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="controllers/checkoutControllers.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body ng-controller="sportsStoreCtrl">
+		<div class="container">
+			<div class="row">
+				<div class="navbar navbar-inverse">
+					<a href="#" class="navbar-brand">Sports store</a>
+					<cart-summary/>
+				</div>
+			</div>
+			<div class="alert alert-danger" ng-show="data.error">
+				Error({{data.error.status}}). The product data was not loaded.
+				<a href="/app.html" class="alert-link">Click here to try again</a>
+			</div>
+			<ng-view/>
+		</div>
+	</body>
+</html>
