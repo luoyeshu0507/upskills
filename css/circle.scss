@@ -24,6 +24,10 @@ $circle-border-color:#FFB6C1;
           border: $circle-border solid $circle-border-color;
           border-color:$circle-border-color $circle-border-color transparent transparent;
           transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
       }
 }
 @for $i from 0 through 100 {
@@ -31,9 +35,17 @@ $circle-border-color:#FFB6C1;
       &:after{
           @if $i<51{
               transform: rotate(45deg + ($i * 3.6));
+              -moz-transform: rotate(45deg + ($i * 3.6));
+              -ms-transform: rotate(45deg + ($i * 3.6));
+              -o-transform: rotate(45deg + ($i * 3.6));
+              -webkit-transform: rotate(45deg + ($i * 3.6));
               border-color: $circle-bg-color $circle-bg-color transparent transparent;
           } @else {
               transform: rotate(45deg + ($i * 3.6) - 180);
+              -moz-transform: rotate(45deg + ($i * 3.6) - 180);
+              -ms-transform: rotate(45deg + ($i * 3.6) - 180);
+              -o-transform: rotate(45deg + ($i * 3.6) - 180);
+              -webkit-transform: rotate(45deg + ($i * 3.6) - 180);
               border-color:$circle-border-color $circle-border-color transparent transparent;
           }
       }

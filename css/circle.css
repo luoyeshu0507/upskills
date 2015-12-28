@@ -19,410 +19,818 @@
     left: -3px;
     border: 3px solid #FFB6C1;
     border-color: #FFB6C1 #FFB6C1 transparent transparent;
-    transform: rotate(45deg); }
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg); }
 
 .item-0:after {
   transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-1:after {
   transform: rotate(48.6deg);
+  -moz-transform: rotate(48.6deg);
+  -ms-transform: rotate(48.6deg);
+  -o-transform: rotate(48.6deg);
+  -webkit-transform: rotate(48.6deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-2:after {
   transform: rotate(52.2deg);
+  -moz-transform: rotate(52.2deg);
+  -ms-transform: rotate(52.2deg);
+  -o-transform: rotate(52.2deg);
+  -webkit-transform: rotate(52.2deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-3:after {
   transform: rotate(55.8deg);
+  -moz-transform: rotate(55.8deg);
+  -ms-transform: rotate(55.8deg);
+  -o-transform: rotate(55.8deg);
+  -webkit-transform: rotate(55.8deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-4:after {
   transform: rotate(59.4deg);
+  -moz-transform: rotate(59.4deg);
+  -ms-transform: rotate(59.4deg);
+  -o-transform: rotate(59.4deg);
+  -webkit-transform: rotate(59.4deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-5:after {
   transform: rotate(63deg);
+  -moz-transform: rotate(63deg);
+  -ms-transform: rotate(63deg);
+  -o-transform: rotate(63deg);
+  -webkit-transform: rotate(63deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-6:after {
   transform: rotate(66.6deg);
+  -moz-transform: rotate(66.6deg);
+  -ms-transform: rotate(66.6deg);
+  -o-transform: rotate(66.6deg);
+  -webkit-transform: rotate(66.6deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-7:after {
   transform: rotate(70.2deg);
+  -moz-transform: rotate(70.2deg);
+  -ms-transform: rotate(70.2deg);
+  -o-transform: rotate(70.2deg);
+  -webkit-transform: rotate(70.2deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-8:after {
   transform: rotate(73.8deg);
+  -moz-transform: rotate(73.8deg);
+  -ms-transform: rotate(73.8deg);
+  -o-transform: rotate(73.8deg);
+  -webkit-transform: rotate(73.8deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-9:after {
   transform: rotate(77.4deg);
+  -moz-transform: rotate(77.4deg);
+  -ms-transform: rotate(77.4deg);
+  -o-transform: rotate(77.4deg);
+  -webkit-transform: rotate(77.4deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-10:after {
   transform: rotate(81deg);
+  -moz-transform: rotate(81deg);
+  -ms-transform: rotate(81deg);
+  -o-transform: rotate(81deg);
+  -webkit-transform: rotate(81deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-11:after {
   transform: rotate(84.6deg);
+  -moz-transform: rotate(84.6deg);
+  -ms-transform: rotate(84.6deg);
+  -o-transform: rotate(84.6deg);
+  -webkit-transform: rotate(84.6deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-12:after {
   transform: rotate(88.2deg);
+  -moz-transform: rotate(88.2deg);
+  -ms-transform: rotate(88.2deg);
+  -o-transform: rotate(88.2deg);
+  -webkit-transform: rotate(88.2deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-13:after {
   transform: rotate(91.8deg);
+  -moz-transform: rotate(91.8deg);
+  -ms-transform: rotate(91.8deg);
+  -o-transform: rotate(91.8deg);
+  -webkit-transform: rotate(91.8deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-14:after {
   transform: rotate(95.4deg);
+  -moz-transform: rotate(95.4deg);
+  -ms-transform: rotate(95.4deg);
+  -o-transform: rotate(95.4deg);
+  -webkit-transform: rotate(95.4deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-15:after {
   transform: rotate(99deg);
+  -moz-transform: rotate(99deg);
+  -ms-transform: rotate(99deg);
+  -o-transform: rotate(99deg);
+  -webkit-transform: rotate(99deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-16:after {
   transform: rotate(102.6deg);
+  -moz-transform: rotate(102.6deg);
+  -ms-transform: rotate(102.6deg);
+  -o-transform: rotate(102.6deg);
+  -webkit-transform: rotate(102.6deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-17:after {
   transform: rotate(106.2deg);
+  -moz-transform: rotate(106.2deg);
+  -ms-transform: rotate(106.2deg);
+  -o-transform: rotate(106.2deg);
+  -webkit-transform: rotate(106.2deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-18:after {
   transform: rotate(109.8deg);
+  -moz-transform: rotate(109.8deg);
+  -ms-transform: rotate(109.8deg);
+  -o-transform: rotate(109.8deg);
+  -webkit-transform: rotate(109.8deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-19:after {
   transform: rotate(113.4deg);
+  -moz-transform: rotate(113.4deg);
+  -ms-transform: rotate(113.4deg);
+  -o-transform: rotate(113.4deg);
+  -webkit-transform: rotate(113.4deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-20:after {
   transform: rotate(117deg);
+  -moz-transform: rotate(117deg);
+  -ms-transform: rotate(117deg);
+  -o-transform: rotate(117deg);
+  -webkit-transform: rotate(117deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-21:after {
   transform: rotate(120.6deg);
+  -moz-transform: rotate(120.6deg);
+  -ms-transform: rotate(120.6deg);
+  -o-transform: rotate(120.6deg);
+  -webkit-transform: rotate(120.6deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-22:after {
   transform: rotate(124.2deg);
+  -moz-transform: rotate(124.2deg);
+  -ms-transform: rotate(124.2deg);
+  -o-transform: rotate(124.2deg);
+  -webkit-transform: rotate(124.2deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-23:after {
   transform: rotate(127.8deg);
+  -moz-transform: rotate(127.8deg);
+  -ms-transform: rotate(127.8deg);
+  -o-transform: rotate(127.8deg);
+  -webkit-transform: rotate(127.8deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-24:after {
   transform: rotate(131.4deg);
+  -moz-transform: rotate(131.4deg);
+  -ms-transform: rotate(131.4deg);
+  -o-transform: rotate(131.4deg);
+  -webkit-transform: rotate(131.4deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-25:after {
   transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-26:after {
   transform: rotate(138.6deg);
+  -moz-transform: rotate(138.6deg);
+  -ms-transform: rotate(138.6deg);
+  -o-transform: rotate(138.6deg);
+  -webkit-transform: rotate(138.6deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-27:after {
   transform: rotate(142.2deg);
+  -moz-transform: rotate(142.2deg);
+  -ms-transform: rotate(142.2deg);
+  -o-transform: rotate(142.2deg);
+  -webkit-transform: rotate(142.2deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-28:after {
   transform: rotate(145.8deg);
+  -moz-transform: rotate(145.8deg);
+  -ms-transform: rotate(145.8deg);
+  -o-transform: rotate(145.8deg);
+  -webkit-transform: rotate(145.8deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-29:after {
   transform: rotate(149.4deg);
+  -moz-transform: rotate(149.4deg);
+  -ms-transform: rotate(149.4deg);
+  -o-transform: rotate(149.4deg);
+  -webkit-transform: rotate(149.4deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-30:after {
   transform: rotate(153deg);
+  -moz-transform: rotate(153deg);
+  -ms-transform: rotate(153deg);
+  -o-transform: rotate(153deg);
+  -webkit-transform: rotate(153deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-31:after {
   transform: rotate(156.6deg);
+  -moz-transform: rotate(156.6deg);
+  -ms-transform: rotate(156.6deg);
+  -o-transform: rotate(156.6deg);
+  -webkit-transform: rotate(156.6deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-32:after {
   transform: rotate(160.2deg);
+  -moz-transform: rotate(160.2deg);
+  -ms-transform: rotate(160.2deg);
+  -o-transform: rotate(160.2deg);
+  -webkit-transform: rotate(160.2deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-33:after {
   transform: rotate(163.8deg);
+  -moz-transform: rotate(163.8deg);
+  -ms-transform: rotate(163.8deg);
+  -o-transform: rotate(163.8deg);
+  -webkit-transform: rotate(163.8deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-34:after {
   transform: rotate(167.4deg);
+  -moz-transform: rotate(167.4deg);
+  -ms-transform: rotate(167.4deg);
+  -o-transform: rotate(167.4deg);
+  -webkit-transform: rotate(167.4deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-35:after {
   transform: rotate(171deg);
+  -moz-transform: rotate(171deg);
+  -ms-transform: rotate(171deg);
+  -o-transform: rotate(171deg);
+  -webkit-transform: rotate(171deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-36:after {
   transform: rotate(174.6deg);
+  -moz-transform: rotate(174.6deg);
+  -ms-transform: rotate(174.6deg);
+  -o-transform: rotate(174.6deg);
+  -webkit-transform: rotate(174.6deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-37:after {
   transform: rotate(178.2deg);
+  -moz-transform: rotate(178.2deg);
+  -ms-transform: rotate(178.2deg);
+  -o-transform: rotate(178.2deg);
+  -webkit-transform: rotate(178.2deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-38:after {
   transform: rotate(181.8deg);
+  -moz-transform: rotate(181.8deg);
+  -ms-transform: rotate(181.8deg);
+  -o-transform: rotate(181.8deg);
+  -webkit-transform: rotate(181.8deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-39:after {
   transform: rotate(185.4deg);
+  -moz-transform: rotate(185.4deg);
+  -ms-transform: rotate(185.4deg);
+  -o-transform: rotate(185.4deg);
+  -webkit-transform: rotate(185.4deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-40:after {
   transform: rotate(189deg);
+  -moz-transform: rotate(189deg);
+  -ms-transform: rotate(189deg);
+  -o-transform: rotate(189deg);
+  -webkit-transform: rotate(189deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-41:after {
   transform: rotate(192.6deg);
+  -moz-transform: rotate(192.6deg);
+  -ms-transform: rotate(192.6deg);
+  -o-transform: rotate(192.6deg);
+  -webkit-transform: rotate(192.6deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-42:after {
   transform: rotate(196.2deg);
+  -moz-transform: rotate(196.2deg);
+  -ms-transform: rotate(196.2deg);
+  -o-transform: rotate(196.2deg);
+  -webkit-transform: rotate(196.2deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-43:after {
   transform: rotate(199.8deg);
+  -moz-transform: rotate(199.8deg);
+  -ms-transform: rotate(199.8deg);
+  -o-transform: rotate(199.8deg);
+  -webkit-transform: rotate(199.8deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-44:after {
   transform: rotate(203.4deg);
+  -moz-transform: rotate(203.4deg);
+  -ms-transform: rotate(203.4deg);
+  -o-transform: rotate(203.4deg);
+  -webkit-transform: rotate(203.4deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-45:after {
   transform: rotate(207deg);
+  -moz-transform: rotate(207deg);
+  -ms-transform: rotate(207deg);
+  -o-transform: rotate(207deg);
+  -webkit-transform: rotate(207deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-46:after {
   transform: rotate(210.6deg);
+  -moz-transform: rotate(210.6deg);
+  -ms-transform: rotate(210.6deg);
+  -o-transform: rotate(210.6deg);
+  -webkit-transform: rotate(210.6deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-47:after {
   transform: rotate(214.2deg);
+  -moz-transform: rotate(214.2deg);
+  -ms-transform: rotate(214.2deg);
+  -o-transform: rotate(214.2deg);
+  -webkit-transform: rotate(214.2deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-48:after {
   transform: rotate(217.8deg);
+  -moz-transform: rotate(217.8deg);
+  -ms-transform: rotate(217.8deg);
+  -o-transform: rotate(217.8deg);
+  -webkit-transform: rotate(217.8deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-49:after {
   transform: rotate(221.4deg);
+  -moz-transform: rotate(221.4deg);
+  -ms-transform: rotate(221.4deg);
+  -o-transform: rotate(221.4deg);
+  -webkit-transform: rotate(221.4deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-50:after {
   transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
   border-color: #ADADAD #ADADAD transparent transparent; }
 
 .item-51:after {
   transform: rotate(48.6deg);
+  -moz-transform: rotate(48.6deg);
+  -ms-transform: rotate(48.6deg);
+  -o-transform: rotate(48.6deg);
+  -webkit-transform: rotate(48.6deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-52:after {
   transform: rotate(52.2deg);
+  -moz-transform: rotate(52.2deg);
+  -ms-transform: rotate(52.2deg);
+  -o-transform: rotate(52.2deg);
+  -webkit-transform: rotate(52.2deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-53:after {
   transform: rotate(55.8deg);
+  -moz-transform: rotate(55.8deg);
+  -ms-transform: rotate(55.8deg);
+  -o-transform: rotate(55.8deg);
+  -webkit-transform: rotate(55.8deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-54:after {
   transform: rotate(59.4deg);
+  -moz-transform: rotate(59.4deg);
+  -ms-transform: rotate(59.4deg);
+  -o-transform: rotate(59.4deg);
+  -webkit-transform: rotate(59.4deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-55:after {
   transform: rotate(63deg);
+  -moz-transform: rotate(63deg);
+  -ms-transform: rotate(63deg);
+  -o-transform: rotate(63deg);
+  -webkit-transform: rotate(63deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-56:after {
   transform: rotate(66.6deg);
+  -moz-transform: rotate(66.6deg);
+  -ms-transform: rotate(66.6deg);
+  -o-transform: rotate(66.6deg);
+  -webkit-transform: rotate(66.6deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-57:after {
   transform: rotate(70.2deg);
+  -moz-transform: rotate(70.2deg);
+  -ms-transform: rotate(70.2deg);
+  -o-transform: rotate(70.2deg);
+  -webkit-transform: rotate(70.2deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-58:after {
   transform: rotate(73.8deg);
+  -moz-transform: rotate(73.8deg);
+  -ms-transform: rotate(73.8deg);
+  -o-transform: rotate(73.8deg);
+  -webkit-transform: rotate(73.8deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-59:after {
   transform: rotate(77.4deg);
+  -moz-transform: rotate(77.4deg);
+  -ms-transform: rotate(77.4deg);
+  -o-transform: rotate(77.4deg);
+  -webkit-transform: rotate(77.4deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-60:after {
   transform: rotate(81deg);
+  -moz-transform: rotate(81deg);
+  -ms-transform: rotate(81deg);
+  -o-transform: rotate(81deg);
+  -webkit-transform: rotate(81deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-61:after {
   transform: rotate(84.6deg);
+  -moz-transform: rotate(84.6deg);
+  -ms-transform: rotate(84.6deg);
+  -o-transform: rotate(84.6deg);
+  -webkit-transform: rotate(84.6deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-62:after {
   transform: rotate(88.2deg);
+  -moz-transform: rotate(88.2deg);
+  -ms-transform: rotate(88.2deg);
+  -o-transform: rotate(88.2deg);
+  -webkit-transform: rotate(88.2deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-63:after {
   transform: rotate(91.8deg);
+  -moz-transform: rotate(91.8deg);
+  -ms-transform: rotate(91.8deg);
+  -o-transform: rotate(91.8deg);
+  -webkit-transform: rotate(91.8deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-64:after {
   transform: rotate(95.4deg);
+  -moz-transform: rotate(95.4deg);
+  -ms-transform: rotate(95.4deg);
+  -o-transform: rotate(95.4deg);
+  -webkit-transform: rotate(95.4deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-65:after {
   transform: rotate(99deg);
+  -moz-transform: rotate(99deg);
+  -ms-transform: rotate(99deg);
+  -o-transform: rotate(99deg);
+  -webkit-transform: rotate(99deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-66:after {
   transform: rotate(102.6deg);
+  -moz-transform: rotate(102.6deg);
+  -ms-transform: rotate(102.6deg);
+  -o-transform: rotate(102.6deg);
+  -webkit-transform: rotate(102.6deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-67:after {
   transform: rotate(106.2deg);
+  -moz-transform: rotate(106.2deg);
+  -ms-transform: rotate(106.2deg);
+  -o-transform: rotate(106.2deg);
+  -webkit-transform: rotate(106.2deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-68:after {
   transform: rotate(109.8deg);
+  -moz-transform: rotate(109.8deg);
+  -ms-transform: rotate(109.8deg);
+  -o-transform: rotate(109.8deg);
+  -webkit-transform: rotate(109.8deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-69:after {
   transform: rotate(113.4deg);
+  -moz-transform: rotate(113.4deg);
+  -ms-transform: rotate(113.4deg);
+  -o-transform: rotate(113.4deg);
+  -webkit-transform: rotate(113.4deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-70:after {
   transform: rotate(117deg);
+  -moz-transform: rotate(117deg);
+  -ms-transform: rotate(117deg);
+  -o-transform: rotate(117deg);
+  -webkit-transform: rotate(117deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-71:after {
   transform: rotate(120.6deg);
+  -moz-transform: rotate(120.6deg);
+  -ms-transform: rotate(120.6deg);
+  -o-transform: rotate(120.6deg);
+  -webkit-transform: rotate(120.6deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-72:after {
   transform: rotate(124.2deg);
+  -moz-transform: rotate(124.2deg);
+  -ms-transform: rotate(124.2deg);
+  -o-transform: rotate(124.2deg);
+  -webkit-transform: rotate(124.2deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-73:after {
   transform: rotate(127.8deg);
+  -moz-transform: rotate(127.8deg);
+  -ms-transform: rotate(127.8deg);
+  -o-transform: rotate(127.8deg);
+  -webkit-transform: rotate(127.8deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-74:after {
   transform: rotate(131.4deg);
+  -moz-transform: rotate(131.4deg);
+  -ms-transform: rotate(131.4deg);
+  -o-transform: rotate(131.4deg);
+  -webkit-transform: rotate(131.4deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-75:after {
   transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-76:after {
   transform: rotate(138.6deg);
+  -moz-transform: rotate(138.6deg);
+  -ms-transform: rotate(138.6deg);
+  -o-transform: rotate(138.6deg);
+  -webkit-transform: rotate(138.6deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-77:after {
   transform: rotate(142.2deg);
+  -moz-transform: rotate(142.2deg);
+  -ms-transform: rotate(142.2deg);
+  -o-transform: rotate(142.2deg);
+  -webkit-transform: rotate(142.2deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-78:after {
   transform: rotate(145.8deg);
+  -moz-transform: rotate(145.8deg);
+  -ms-transform: rotate(145.8deg);
+  -o-transform: rotate(145.8deg);
+  -webkit-transform: rotate(145.8deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-79:after {
   transform: rotate(149.4deg);
+  -moz-transform: rotate(149.4deg);
+  -ms-transform: rotate(149.4deg);
+  -o-transform: rotate(149.4deg);
+  -webkit-transform: rotate(149.4deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-80:after {
   transform: rotate(153deg);
+  -moz-transform: rotate(153deg);
+  -ms-transform: rotate(153deg);
+  -o-transform: rotate(153deg);
+  -webkit-transform: rotate(153deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-81:after {
   transform: rotate(156.6deg);
+  -moz-transform: rotate(156.6deg);
+  -ms-transform: rotate(156.6deg);
+  -o-transform: rotate(156.6deg);
+  -webkit-transform: rotate(156.6deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-82:after {
   transform: rotate(160.2deg);
+  -moz-transform: rotate(160.2deg);
+  -ms-transform: rotate(160.2deg);
+  -o-transform: rotate(160.2deg);
+  -webkit-transform: rotate(160.2deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-83:after {
   transform: rotate(163.8deg);
+  -moz-transform: rotate(163.8deg);
+  -ms-transform: rotate(163.8deg);
+  -o-transform: rotate(163.8deg);
+  -webkit-transform: rotate(163.8deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-84:after {
   transform: rotate(167.4deg);
+  -moz-transform: rotate(167.4deg);
+  -ms-transform: rotate(167.4deg);
+  -o-transform: rotate(167.4deg);
+  -webkit-transform: rotate(167.4deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-85:after {
   transform: rotate(171deg);
+  -moz-transform: rotate(171deg);
+  -ms-transform: rotate(171deg);
+  -o-transform: rotate(171deg);
+  -webkit-transform: rotate(171deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-86:after {
   transform: rotate(174.6deg);
+  -moz-transform: rotate(174.6deg);
+  -ms-transform: rotate(174.6deg);
+  -o-transform: rotate(174.6deg);
+  -webkit-transform: rotate(174.6deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-87:after {
   transform: rotate(178.2deg);
+  -moz-transform: rotate(178.2deg);
+  -ms-transform: rotate(178.2deg);
+  -o-transform: rotate(178.2deg);
+  -webkit-transform: rotate(178.2deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-88:after {
   transform: rotate(181.8deg);
+  -moz-transform: rotate(181.8deg);
+  -ms-transform: rotate(181.8deg);
+  -o-transform: rotate(181.8deg);
+  -webkit-transform: rotate(181.8deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-89:after {
   transform: rotate(185.4deg);
+  -moz-transform: rotate(185.4deg);
+  -ms-transform: rotate(185.4deg);
+  -o-transform: rotate(185.4deg);
+  -webkit-transform: rotate(185.4deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-90:after {
   transform: rotate(189deg);
+  -moz-transform: rotate(189deg);
+  -ms-transform: rotate(189deg);
+  -o-transform: rotate(189deg);
+  -webkit-transform: rotate(189deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-91:after {
   transform: rotate(192.6deg);
+  -moz-transform: rotate(192.6deg);
+  -ms-transform: rotate(192.6deg);
+  -o-transform: rotate(192.6deg);
+  -webkit-transform: rotate(192.6deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-92:after {
   transform: rotate(196.2deg);
+  -moz-transform: rotate(196.2deg);
+  -ms-transform: rotate(196.2deg);
+  -o-transform: rotate(196.2deg);
+  -webkit-transform: rotate(196.2deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-93:after {
   transform: rotate(199.8deg);
+  -moz-transform: rotate(199.8deg);
+  -ms-transform: rotate(199.8deg);
+  -o-transform: rotate(199.8deg);
+  -webkit-transform: rotate(199.8deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-94:after {
   transform: rotate(203.4deg);
+  -moz-transform: rotate(203.4deg);
+  -ms-transform: rotate(203.4deg);
+  -o-transform: rotate(203.4deg);
+  -webkit-transform: rotate(203.4deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-95:after {
   transform: rotate(207deg);
+  -moz-transform: rotate(207deg);
+  -ms-transform: rotate(207deg);
+  -o-transform: rotate(207deg);
+  -webkit-transform: rotate(207deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-96:after {
   transform: rotate(210.6deg);
+  -moz-transform: rotate(210.6deg);
+  -ms-transform: rotate(210.6deg);
+  -o-transform: rotate(210.6deg);
+  -webkit-transform: rotate(210.6deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-97:after {
   transform: rotate(214.2deg);
+  -moz-transform: rotate(214.2deg);
+  -ms-transform: rotate(214.2deg);
+  -o-transform: rotate(214.2deg);
+  -webkit-transform: rotate(214.2deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-98:after {
   transform: rotate(217.8deg);
+  -moz-transform: rotate(217.8deg);
+  -ms-transform: rotate(217.8deg);
+  -o-transform: rotate(217.8deg);
+  -webkit-transform: rotate(217.8deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-99:after {
   transform: rotate(221.4deg);
+  -moz-transform: rotate(221.4deg);
+  -ms-transform: rotate(221.4deg);
+  -o-transform: rotate(221.4deg);
+  -webkit-transform: rotate(221.4deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 .item-100:after {
   transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
   border-color: #FFB6C1 #FFB6C1 transparent transparent; }
 
 /*# sourceMappingURL=circle.css.map */
