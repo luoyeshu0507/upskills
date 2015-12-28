@@ -1,0 +1,41 @@
+$circle-size:64px;
+$circle-border:3px;
+$circle-bg-color:#ADADAD;
+$circle-border-color:#FFB6C1;
+.circle{
+      width: $circle-size;
+      height: $circle-size;
+      border:$circle-border solid $circle-bg-color;
+      border-radius: 50%;
+      position: relative;
+      float:left;
+      margin: 20px;
+      text-align: center;
+      line-height: $circle-size;
+      &:before,&:after{
+          display: block;
+          content: "";
+          width: $circle-size;
+          height: $circle-size;
+          border-radius: 50%;
+          position: absolute;
+          top: -$circle-border;
+          left: -$circle-border;
+          border: $circle-border solid $circle-border-color;
+          border-color:$circle-border-color $circle-border-color transparent transparent;
+          transform: rotate(45deg);
+      }
+}
+@for $i from 0 through 100 {
+  .item-#{$i} {
+      &:after{
+          @if $i<51{
+              transform: rotate(45deg + ($i * 3.6));
+              border-color: $circle-bg-color $circle-bg-color transparent transparent;
+          } @else {
+              transform: rotate(45deg + ($i * 3.6) - 180);
+              border-color:$circle-border-color $circle-border-color transparent transparent;
+          }
+      }
+  }
+}
