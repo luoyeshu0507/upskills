@@ -1,0 +1,50 @@
+.jq-processbar {
+  position: relative;
+  overflow: hidden;
+  width: 300px; }
+  .jq-processbar:before {
+    content: '';
+    padding-top: 100%;
+    display: block; }
+  .jq-processbar span.jq-s1, .jq-processbar span.jq-s2 {
+    display: block;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    background-color: red;
+    position: absolute;
+    top: 0; }
+    .jq-processbar span.jq-s1:before, .jq-processbar span.jq-s1:after, .jq-processbar span.jq-s2:before, .jq-processbar span.jq-s2:after {
+      content: '';
+      display: block;
+      width: 200%;
+      height: 100%;
+      border-width: 4px;
+      border-radius: 50%;
+      border-style: solid;
+      box-sizing: border-box;
+      position: absolute;
+      top: 0; }
+    .jq-processbar span.jq-s1:before, .jq-processbar span.jq-s2:before {
+      border-color: #ddd; }
+    .jq-processbar span.jq-s1:after, .jq-processbar span.jq-s2:after {
+      border-color: #000;
+      transform: rotate(45deg); }
+  .jq-processbar span.jq-s1 {
+    left: 0; }
+    .jq-processbar span.jq-s1:before {
+      left: 0; }
+    .jq-processbar span.jq-s1:after {
+      left: 0;
+      border-right-color: transparent;
+      border-top-color: transparent; }
+  .jq-processbar span.jq-s2 {
+    right: 0; }
+    .jq-processbar span.jq-s2:before {
+      right: 0; }
+    .jq-processbar span.jq-s2:after {
+      right: 0;
+      border-left-color: transparent;
+      border-bottom-color: transparent; }
+
+/*# sourceMappingURL=jquery-circle-process.css.map */
