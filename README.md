@@ -1,10 +1,2 @@
 # upskills
-upskills
-
-# first change
-
-### 今天学习了  感觉不错
-
-#### 哈哈加油~！
-
-##### hello world
+This repo is used to test something or learn something new!
