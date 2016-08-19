@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/vue.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/vue-resource.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body id="app">
+		<form id="testform" method="post" action="http://upload.qiniu.com/" enctype="multipart/form-data">
+			<input name="key" id="key" type="hidden" v-model="key">
+			<input name="token" type="hidden" value="7K5nPbHfjB_J5R6p9ekTLHtjFWsJ65lCmzOkmj0_:bJ_cia9xCfpYwc1Q6AB7UIX4qM8=:eyJzY29wZSI6Imx1b3llc2h1IiwiZGVhZGxpbmUiOjE0NjkxMzc3MzF9">
+			<input accept="*" id="file" name="file" type="file" v-model="file"/>
+			<input name="accept" type="hidden" />
+			<input type="submit" id="button" name="" @click.prevent="upload"/>
+			<div id="progress">0</div>
+			<div>file:{{file}}</div>
+			<div>key:{{key}}</div>
+		</form>
+		<script type="text/javascript">
+			new Vue({
+				el: '#app',
+				data: {
+					file: ''
+				},
+				computed:{
+					key:function(){
+						if(this.file) return 'testfile/'+Math.random().toString().substr(2)+'/'+this.file.match(/(?=\\?)([^\\]*)$/)[1];
+						return '';
+					}
+				},
+				methods:{
+					upload:function(){
+						if(!this.file) return;
+						var f=new FormData(document.getElementById("testform"));
+						Vue.http.post("http://upload.qiniu.com/",f,{
+							progress:function(e){
+								console.log(e);
+							}
+						}).then(function(res){
+							console.log(res);
+						},function(err){
+							console.log(err);
+						});
+					}
+				}
+			});
+		</script>
+	</body>
+</html>
