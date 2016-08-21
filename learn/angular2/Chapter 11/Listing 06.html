@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <title>Directives</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+            .controller("defaultCtrl", function ($scope) {
+                $scope.todos = [
+                    { action: "Get groceries", complete: false },
+                    { action: "Call plumber", complete: false },
+                    { action: "Buy running shoes", complete: true },
+                    { action: "Buy flowers", complete: false },
+                    { action: "Call family", complete: false }];
+
+                $scope.buttonNames = ["Red", "Green", "Blue"];
+
+                $scope.settings = {
+                    Rows: "Red", 
+                    Columns: "Green"
+                };
+            });
+    </script>
+    <style>
+        tr.Red { background-color: lightcoral; }
+        tr.Green { background-color: lightgreen;}
+        tr.Blue { background-color: lightblue; }
+    </style>
+</head>
+<body>
+    <div id="todoPanel" class="panel" ng-controller="defaultCtrl">
+        <h3 class="panel-header">To Do List</h3>
+
+        <div class="row well">
+            <div class="col-xs-6" ng-repeat="(key, val) in settings">
+                <h4>{{key}}</h4>
+                <div class="radio" ng-repeat="button in buttonNames">
+                    <label>
+                        <input type="radio" ng-model="settings[key]"
+                               value="{{button}}">{{button}}
+                    </label>
+                </div>
+            </div>
+        </div>
+        <table class="table">
+            <thead>
+                <tr><th>#</th><th>Action</th><th>Done</th></tr>
+            </thead>
+            <tr ng-repeat="item in todos" ng-class="settings.Rows">
+                <td>{{$index + 1}}</td>
+                <td>{{item.action}}</td>
+                <td ng-style="{'background-color': settings.Columns}">
+                    {{item.complete}}
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+	(function(global){
+		global.getSumOfRai=function(arr){
+			var sum=0,
+				  start=0,
+				  max=-1,
+				  maxIndex=0,
+				  len=arr.length,
+				  j=0,
+				  beforesum=getsum(arr);
+			if(len<3) return 0;
+			for(var i=0;i<len;i++){
+				sum+=arr[i];
+				if(i<start) continue;
+				j=i+1;
+				while(arr[j]!=undefined){
+					if(arr[j]>=arr[i]){
+						start=j;
+						max=-1;
+						fill(i,j,Math.min(arr[i],arr[j]),arr);
+						break;
+					}else {
+						if(arr[j]>=max){
+							max=arr[j];
+							maxIndex=j;
+						}
+					}
+					j++;
+				}
+				if(max>0) {
+					fill(start,maxIndex,Math.min(arr[start],arr[maxIndex]),arr);
+					start=maxIndex;
+					max=-1;
+				}
+			}
+			console.log(arr,sum);
+			return sum-beforesum;
+		};
+		function fill(s,e,n,list){
+			for(var i=s+1;i<e;i++){
+				list[i]=n;
+			}
+		}
+		function getsum(arr){
+			var s=0;
+			for(var i=0,l=arr.length;i<l;i++){
+				s+=arr[i]
+			}
+			return s;
+		}
+	})(window||this);
+</script>

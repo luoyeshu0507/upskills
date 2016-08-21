@@ -1,0 +1,19 @@
+
+.mod_box{ width:90%; margin:0 auto;background-color: red;}
+.wrap_fitment { width:80%; height:612px; margin:0px auto; position:relative; margin-bottom: 20px; z-index:100;}
+.wrap_fitment .pavlist{ width:80px; position:absolute; top:30px; right:30px; z-index:100; color:#666; text-align:center; font-family:"΢���ź�"; }
+.wrap_fitment li{ width:60px; height:60px; font-size:15px; cursor:pointer; float:left; margin:1px 15px; line-height:60px; background:#f2f1ef; opacity:0.6; filter:"alpha(opacity=60)"; -ms-filter:"alpha(opacity=60)"; border-radius:50px; }
+.wrap_fitment li:hover{ background:#fff; opacity:0.9; }
+.wrap_fitment .current{ background:#fff; opacity:0.9; }
+.wrap_fitment .but360{ width:70px; height:30px; line-height:30px; margin:0px 5px 8px 5px;  border-radius: 30px; }
+.wrap_fitment .but360:hover{ width:70px; height:30px; line-height:30px; margin:0px 5px 8px 5px;  border-radius: 30px; }
+.wrap_fitment .tu { width:100%; height:612px; position:relative; z-index:0; display:none;}
+.wrap_fitment .tu img{  z-index:1; width:100%}
+
+
+@media screen and (min-width: 320px) and (max-width: 890px){
+	.mod_box{ width:100%;}
+	.wrap_fitment .pavlist{ width:480px; position:absolute; bottom:0px; left:0px;display:inline-block;}
+	.wrap_fitment li{height:40px;width:40px;line-height:40px; display:inline-block}
+}
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>Controllers</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script>
+        angular.module("myApp",[])
+        .controller("testCtrl",function($scope){
+            $scope.name=10;
+            $scope.$watch("name",function(newvalue){
+                $scope.name=newvalue;
+                console.log(1);
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="well" ng-controller="testCtrl">
+        
+        <input ng-change="broadcast()" type="text" ng-model="name">
+        {{name}}
+    </div>
+</body>
+</html>

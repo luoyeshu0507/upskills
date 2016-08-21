@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>TO DO List</title>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script src="angular.js"></script>
+    <script>
+        var app = angular.module('app', []);
+        app.controller('appCtrl1', function($scope){
+            $scope.data = [
+                {
+                    name: 'lzw',
+                    age: 18,
+                    like: 'zhangjie',
+                    last: 'forever'
+                },
+                {
+                    name: 'lzw1',
+                    age: 18,
+                    like: 'zhangjie',
+                    last: 'forever'
+                },
+                {
+                    name: 'lzw2',
+                    age: 18,
+                    like: 'zhangjie',
+                    last: 'forever'
+                },
+                {
+                    name: 'lzw3',
+                    age: 18,
+                    like: 'zhangjie',
+                    last: 'forever'
+                },
+                {
+                    name: 'lzw4',
+                    age: 18,
+                    like: 'zhangjie',
+                    last: 'forever'
+                }
+            ];
+        })
+    </script>
+</head>
+<body>
+    <div ng-controller="appCtrl1">
+        <div ng-repeat-start="item in data">{{item.name}}</div>
+        <div>name: {{item.name}} who's age is {{item.age}} like {{item.like}}!</div>
+        <div>This will last {{item.last}}</div>
+        <div ng-repeat-end="item in data">2016-08-21 {{item.name}} <br/><br/></div>
+    </div>
+</body>
+</html>

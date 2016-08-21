@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp" >
+<head>
+    <title>AngularJS Demo</title>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script src="angular.js"></script>
+    <script>
+
+        var myApp = angular.module("exampleApp", []);
+
+        myApp.controller("dayCtrl", function ($scope) {
+            // controller statements will go here
+        });
+
+    </script>
+</head>
+<body>
+    <div class="panel" ng-controller="dayCtrl">
+        <div class="page-header">
+        		<input type="text" name="" id="" ng-model="day" />
+            <h3>AngularJS App</h3>
+        </div>
+        <h4>Today is {{day || "(unknown)"}}</h4>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript">
+var obj={
+	a:{
+		sayname:function(){
+			console.log("a");
+		}
+	},
+	b:{
+		sayname:function(){
+			console.log("b");
+		}
+	},
+	c:{
+		sayname:function(){
+			console.log("c");
+		}
+	},
+	d:{
+		sayname:function(){
+			console.log("d");
+		}
+	},
+	e:{
+		sayname:function(){
+			console.log("e");
+		}
+	},
+	f:{
+		sayname:function(){
+			console.log("f");
+		}
+	},
+	g:{
+		sayname:function(){
+			console.log("g");
+		}
+	},
+	h:{
+		sayname:function(){
+			console.log("h");
+		}
+	}
+};
+
+
+var bbb=function(fn){
+	var dep=[];
+	var args=fn.toString().match(/^function\s*[^\(]*\(\s*([^\)]*)\)/m)[1].split(',');
+	for(var i=0,len=args.length;i<len;i++){
+		dep.push(obj[args[i]]);
+	}
+	fn.apply(null,dep);
+}
+
+bbb(function(c,b,a){
+	a.sayname();
+	b.sayname();
+	c.sayname();
+})
+</script>

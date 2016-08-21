@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+<head>
+    <title>Directives</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script>
+        angular.module('myapp',[])
+        .controller("gctrl",function($scope){
+            $scope.test="test";
+            $scope.log=function(e,user){
+                console.log(e,user);
+            }
+            $scope.hh=function(e){
+                console.log(e,e.type);
+            }
+        });
+        
+    </script>
+    <style>
+    </style>
+</head>
+<body ng-controller="gctrl">
+    <form ng-submit="log($event,user)" novalidate name="myform">
+        <input type="text" required name="uesename" ng-model="user.username">
+        <input type="password" required name="password" ng-model="user.password">
+        <input type="password" ng-pattern="/abc/" required name="phone" ng-model="user.phone">
+        <input type="submit" ng-disabled="myform.$invalid">
+        <button class="btn btn-default" ng-click="hh($event)">button</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <title>DOM API Services</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+        .controller("defaultCtrl", function ($scope, $window) {
+            $scope.displayAlert = function(msg) {
+                $window.alert(msg);
+            }
+        });
+    </script>
+</head>
+<body ng-controller="defaultCtrl" class="well">
+	<input type="text" name="" id="" value="" ng-model="hehe"/>
+    <button class="btn btn-primary" ng-click="displayAlert(hehe)">Click Me</button>
+</body>
+</html>

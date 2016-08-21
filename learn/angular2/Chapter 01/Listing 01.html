@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="todoApp">
+<head>
+    <title>TO DO List</title>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script src="angular.js"></script>
+    <script>
+        var todoApp = angular.module("todoApp", []);
+
+        
+        todoApp.controller("ToDoCtrl", function ($scope) {
+            this.greeting = 'message';
+            $scope.b="b";
+            $scope.greeting=function(e){
+                console.log(e,this);
+            }
+        });
+
+    </script>
+</head>
+<body ng-controller="ToDoCtrl as todo">
+    todo.greeting:{{todo.greeting}}<br/>
+    todo.b:{{todo.b}}<br/>
+    b:{{b}}<br/>
+
+    <div ng-click="greeting($event)">xxx</div>
+</body>
+</html>
