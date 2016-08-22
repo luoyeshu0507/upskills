@@ -7,48 +7,28 @@
     <script src="angular.js"></script>
     <script>
         var app = angular.module('app', []);
-        app.controller('appCtrl1', function($scope){
-            $scope.data = [
-                {
-                    name: 'lzw',
-                    age: 18,
-                    like: 'zhangjie',
-                    last: 'forever'
-                },
-                {
-                    name: 'lzw1',
-                    age: 18,
-                    like: 'zhangjie',
-                    last: 'forever'
-                },
-                {
-                    name: 'lzw2',
-                    age: 18,
-                    like: 'zhangjie',
-                    last: 'forever'
-                },
-                {
-                    name: 'lzw3',
-                    age: 18,
-                    like: 'zhangjie',
-                    last: 'forever'
-                },
-                {
-                    name: 'lzw4',
-                    age: 18,
-                    like: 'zhangjie',
-                    last: 'forever'
-                }
-            ];
+        app.controller('appCtrl1', function($scope, $rootScope){
+            $scope.address = 'shanghai';
+            $scope.setAddress = function() {
+                $rootScope.$broadcast('setAddress', {
+                    newAddress: $scope.newAddress
+                });
+            }
+            $scope.$on('setAddress', function(event, args) {
+                $scope.address = args.newAddress;
+                console.log(event);
+            })
         })
     </script>
 </head>
 <body>
     <div ng-controller="appCtrl1">
-        <div ng-repeat-start="item in data">{{item.name}}</div>
-        <div>name: {{item.name}} who's age is {{item.age}} like {{item.like}}!</div>
-        <div>This will last {{item.last}}</div>
-        <div ng-repeat-end="item in data">2016-08-21 {{item.name}} <br/><br/></div>
+        <div>address: {{address}}</div>
+        <input type="text" ng-model="newAddress"> <button ng-click="setAddress()">setAddress</button>
+        <div ng-controller="appCtrl1">
+            <div>address: {{address}}</div>
+            <input type="text" ng-model="newAddress"> <button ng-click="setAddress()">setAddress</button>
+        </div>
     </div>
 </body>
 </html>
