@@ -11,8 +11,12 @@
             $scope.name=10;
             $scope.$watch("name",function(newvalue){
                 $scope.name=newvalue;
-                console.log(1);
             })
+        })
+        .directive('testDir', function() {
+            return function (scope, element, attrs) {
+                element.css("color", attrs['testDir']);
+            }
         })
     </script>
 </head>
@@ -21,6 +25,7 @@
         
         <input ng-change="broadcast()" type="text" ng-model="name">
         {{name}}
+        <div test-dir="red">hello world {{name}}</div>
     </div>
 </body>
 </html>
