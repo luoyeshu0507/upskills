@@ -5,27 +5,49 @@
     <script src="angular.js"></script>
     <link href="bootstrap.css" rel="stylesheet" />
     <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script id="template1">
+        <div class="panel">
+            <div class="panel-heading">
+                <h4>this is a panel!</h4>
+            </div>
+            <div class="panel-body" ng-transclude>
+            </div>
+        </div>
+    </script>
     <script>
         angular.module("myApp",[])
         .controller("testCtrl",function($scope){
-            $scope.name=10;
+            $scope.name = 10;
+            $scope.data = {
+                hehe: 123
+            };
             $scope.$watch("name",function(newvalue){
                 $scope.name=newvalue;
-            })
+            });
+            $scope.getname = function() {
+                return $scope.name;
+            }
         })
         .directive('testDir', function() {
-            return function (scope, element, attrs) {
-                element.css("color", attrs['testDir']);
+            return {
+                link: function(scope, element, attrs) {
+                    element.css("color", attrs['color']);
+                },
+                restrict: 'EACM',
+                template: function() {
+                    return document.getElementById("template1").innerHTML;
+                },
+                replace: false,
+                transclude: true
             }
         })
     </script>
 </head>
 <body>
     <div class="well" ng-controller="testCtrl">
-        
         <input ng-change="broadcast()" type="text" ng-model="name">
-        {{name}}
-        <div test-dir="red">hello world {{name}}</div>
+        {{name}} {{getname()}}
+        <test-dir color="red">{{name}}</test-dir>
     </div>
 </body>
 </html>
