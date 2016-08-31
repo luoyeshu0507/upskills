@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html ng-app="myapp">
+<head>
+    <title>Example</title>
+    <script src="angular.js"></script>
+    <script type="text/javascript">
+        angular.module("myapp", [])
+        .controller('ctrl1', function($scope) {
+            $scope.width = 10;
+        })
+    </script>        
+</head>
+<body ng-controller="ctrl1">
+    <div style="height: 100px;background-color: red;transition: width 1s ease;" ng-style="{'width':width + '%'}"></div>
+    <input type="number" ng-model="width">
+</body>
+</html>
