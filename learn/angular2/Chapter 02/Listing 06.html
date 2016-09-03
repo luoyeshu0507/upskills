@@ -19,6 +19,7 @@
 
         todoApp.controller("ToDoCtrl", function ($scope) {
             $scope.todo = model;
+            $scope.f = 'c';
         });
 
     </script>
@@ -46,7 +47,8 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="item in todo.items">
+                <input type="text" ng-model="f">
+                <tr ng-repeat="item in todo.items | filter:f">
                     <td>{{item.action}}</td>
                     <td><input type="checkbox" ng-model="item.done" /></td>                    
                     <td>{{item.done}}</td>
