@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <title>Promises</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+        .controller("defaultCtrl", function ($scope, $q) {
+            var defer = $q(function(reject, resolve){
+                
+            });
+            $scope.A = function() {
+                defer.reject('falid');
+            }
+            $scope.B = function() {
+                defer.resolve('success');
+            }
+            $scope.C = function() {
+                defer.notify('notify' + new Date());
+            }
+            defer.promise
+            .then(
+            function(msg){
+                $scope.msg = msg;
+            },
+            function(msg){
+                $scope.msg = msg;
+            },
+            function(msg){
+                $scope.msg = msg;
+            })
+            .finally(function(){
+                console.log(1);
+            })
+        });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="well" promise-worker>
+        <button class="btn btn-primary" ng-click="A()">A</button>
+        <button class="btn btn-primary" ng-click="B()">B</button>
+        <button class="btn btn-primary" ng-click="C()">C</button>
+        <div>{{msg}}</div>
+    </div>
+</body>
+</html>
