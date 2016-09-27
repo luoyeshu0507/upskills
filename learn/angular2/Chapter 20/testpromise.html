@@ -32,9 +32,18 @@
                 link: function (scope, element, attrs, ctrl) {
                     ctrl.promise
                         .then(function (result) {
-                            return "Success (" + result + ")";
-                        }).then(function(result) {
-                            element.text(result);
+                            console.log("Success (" + result + ")");
+                        });
+                    ctrl.promise
+                        .then(function (result) {
+                            console.log("Success (" + result + ")");
+                        });
+                    ctrl.promise
+                        .then(function (result) {
+                            console.log("Success (" + result + ")");
+                        })
+                        .then(function (result) {
+                            console.log("Success (" + result + ")");
                         });
                 }
             }
@@ -47,12 +56,6 @@
 
 </head>
 <body ng-controller="defaultCtrl">
-    <div class="well" promise-worker>
-        <button class="btn btn-primary">Heads</button>
-        <button class="btn btn-primary">Tails</button>
-        <button class="btn btn-primary">Abort</button>
-        Outcome: <span promise-observer></span>
-    </div>
     <div class="well" promise-worker>
         <button class="btn btn-primary">Heads</button>
         <button class="btn btn-primary">Tails</button>
