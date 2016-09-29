@@ -42,6 +42,7 @@
                 },
                 controller: function ($scope, $element, $attrs) {
                     this.promise = deferred.promise;
+                    $scope.name = 'lzw';
                 }
             }
         })
@@ -51,7 +52,9 @@
     </script>
 </head>
 <body ng-controller="defaultCtrl">
+    {{name}}
     <div class="well" promise-worker which="Tails1">
+        {{name}}
         <button class="btn btn-primary">Heads</button>
         <button class="btn btn-primary">Tails1</button>
         <button class="btn btn-primary">Abort</button>
