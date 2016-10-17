@@ -25,5 +25,19 @@ function fetch(url, _ref) {
 fetch('http://example.com', {});
 // "GET"
 
-fetch('http://example.com');
-// 报错
+
+var handler = {
+  id: '123456',
+
+  init: function init() {
+    var _this = this;
+
+    document.addEventListener('click', function (event) {
+      return _this.doSomething(event.type);
+    }, false);
+  },
+
+  doSomething: function doSomething(type) {
+    console.log('Handling ' + type + ' for ' + this.id);
+  }
+};

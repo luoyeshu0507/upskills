@@ -13,5 +13,17 @@ function fetch(url, { body = '', method = 'GET', headers = {} }) {
 fetch('http://example.com', {})
 // "GET"
 
-fetch('http://example.com')
-// 报错
+
+
+var handler = {
+  id: '123456',
+
+  init: function() {
+    document.addEventListener('click',
+      event => this.doSomething(event.type), false);
+  },
+
+  doSomething: function(type) {
+    console.log('Handling ' + type  + ' for ' + this.id);
+  }
+};
