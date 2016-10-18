@@ -5,15 +5,15 @@ var babel = require('gulp-babel');
 
 gulp.task('default', ['watch'], function() {
   
-  return gulp.src('es6/*.js')
-    .pipe(plumber())
-    .pipe(babel({
-      presets: ['es2015']
-    }))
-    .pipe(gulp.dest('js'));
+	return gulp.src('es6/*.js')
+	.pipe(plumber())
+	.pipe(babel({
+		presets: ['es2015']
+	}))
+	.pipe(gulp.dest('js'));
 
 });
 
 gulp.task('watch', function() {
-  gulp.watch(['es6/*.js'], ['default']);
+	gulp.watch(['es6/*.js'], ['default']);
 });
