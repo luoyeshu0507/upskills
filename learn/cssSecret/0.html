@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>8 - continuous image border</title>
+	<style>
+		body{
+			background-color: #777;
+		}
+		div{
+			width: 423px;
+			height: 30px;
+			margin: 100px auto;
+			color:#ddd;
+			background-color: #ddd;
+			background-image: linear-gradient(to left, currentColor 90%, transparent 0), linear-gradient(to left, #fff 1px, transparent 0);
+			background-size: 10%;
+			background-position: right bottom, top left;
+			background-repeat: repeat-y, repeat;
+		}
+		span{
+			display: block;
+			height: 100%;
+			width: 70%;
+			background-image: linear-gradient(to left, currentColor 90%, transparent 0), linear-gradient(to left, #fff 1px, transparent 0);
+			background-color: red;
+			color:red;
+			background-size: 14.2856142%;
+			background-position: right bottom, top left;
+			background-repeat: repeat-y, repeat;
+		}
+	</style>
+</head>
+<body>
+	<div><span></span></div>
+</body>
+</html>
