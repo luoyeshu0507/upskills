@@ -1,29 +1,22 @@
-function Point(x = 0, y = 0) {
-  this.x = x;
-  this.y = y;
+// default paragrames
+function log(z, x = 10, y) {
+    console.log(x);
 }
 
-var p = new Point();
-p // { x: 0, y: 0 }
+console.log(log.length)
 
-function fetch(url, { body = '', method = 'GET', headers = {} }) {
-  console.log(method);
+// 结构
+function foo({x, y = 5}) {
+    console.log(x, y);
 }
 
-fetch('http://example.com', {})
-// "GET"
+foo({});
 
+function foo1(...args) {
+    console.log(args);
+}
 
+foo1(1, 2, 3);
 
-var handler = {
-  id: '123456',
+var f = x => x * x;
 
-  init: function() {
-    document.addEventListener('click',
-      event => this.doSomething(event.type), false);
-  },
-
-  doSomething: function(type) {
-    console.log('Handling ' + type  + ' for ' + this.id);
-  }
-};

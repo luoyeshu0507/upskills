@@ -1,43 +1,36 @@
-'use strict';
+"use strict";
 
-function Point() {
-  var x = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
-  var y = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+// default paragrames
+function log(z) {
+    var x = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 10;
+    var y = arguments[2];
 
-  this.x = x;
-  this.y = y;
+    console.log(x);
 }
 
-var p = new Point();
-p; // { x: 0, y: 0 }
+console.log(log.length);
 
-function fetch(url, _ref) {
-  var _ref$body = _ref.body;
-  var body = _ref$body === undefined ? '' : _ref$body;
-  var _ref$method = _ref.method;
-  var method = _ref$method === undefined ? 'GET' : _ref$method;
-  var _ref$headers = _ref.headers;
-  var headers = _ref$headers === undefined ? {} : _ref$headers;
+// 结构
+function foo(_ref) {
+    var x = _ref.x;
+    var _ref$y = _ref.y;
+    var y = _ref$y === undefined ? 5 : _ref$y;
 
-  console.log(method);
+    console.log(x, y);
 }
 
-fetch('http://example.com', {});
-// "GET"
+foo({});
 
+function foo1() {
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+        args[_key] = arguments[_key];
+    }
 
-var handler = {
-  id: '123456',
+    console.log(args);
+}
 
-  init: function init() {
-    var _this = this;
+foo1(1, 2, 3);
 
-    document.addEventListener('click', function (event) {
-      return _this.doSomething(event.type);
-    }, false);
-  },
-
-  doSomething: function doSomething(type) {
-    console.log('Handling ' + type + ' for ' + this.id);
-  }
+var f = function f(x) {
+    return x * x;
 };
