@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body{
+			margin:0;
+			padding: 0;
+		}
+		.container{
+			overflow: hidden;
+		}
+		.part{
+			float:left;
+			width: 50%;
+			height: 300px;
+			background-color: #ddd;
+		}
+		.auto{
+			overflow: hidden;
+			height: 300px;
+		}
+		.part:first-child .auto{
+			background-color: red;
+			margin-right: 50px;
+		}
+		.part:last-child .auto{
+			background-color: blue;
+			margin-left: 50px;
+		}
+		.left{
+			height: 300px;
+			background-color: red;
+			float: left;
+			width: 50%;
+			position: relative;
+		}
+		.middle{
+			height: 300px;
+			background-color: green;
+			width: 100px;
+			z-index: 1;
+			margin:0 auto;
+			position: relative;
+		}
+		.right{
+			height: 300px;
+			background-color: blue;
+			float: right;
+			width: 50%;
+			position: relative;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="part">
+			<div class="auto"></div>
+		</div>
+		<div class="part">
+			<div class="auto"></div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="left"></div>
+		<div class="right"></div>
+		<div class="middle"></div>
+	</div>
+</body>
+</html>
