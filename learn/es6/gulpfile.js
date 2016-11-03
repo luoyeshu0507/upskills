@@ -8,7 +8,8 @@ gulp.task('default', ['watch'], function() {
 	return gulp.src('es6/*.js')
 	.pipe(plumber())
 	.pipe(babel({
-		presets: ['es2015']
+		presets: ['es2015', 'stage-0'],
+		plugins: ['transform-runtime']
 	}))
 	.pipe(gulp.dest('js'));
 

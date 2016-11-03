@@ -1,7 +1,15 @@
 "use strict";
 
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+var _typeof2 = require("babel-runtime/helpers/typeof");
 
-var s = Symbol();
-typeof s === "undefined" ? "undefined" : _typeof(s);
+var _typeof3 = _interopRequireDefault(_typeof2);
+
+var _symbol = require("babel-runtime/core-js/symbol");
+
+var _symbol2 = _interopRequireDefault(_symbol);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var s = (0, _symbol2.default)();
+typeof s === "undefined" ? "undefined" : (0, _typeof3.default)(s);
 console.log(s);

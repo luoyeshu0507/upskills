@@ -1,1 +1,1 @@
-console.log('this is a npm script');
+console.log(process.env);

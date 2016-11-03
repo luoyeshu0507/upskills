@@ -15,7 +15,7 @@
 // 	}
 // 	console.log(sum);
 // }
-
+console.time('time');
 function countBlackCells(n, m) {
 	var max = Math.max(n, m);
 	var min = Math.min(n, m);
@@ -40,4 +40,5 @@ function getStepLen(len){
 	}
 }
 
-console.log(countBlackCells(66666,88888)) //6
+console.log(countBlackCells(66666,88888));
+console.timeEnd('time');

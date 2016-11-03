@@ -1,8 +1,16 @@
 'use strict';
 
+var _getOwnPropertyDescriptor = require('babel-runtime/core-js/object/get-own-property-descriptor');
+
+var _getOwnPropertyDescriptor2 = _interopRequireDefault(_getOwnPropertyDescriptor);
+
+var _defineProperty2 = require('babel-runtime/helpers/defineProperty');
+
+var _defineProperty3 = _interopRequireDefault(_defineProperty2);
+
 var _car;
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var foo = 'abc';
 var a = { foo: foo };
@@ -34,8 +42,8 @@ var cart = {
   }
 };
 
-var car = (_car = {}, _defineProperty(_car, foo, 'name'), _defineProperty(_car, 'a' + 'b', 'ab'), _car);
+var car = (_car = {}, (0, _defineProperty3.default)(_car, foo, 'name'), (0, _defineProperty3.default)(_car, 'a' + 'b', 'ab'), _car);
 
 console.log(car);
 
-Object.getOwnPropertyDescriptor(person);
+(0, _getOwnPropertyDescriptor2.default)(person);
