@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="todoApp">
+<head>
+    <title>TO DO List</title>
+    <script src="http://cdn1.luoyeshu.com/js/angular.min.js"></script>
+    <script>
+        var todoApp = angular.module("todoApp", []);
+
+        todoApp.controller("ToDoCtrl", function ($scope, $q) {
+            $scope.random = function() {
+                return parseInt(Math.random() * 5000);
+            }
+            $scope.log = function () {
+                var plist = [];
+                for(var i = 0; i < 10; i ++) {
+                    (function(k) {
+                        var p = $q(function(resolve, reject) {
+                            setTimeout(function() {
+                                resolve(k);
+                            }, $scope.random());
+                        });
+                        plist.push(p);
+                    })(i);
+                }
+                plist.reduce(function(prev, cur, index, arr){
+                    return prev.then(function(sum) {
+                        return cur.then(function(x) {
+                            console.log(sum + x);
+                            return sum + x;
+                        });
+                    })
+                }, $q.resolve(0));
+            }
+        });
+    </script>
+</head>
+<body ng-controller="ToDoCtrl">
+    <button ng-click="log()">log</button>
+</body>
+</html>
