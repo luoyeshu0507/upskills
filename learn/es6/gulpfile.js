@@ -9,7 +9,7 @@ gulp.task('default', ['watch'], function() {
 	.pipe(plumber())
 	.pipe(babel({
 		presets: ['es2015', 'stage-0'],
-		plugins: ['transform-runtime']
+		plugins: ['transform-runtime', 'transform-decorators-legacy']
 	}))
 	.pipe(gulp.dest('js'));
 
