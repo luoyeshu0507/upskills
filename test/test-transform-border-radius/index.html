@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>border-radius contains trasition bug</title>
+	<style>
+		div{
+			width: 100px;
+			height: 100px;
+			margin: 40px auto;
+			border-radius: 100%;
+			border:1px solid #ddd;
+			overflow: hidden;
+		}
+		span{
+			width: 100%;
+			height: 100%;
+			display: block;
+			background-color: blue;
+			transition: all 1s ease;
+		}
+		div:hover span{
+			background-color: red;
+		}
+		em{
+			display: block;
+			width: 100%;
+			height: 100%;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div><span></span></div>
+	<div><span></span></div>
+	<div><span></span></div>
+</body>
+</html>

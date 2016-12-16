@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="http://cdn1.luoyeshu.com/js/jquery.min.js"></script>
+	<style>
+		.tabs{margin:0;padding-left:0;list-style:none}
+
+		.tabs>li{position:relative;float:left}
+		.tabs>li>a{display:block;cursor:pointer;font-size:14px;font-weight:500;transition:all .15s;}
+		.tabs-button{display:inline-block;overflow:hidden}
+		.tabs>li>a:focus,.tabs>li>a:hover{opacity:.5;text-decoration:none}
+		.tabs>li.active>a:focus,.tabs>li.active>a:hover{opacity:1}
+		.tabs-button{border:1px solid #e6e9f0;border-radius:18px}
+		.tabs-button>li:not(:last-child){border-right:1px solid #e6e9f0}.tabs-button>li>a{padding:10px 20px}
+		.tabs-button>li.active>a{background-color:#f5f7fa;color:#8d9199}.tabs-divider{padding:0 2px}
+		.c{
+			width: 100px;
+			height: 100px;
+		}
+		.c1{
+			background-color:red;
+		}
+		.c2{
+			background-color:blue;
+			margin-top: -30px;
+		}
+	</style>
+</head>
+<body>
+<ul class="tabs tabs-button">
+	<li class="active"><a>选项卡一</a></li>
+	<li><a>选项卡二</a></li>
+	<li><a>选项卡三</a></li>
+</ul>
+
+<div class="c c1"></div>
+<div class="c c2"></div>
+<script>
+	$('.tabs li').click(function() {
+		$(this).addClass('active').siblings().removeClass('active');
+	})
+</script>
+</body>
+</html>
