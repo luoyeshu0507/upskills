@@ -9,8 +9,8 @@
 	<body>
 		<form id="testform" method="post" action="http://upload.qiniu.com/" enctype="multipart/form-data">
 			<input name="key" id="key" type="hidden" value="">
-			<input name="token" type="hidden" value="7K5nPbHfjB_J5R6p9ekTLHtjFWsJ65lCmzOkmj0_:aWcPcjtGR0OAHvA-I46t7rzGHX4=:eyJzY29wZSI6Imx1b3llc2h1IiwiZGVhZGxpbmUiOjE0NjkwNDAwOTZ9">
-			<input accept="video/*" id="userfile" name="file" type="file" />
+			<input name="token" type="hidden" value="CEDYdcsz7iGOYYxEGpGvvhL36ZjvwLZIU-HLa1g7:sTm4UWYWnRQbSelQq-X617I0vqg=:eyJzY29wZSI6InRlc3QtdXBsb2FkIiwiZGVhZGxpbmUiOjE0ODExODc5ODl9">
+			<input id="userfile" name="file" type="file" />
 			<input name="accept" type="hidden" />
 			<input type="submit" id="button" name="" />
 			<div id="progress">0</div>
@@ -26,7 +26,7 @@
 				}
 				var f=new FormData(document.getElementById("testform"));
 				$.ajax({  
-	                url : 'http://upload.qiniu.com/',  
+	                url : 'http://up-z2.qiniu.com/',  
 	                type : 'POST',  
 	                data : f,  
 	                processData : false,  
