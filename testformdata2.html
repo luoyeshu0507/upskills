@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<!--<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>-->
+		<script src="http://cdn1.luoyeshu.com/js/jquery.min.js"></script>
+	</head>
+	<body>
+		<form id="testform" method="post" action="http://upload.qiniu.com/" enctype="multipart/form-data">
+			<input name="key" id="key" type="hidden" value="">
+			<input name="token" type="hidden" value="CEDYdcsz7iGOYYxEGpGvvhL36ZjvwLZIU-HLa1g7:sTm4UWYWnRQbSelQq-X617I0vqg=:eyJzY29wZSI6InRlc3QtdXBsb2FkIiwiZGVhZGxpbmUiOjE0ODExODc5ODl9">
+			<input id="userfile" name="file" type="file" />
+			<input name="accept" type="hidden" />
+			<input type="submit" id="button" name="" />
+			<div id="progress">0</div>
+		</form>
+		<script type="text/javascript">
+			document.getElementById("button").onclick=function(){
+				var $key=$("#key");
+				var $userfile=$("#userfile");
+				if($userfile.val()){
+					$key.val('testfile/'+Math.random().toString().substr(2)+'/'+$userfile.val().match(/[^\\\/]+$/)[0]);
+				} else{
+					return false;
+				}
+				var f=new FormData(document.getElementById("testform"));
+				$.ajax({  
+	                url : 'http://up-z2.qiniu.com/',  
+	                type : 'POST',  
+	                data : f,  
+	                xhr: function(){
+		                myXhr = $.ajaxSettings.xhr();  
+		                if(myXhr.upload){  
+		                    myXhr.upload.addEventListener('progress',function(e){
+		                    		var $progress=$("#progress");
+		                    		if (e.lengthComputable) {  
+						            var percent = e.loaded/e.total*100;  
+						            $progress.html(e.loaded + "/" + e.total+" bytes. " + percent.toFixed(2) + "%");  
+						        }
+		                    }, false);
+		                }  
+		                return myXhr; 
+		            },  
+	                success : function(responseStr) {
+                        alert("成功：" + JSON.stringify(responseStr));  
+	                },  
+	                error : function(responseStr) {  
+	                    alert("失败:" + JSON.stringify(responseStr));
+	                }  
+	            });
+	            return false;
+			}
+		</script>
+	</body>
+</html>
