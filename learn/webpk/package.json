@@ -1,0 +1,19 @@
+{
+  "name": "webpk",
+  "version": "1.0.0",
+  "description": "learn webpack",
+  "main": "app.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "luoyeshu0507",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "jquery": "^3.1.1",
+    "webpack": "^1.14.0"
+  }
+}
