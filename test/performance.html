@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <link rel="stylesheet" href="http://oky1vwhqm.bkt.clouddn.com/performance.css">
+  <title>七牛云 - 上传速度检测</title>
+</head>
+<body>
+  <div class="container">
+    <div class="title">七牛云上传速度检测</div>
+
+    <form id="testform" method="post" enctype="multipart/form-data">
+      <input name="key" id="key" type="hidden" value="a.jpg">
+      <input id="token" name="token" type="hidden" value="">
+      <input id="userfile" name="file" type="file" />
+      <input name="accept" type="hidden" />
+    </form>
+    
+    <div class="low-browser hidden">您好，您的浏览器版本过低，请使用谷歌、火狐、Opera、IE9+等高级浏览器... </div>
+
+    <!-- upload info -->
+    <div class="progress"></div>
+    <div class="uploaded-result"></div>
+  </div>
+  <div id="forAppend"></div>
+  <script src="http://oky1vwhqm.bkt.clouddn.com/jquery.min.js"></script>
+  <script src="http://oky1vwhqm.bkt.clouddn.com/http-performance.js"></script>
+  <script src="http://oky1vwhqm.bkt.clouddn.com/performance.v2.js"></script>
+</body>
+</html>
