@@ -8,8 +8,8 @@
 	</head>
 	<body>
 		<form id="testform" method="post" action="http://upload.qiniu.com/" enctype="multipart/form-data">
-			<input name="key" id="key" type="hidden" value="">
-			<input name="token" type="hidden" value="CEDYdcsz7iGOYYxEGpGvvhL36ZjvwLZIU-HLa1g7:sTm4UWYWnRQbSelQq-X617I0vqg=:eyJzY29wZSI6InRlc3QtdXBsb2FkIiwiZGVhZGxpbmUiOjE0ODExODc5ODl9">
+			<input name="key" id="key" type="hidden" value="a.jpg">
+			<input name="token" type="hidden" value="xozWSPMxkMjIVoHg2JyXq4-7-oJaEADLOKHVR0vU:P-mJgugpRwHwLV91IzX0edy74_A=:eyJzY29wZSI6Impzc2RrOmEuanBnIiwiZGVhZGxpbmUiOjIxMTQzODA4MDAwMDAsImZzaXplTWluIjo5MDAwMDAsImZzaXplTGltaXQiOjEwMDAwMDB9">
 			<input id="userfile" name="file" type="file" />
 			<input name="accept" type="hidden" />
 			<input type="submit" id="button" name="" />
@@ -20,13 +20,13 @@
 				var $key=$("#key");
 				var $userfile=$("#userfile");
 				if($userfile.val()){
-					$key.val('testfile/'+Math.random().toString().substr(2)+'/'+$userfile.val().match(/(?=\\?)([^\\]*)$/)[1]);
+//					$key.val('testfile/'+Math.random().toString().substr(2)+'/'+$userfile.val().match(/(?=\\?)([^\\]*)$/)[1]);
 				} else{
 					return false;
 				}
 				var f=new FormData(document.getElementById("testform"));
 				$.ajax({  
-	                url : 'http://up-z2.qiniu.com/',  
+	                url : 'http://upload.qiniu.com/',  
 	                type : 'POST',  
 	                data : f,  
 	                processData : false,  
