@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: #ddd;
+    }
+    .container{
+      perspective: 500px;
+    }
+    .bar{
+      width: 200px;
+      height: 80px;
+      margin: 100px auto;
+      background-color: yellow;
+      transform: rotateX(-50deg);
+      border:4px solid #fff;
+      border-bottom: 6px solid #fff;
+      border-radius: 6px;
+      position: relative;
+    }
+    .bar span{
+      display: block;
+      position: relative;
+      height: 100%;
+      top:0;
+      left: 0;
+      background-color: blue;
+      width: 50%;
+    }
+    .text{
+      width: 100px;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      margin: 100px auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="bar"><span></span></div>
+  </div>
+  <div class="text"></div>
+</body>
+</html>
