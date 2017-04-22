@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="jquery.min.js"></script>
+		<style type="text/css">
+			.container{
+				width: 1000px;
+				height: 300px;
+				margin: 100px auto;
+				background-color: #ddd;
+				overflow: hidden;
+				position: relative;
+			}
+			.swiper{
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				padding: 0;
+				margin: 0;
+			}
+			.swiper li{
+				width: 1000px;
+				height: 100%;
+				float: left;
+				padding: 0;
+				margin: 0;
+				list-style: none;
+			}
+			.container .prev,.container .next {
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background:black;
+				top: 50%;
+				margin-top: -25px;
+				left: 30px;
+				cursor: pointer;
+			}
+			.container .next{
+				left: auto;
+				right: 30px;
+			}
+			.swiper li:nth-child(1){
+				background-color: red;
+			}
+			.swiper li:nth-child(2){
+				background-color: green;
+			}
+			.swiper li:nth-child(3){
+				background-color: blue;
+			}
+			.swiper li:nth-child(4){
+				background-color: purple;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<ul class="swiper">
+				<li class="item">1</li>
+				<li class="item">2</li>
+				<li class="item">3</li>
+				<li class="item">4</li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			
+			function swiper(container) {
+				var $swiper = container.find('.swiper');
+				var $items = $swiper.find('.item');
+				var itemLen = $items.length;
+				var width = container.width();
+				var current = 0;
+				$swiper.css('width', itemLen * width + 'px');
+				container.append('<span class="prev"></span><span class="next"></span>');
+				container.on('click', '.prev', function() {
+					swip(-1);
+				}).on('click', '.next', function() {
+					swip(1);
+				});
+				function swip(dir) {
+					var next, direction;
+					if (dir > 0) {
+						next = 'next';
+					} else {
+						next = 'prev';
+					}
+					if ($($items.get(current))[next]().length === 1) {
+						$swiper.animate({
+							left: - (current + dir) * width
+						}, 1000, function() {
+							current = current + dir;
+						})
+					} else {
+						
+					}
+				}
+			}
+			
+			$(function() {
+				swiper($('.container'));
+			});
+			
+		</script>
+	</body>
+</html>
