@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+		<li>9</li>
+		<li>10</li>
+	</ul>
+	<input type="button" value="clickme" id='mybutton'>
+	<script>
+		function sort() {
+			console.log(1111);
+			var con = document.querySelector('ul');
+			var list = document.querySelectorAll('ul li');
+			var len = list.length;
+			for (var i = 0; i < len; i++) {
+				con.appendChild(list[i]);
+			}
+		}
+		document.querySelector('#mybutton').addEventListener('click', sort, false);
+	</script>
+</body>
+</html>
