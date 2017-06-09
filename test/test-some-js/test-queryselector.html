@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+<div class="test">            
+    同级的第二个div
+</div>
+<div>
+    <div>
+        <span class="test">第三级的span</span>    
+    </div>
+</div>
+<input type="button" id="btnGet" value="获取test元素" />
+<script>
+document.getElementById("btnGet").addEventListener("click",function(){
+    var element = document.querySelector(".test");
+    alert(element.textContent);
+})
+</script>
+</body>
+</html>
