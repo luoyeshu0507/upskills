@@ -1,0 +1,28 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+<dom-module id="picture-frame">
+  <template>
+    <style>
+      div {
+        background-color: red;
+      }
+    </style>
+    <p>
+      {{owner}} {{hh}}
+      <input type="text" value="{{owner}}">
+      <content></content>
+    </p>
+  </template>
+  <script>
+    Polymer({
+      is: 'picture-frame',
+      ready: function() {
+      },
+      properties: {
+        owner: {
+          type: String,
+          vaule: 'lzw'
+        }
+      }
+    })
+  </script>
+</dom-module>

@@ -1,0 +1,21 @@
+{
+  "name": "polymer-app",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "luoyeshu0507"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/luoyeshu0507/upskills",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "1"
+  }
+}
