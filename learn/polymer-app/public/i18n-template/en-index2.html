@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    #lang-switcher{
+      float: right;
+      color: #fff;
+      background-color: #ddd;
+      text-align: center;
+      padding: 10px 30px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="lang-switcher">ENGLISH</div>
+  Password can&#39;t be empty <br>
+  Password must contain capital and small letters, numbers and special characters at same time, and length between 8 ~ 32, special charactoers include .!@:#$%*()_+^&amp;
+  <script>
+    var switcher = document.getElementById('lang-switcher');
+    switcher.addEventListener('click', function() {
+      var text = this.innerText;
+      if (text === 'ENGLISH') {
+        document.cookie = "hublang=zh;expire=" + new Date('3000');
+      } else {
+        document.cookie = "hublang=en;expire=" + new Date('3000');
+      }
+      location.reload()
+    }, false)
+  </script>
+</body>
+</html>

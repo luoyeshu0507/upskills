@@ -14,6 +14,7 @@ gulp.task('serve', function() {
         next();
       }
     },
+    notify: false,
     port:3012
   });
 
