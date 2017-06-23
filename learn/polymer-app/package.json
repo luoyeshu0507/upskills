@@ -9,6 +9,11 @@
   "author": "luoyeshu0507",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "mustache": "^2.3.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1"
   }
 }

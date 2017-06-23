@@ -1,0 +1,22 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="test-behavior.html">
+<dom-module id="test-ele">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    test {{HELLO}} {{WORLD}}
+  </template>
+  <script>
+    Polymer({
+      is: 'test-ele',
+      behaviors: [TestBehavior],
+      i18n: ['HELLO', 'WORLD'],
+      ready: function() {
+        console.log(this.HELLO);
+      }
+    });
+  </script>
+</dom-module>

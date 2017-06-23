@@ -1,0 +1,38 @@
+<script>
+  TestBehavior = {
+    properties: {
+      isHighlighted: {
+        type: Boolean,
+        value: false,
+        notify: true,
+        observer: '_highlightChanged'
+      }
+    },
+
+    listeners: {
+      click: '_toggleHighlight'
+    },
+
+    created: function() {
+      console.log('Highlighting for ', this.i18n, 'enabled!');
+    },
+
+    ready: function() {
+      console.log(this.i18n);
+      if(this.i18n && this.i18n.length > 0) {
+        for (var i = 0; i < this.i18n.length; i++) {
+          this[this.i18n[i]] = this.i18n[i].toLowerCase();
+        }
+      }
+    },
+
+    _toggleHighlight: function() {
+      this.isHighlighted = !this.isHighlighted;
+      this.HELLO += 1;
+    },
+
+    _highlightChanged: function(value) {
+      this.toggleClass('highlighted', value);
+    }
+  }
+</script>
