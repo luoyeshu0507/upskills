@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    #lang-switcher{
+      float: right;
+      color: #fff;
+      background-color: #ddd;
+      text-align: center;
+      padding: 10px 30px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="lang-switcher"></div>
+  密码不能为空 <br>
+  密码必须同时包含 大写字母、小写字母、数字、特殊字符，并且长度在8~32位字符之间，特殊字符包括 .!@:#$%*()_+^&amp;
+  <script>
+    var switcher = document.getElementById('lang-switcher');
+    switcher.addEventListener('click', function() {
+      var text = this.innerText;
+      if (text === 'ENGLISH') {
+        document.cookie = "hublang=zh;expire=" + new Date('3000');
+      } else {
+        document.cookie = "hublang=en;expire=" + new Date('3000');
+      }
+      location.reload()
+    }, false)
+  </script>
+</body>
+</html>
