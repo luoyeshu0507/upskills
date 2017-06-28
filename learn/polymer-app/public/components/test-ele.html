@@ -9,6 +9,8 @@
       }
     </style>
     test {{HELLO}} {{WORLD}} 
+    <div id="hello"></div>
+    <span>heihei</span>
   </template>
   <script>
     Polymer({
@@ -20,6 +22,8 @@
       },
       ready: function() {
         console.log(this.HELLO);
+        this.$.hello.textContent = '你看啥呢?';
+        console.log(this.$$('span'));
       }
     });
   </script>
