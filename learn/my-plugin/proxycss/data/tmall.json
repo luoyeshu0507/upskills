@@ -1,0 +1,99 @@
+{
+	"key": "com.b5m.orderassist.store",
+	"value": [
+		{
+			"workNo": "W14458479804440000",
+			"status": 0,
+			"name": "李斌",
+			"prov": 310000,
+			"city": 310100,
+			"area": 310115,
+			"town": null,
+			"addressAll": "上海 上海市 浦东新区 5提3反而顺风使舵 ",
+			"addressDetail": "5提3反而顺风使舵 ",
+			"post": null,
+			"mobile": "15001802900",
+			"phoneCode": null,
+			"paypalOrderId": null,
+			"paypalAccount": null,
+			"platform": null,
+			"memberType": 1,
+			"orderPrice": 24.8,
+			"fee": 0,
+			"totalPrice": 0,
+			"callFee": 0,
+			"isCancel": null,
+			"bill": null,
+			"workDetailUrl": "/work/detail?orderNo=stage852116405158&work_no=W14458479804440000",
+			"userRemark": "无备注信息",
+			"goods": [
+				{
+					"b5mid": "stage852116405158_s1",
+					"title": "卜珂蔓越莓曲奇饼干200g*3包进口料零食品大礼包休闲特产小吃600g",
+					"url": "http://item.taobao.com/item.htm?id=37457695621",
+					"sku": {
+						"口味": "巧克力味"
+					},
+					"num": 1,
+					"goodPrice": 24.8,
+					"cpsUrl": null,
+					"goodRemark": "",
+					"selfSupportType": "全网帮购",
+					"skuId": "3100514447291",
+					"pid": "312216",
+					"shopId": "37457695621",
+					"site": "淘宝网"
+				}
+			],
+			"orderInfo": "--"
+		},
+		{
+			"workNo": "W14467015926260006",
+			"status": 0,
+			"name": "测试",
+			"prov": 310000,
+			"city": 310100,
+			"area": 310109,
+			"town": null,
+			"addressAll": "上海 上海市 虹口区 测试测试测试",
+			"addressDetail": "测试测试测试",
+			"post": "",
+			"mobile": "18621745927",
+			"phoneCode": null,
+			"paypalOrderId": null,
+			"paypalAccount": null,
+			"platform": null,
+			"memberType": 1,
+			"orderPrice": 30.9,
+			"fee": 20,
+			"totalPrice": 0,
+			"callFee": 0,
+			"isCancel": null,
+			"bill": null,
+			"workDetailUrl": "/work/detail?orderNo=stage856239208790&work_no=W14467015926260006",
+			"userRemark": "",
+			"goods": [
+				{
+					"b5mid": "stage856239208790_s1",
+					"title": "【天猫超市】可口可乐 碳酸饮料拉罐330ml*6连罐装",
+					"url": "http://item.taobao.com/item.htm?id=36528271381",
+					"sku": null,
+					"num": 1,
+					"goodPrice": 10.9,
+					"cpsUrl": null,
+					"goodRemark": "",
+					"selfSupportType": "全网帮购",
+					"skuId": "312856",
+					"pid": "36528271381",
+					"shopId": "4541",
+					"site": "淘宝网"
+				}
+			],
+			"orderInfo": "--"
+		}
+	],
+	"options": {
+		"noexpire": true,
+		"expire": 1446824001527
+	}
+}

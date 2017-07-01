@@ -1,0 +1,56 @@
+{"key":"com.b5m.orderassist.store","value":[{"workNo":"W14448027596070003","status":0,"name":"陆绩","prov":310000,"city":310100,"area":310115,"town":null,"addressAll":"上海 上海市 浦东新区 浦东南路1118号鄂尔多斯大厦M层","addressDetail":"浦东南路1118号鄂尔多斯大厦M层","post":null,"mobile":"15812459632","phoneCode":null,"paypalOrderId":null,"paypalAccount":null,"platform":null,"memberType":1,"orderPrice":54,"fee":5,"totalPrice":0,"callFee":0,"isCancel":null,"bill":null,"workDetailUrl":"/work/detail?orderNo=stage858823983684&work_no=W14448027596070003","userRemark":"无备注信息","goods":[{"b5mid":"stage858823983683_s1","title":"农心 乌龙面 乌冬汤味 120g/袋*5 煮面","url":"http://item.yhd.com/item/73843","sku":{"选口味":"辣白菜面"},"num":1,"goodPrice":49,"cpsUrl":null,"goodRemark":"","selfSupportType":"全网帮购","skuId":"73843","pid":"311483","shopId":"0","site":"一号店"}],"orderInfo":"--"}],"options":{"noexpire":true,"expire":1446644723023}}
+{
+	"key": "com.b5m.orderassist.store",
+	"value": [
+		{
+			"workNo": "W14448027596070003",
+			"status": 0,
+			"name": "陆绩",
+			"prov": 310000,
+			"city": 310100,
+			"area": 310115,
+			"town": null,
+			"addressAll": "上海 上海市 浦东新区 浦东南路1118号鄂尔多斯大厦M层",
+			"addressDetail": "浦东南路1118号鄂尔多斯大厦M层",
+			"post": null,
+			"mobile": "15812459632",
+			"phoneCode": null,
+			"paypalOrderId": null,
+			"paypalAccount": null,
+			"platform": null,
+			"memberType": 1,
+			"orderPrice": 54,
+			"fee": 5,
+			"totalPrice": 0,
+			"callFee": 0,
+			"isCancel": null,
+			"bill": null,
+			"workDetailUrl": "/work/detail?orderNo=stage858823983684&work_no=W14448027596070003",
+			"userRemark": "无备注信息",
+			"goods": [
+				{
+					"b5mid": "stage858823983683_s1",
+					"title": "农心 乌龙面 乌冬汤味 120g/袋*5 煮面",
+					"url": "http://item.yhd.com/item/73843",
+					"sku": {
+						"选口味": "辣白菜面"
+					},
+					"num": 1,
+					"goodPrice": 49,
+					"cpsUrl": null,
+					"goodRemark": "",
+					"selfSupportType": "全网帮购",
+					"skuId": "73843",
+					"pid": "311483",
+					"shopId": "0",
+					"site": "一号店"
+				}
+			],
+			"orderInfo": "--"
+		}
+	],
+	"options": {
+		"noexpire": true,
+		"expire": 1446644723023
+	}
+}

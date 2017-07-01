@@ -1,0 +1,98 @@
+/* 进度 */
+
+.pbBody #progressbar {}
+
+.pbBody #progressbar li {
+    color: #9D9D9D;
+}
+
+
+/* 调整宽度，仅对报价单页面有效 */
+
+#quote .pbBody #progressbar li {
+    width: 24%;
+}
+
+.pbBody #progressbar li:before {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    background: #9D9D9D;
+    color: #ffffff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.23);
+}
+
+.pbBody #progressbar li.active:before,
+.pbBody #progressbar li.active:after {
+    background: #8AC249;
+}
+
+.pbBody #progressbar li.active {
+    color: #8AC249;
+}
+
+
+/* 创建报价单.选择产品 */
+
+#productTable_length.dataTables_length {
+    width: 120px;
+    display: inline-block;
+}
+
+#productTable_filter.dataTables_filter {
+    width: 200px;
+    display: inline-block;
+}
+
+table.gridtable {
+    margin: 10px 0;
+}
+
+table.gridtable tr td,
+table.gridtable tr th {
+    height: 20px;
+}
+
+div.apexp .bPageBlock.apexDefaultPageBlock .pbBody .pbSubheader {
+    background: #F7EDCA;
+    color: black;
+}
+
+div.apexp .bPageBlock.apexDefaultPageBlock .pbBody .pbSubheader .hideListButton {
+    background-position: 1px -12px;
+}
+
+#productTable_paginate {
+    margin-top: 5px;
+}
+
+table.gridtable img[name='add'],
+table.gridtable img[name='reduction'],
+table.gridtable img[name='del'] {
+    width: 16px;
+}
+
+table td.pbButton,
+table td.pbButtonb {
+    text-align: right;
+    width: 100%;
+}
+
+table td.pbButton >input.btn,
+table td.pbButtonb >input.btn
+/*,
+ table td.pbButton input.btn[value$='一步'],
+ table td.pbButton input.btn[value='取 消'],
+ table td.pbButton input.btn[value='完成'],
+ table td.pbButtonb input.btn[value$='一步'],
+ table td.pbButtonb input.btn[value='取 消'],
+ table td.pbButtonb input.btn[value='完成'],
+ table td.pbButtonb input.btn[value='保存'],
+ table td.pbButtonb input.btn[value='取消'],
+ table td.pbButton input.btn[value='保存'],
+ table td.pbButton input.btn[value='取消']*/
+
+{
+    min-width: 80px;
+}

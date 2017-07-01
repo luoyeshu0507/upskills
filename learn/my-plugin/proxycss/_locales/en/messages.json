@@ -1,0 +1,14 @@
+{
+   "extDescription": {
+      "description": "extension description",
+      "message": "Help you compare with e-commerce.When you search products,here comes the powerful  tool for online shopping"
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "B5M – Order tools"
+   },
+   "extTitle": {
+      "description": "extension popup title",
+      "message": "B5M – Order tools"
+   }
+}

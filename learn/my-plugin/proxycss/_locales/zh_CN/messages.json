@@ -1,0 +1,14 @@
+{
+   "extDescription": {
+      "description": "extension description",
+      "message": "\u81ea\u52a8\u4e0b\u5355"
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "\u5e2e5\u4e70 - \u81ea\u52a8\u4e0b\u5355"
+   },
+   "extTitle": {
+      "description": "extension popup title",
+      "message": "\u81ea\u52a8\u4e0b\u5355"
+   }
+}

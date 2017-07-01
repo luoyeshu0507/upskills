@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>购物下单助手</title>
+	<link rel="stylesheet" href="options.css" type="text/css">
+</head>
+<body>
+	<nav class="navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="http://www.b5m.com">帮5买订单助手</a>
+			</div>
+			<ul class="navbar-right hidden">
+				<li><a href="#" id="userInfo">客服：dedj</a></li>
+				<li><a href="#" id="logout_btn">退出</a></li>
+				<li><a href="#" id="clear_storage_btn">清除storage</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="login hidden">
+			<h1>MC帐号登录</h1>
+			<form role="from" id="login_form">
+				<div class="form-group" id="schemaSelect">
+					<label>CRM环境</label>
+					<p>
+						<a href="http://172.16.111.231:58081" target="_blank">开发环境</a>
+						<a href="http://10.30.102.1:58081"  target="_blank">测试环境</a>
+						<a href="http://crm.b5m.com"  target="_blank">MC环境-域名</a>
+						<a href="http://10.30.99.34:58081"  target="_blank">MC环境-IP</a>
+					</p>
+					<label for="kfName">环境</label>
+					<select class="form-control" id="serverType" >
+						<option value='http://172.16.111.231:58081' >开发环境</option>
+						<option value='http://10.30.102.1:58081'>测试环境</option>
+						<option value='http://crm.b5m.com' selected>MC环境-域名</option>
+						<option value='http://10.30.99.34:58081'>MC环境-IP</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="kfName">用户名</label>
+					<input type="text" class="form-control" name="kfName" id="kfName" placeholder="用户名" required>
+				</div>
+				<div class="form-group">
+					<label for="pass">密码</label>
+					<input id="pass" name="pass" type="password" class="form-control" placeholder="密码" required>
+				</div>
+				<button id="login_btn">登录</button>
+			</form>
+		</div>
+		<div id="orders"></div>
+	</div>
+	<script type="text/javascript" src="../assets/js/_lib/jquery.js"></script>
+	<script type="text/javascript" src="../assets/js/_lib/des.js"></script>
+	<script type="text/javascript" src="../assets/js/common/commonUtils.js"></script>
+	<script type="text/javascript" src="../assets/js/options/options.js"></script>
+</body>
+</html>
