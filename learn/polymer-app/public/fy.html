@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="http://cdn1.luoyeshu.com/js/jquery.min.js"></script>
+  <style>
+    html,body{
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      padding: 0;
+      margin:0;
+      position: relative;
+    }
+    textarea{
+      width: 49%;
+      box-sizing: border-box;
+      height: 100%;
+      outline: 0 none;
+    }
+    #enjson {
+      float: left;
+    }
+    #zhjson{
+      float: right;
+    }
+    #translate{
+      position: absolute;
+      top:50%;
+      left: 50%;
+      display: block;
+      width: 70px;
+      height: 30px;
+      padding: 0;
+      margin:0;
+      line-height: 30px;
+      text-align: center;
+      font-size: 14px;
+      color:#fff;
+      cursor: pointer;
+      background: #2886AF;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+<body>
+  <textarea id="enjson" rows="10" placeholder="enter you enjson"></textarea>
+  <textarea id="zhjson" rows="10"></textarea>
+  <span id="translate" type="button" value="translate">翻译</span>
+  <script>
+    $("#translate").click(function() {
+      var json = $("#enjson")[0].value;
+      if (!json) return;
+      $.ajax({
+        url:'/fy',
+        type:'POST',
+        data:{
+          json: json
+        },
+        dataType:'json',    //返回的数据格式：json/xml/html/script/jsonp/text
+        success:function(data){
+            $('#zhjson').html(JSON.stringify(data, null, 2));
+        },
+        error:function(xhr,textStatus){
+            console.log(xhr)
+        },
+      })
+    });
+  </script>
+</body>
+</html>
