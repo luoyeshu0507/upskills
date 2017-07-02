@@ -42,8 +42,15 @@ chrome.runtime.onMessage.addListener((req,sender,callback) => {//消息监听器
   console.log('One message recieved -------- ');
   console.log('Message data: ', req);
   console.log('Message sender: ', sender);
-  callback();
+  callback('background recieved message');
 });
+
+// setInterval(() => {
+//   console.log('background send message!')
+//   chrome.runtime.sendMessage({
+//     key: 'luoyeshu-background'
+//   }, (res) => console.log(res));
+// }, 4000);
 
 chrome.tabs.onRemoved.addListener((tabId, removeInfo) => {//页面被关闭时的事件监听
   console.log('Tab removed: ', tabId, removeInfo);
