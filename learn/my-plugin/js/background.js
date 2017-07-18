@@ -35,6 +35,18 @@ chrome.contextMenus.create({
   console.log("ContextMenu created, menu id: " + id)
 });
 
+chrome.contextMenus.create({
+  type: 'normal',  // optional enumerated string ["normal", "checkbox", "radio", "separator"] 
+  title: 'Luoyeshu Plugin',
+  contexts: ['page'],  // optional array of string ["all", "page", "frame", "selection", "link", "editable", "image", "video", "audio"]  default: page
+  onclick: (info, tab) => {
+    console.log(info, tab);
+    utils.openOptionsTab();
+  }
+}, id => {
+  console.log("ContextMenu created, menu id: " + id)
+});
+
 // bind events
 chrome.browserAction.onClicked.addListener(utils.openOptionsTab);
 

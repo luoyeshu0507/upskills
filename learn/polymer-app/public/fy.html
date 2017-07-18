@@ -60,7 +60,7 @@
         },
         dataType:'json',    //返回的数据格式：json/xml/html/script/jsonp/text
         success:function(data){
-            $('#zhjson').html(JSON.stringify(data, null, 2));
+            $('#zhjson')[0].value = JSON.stringify(data, null, 2);
         },
         error:function(xhr,textStatus){
             console.log(xhr)
