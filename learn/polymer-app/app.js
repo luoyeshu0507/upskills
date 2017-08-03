@@ -16,6 +16,7 @@ let fy = require('./public/baidu-fy/index.js');
 // app.use(express.static(path.join(__dirname, 'public')))
 // app.use('/bower_components', express.static(path.join(__dirname, 'bower_components')))
 app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -50,11 +51,11 @@ app.post('/fy', function(req, res, next) {
   })
 });
 
-app.use('/', function(req, res, next) {
-  // var lang = getLang(req.headers);
-  // res.sendFile(path.join(__dirname, '/public/i18n-template', lang + '-index2.html'));
-});
+// app.use('/', function(req, res, next) {
+//   // var lang = getLang(req.headers);
+//   // res.sendFile(path.join(__dirname, '/public/i18n-template', lang + '-index2.html'));
+// });
 
-app.listen(8080, () => {
-  console.log(`App listening at port 8080`)
+app.listen(4000, () => {
+  console.log(`App listening at port 4000`)
 })

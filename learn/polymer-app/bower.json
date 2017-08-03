@@ -16,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "1"
+    "polymer": "1",
+    "px-spinner": "^2.0.1"
   }
 }

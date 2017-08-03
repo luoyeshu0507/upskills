@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="import" href="../bower_components/px-spinner/px-spinner.html" />
+</head>
+<body>
+  <px-spinner></px-spinner>
+  <script>
+    var spinner = document.querySelector('px-spinner');
+    document.documentElement.addEventListener('click', function() {
+      spinner.finished = !spinner.finished;
+    }, false)
+  </script>
+</body>
+</html>
