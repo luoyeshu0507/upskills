@@ -19,10 +19,11 @@
   "content_scripts": [
     {
       // "css": ["salesforce.css"],
-      "js": ["js/content.js"],
+      // "js": ["js/content.js"],
+      "js": ["js/yy.js"],
       "matches": [
-        "http://*/",
-        "https://*/"
+        "http://www.yy.com/*",
+        "https://www.yy.com/*"
       ],
       "run_at": "document_idle",
       "all_frames": true
