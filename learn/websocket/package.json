@@ -1,5 +1,5 @@
 {
-  "name": "node-mongodb",
+  "name": "websocket",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^2.2.30",
-    "mongoose": "^4.11.6"
+    "ws": "^3.1.0"
   }
 }

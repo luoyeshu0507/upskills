@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var ws = new WebSocket('ws://localhost:3000');
+    ws.onopen = function() {
+      ws.send('front end message: ABC');
+    };
+    ws.onmessage = function(event) {
+      console.log('server side message: ' + event.data);
+    };
+    ws.onerror = function(event) {
+      console.log('server error: ' + event.data);
+    }
+  </script>
+</body>
+</html>

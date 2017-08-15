@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="../../node_modules/github-markdown-css/github-markdown.css">
+  <script src="../../node_modules/marked/lib/marked.js"></script> 
+</head>
+<body>
+  <textarea name="edit" id="edit"></textarea>
+  <div id="result" class="markdown-body"></div>
+  <script>
+    var content = document.getElementById('edit');
+    var result = document.getElementById('result');
+    var t;
+    content.addEventListener('keyup', function() {
+      if (t) {
+        clearTimeout(t);
+        t = setTimeout(function() {
+          result.innerHTML = marked(content.value);
+        }, 1000)
+      } else {
+        t = setTimeout(function() {
+          result.innerHTML = marked(content.value);
+        }, 1000)
+      }
+    }, false);
+  </script>
+</body>
+</html>
