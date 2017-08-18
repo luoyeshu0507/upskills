@@ -1,0 +1,24 @@
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #61DAFB;
+  height: 40px;
+  line-height: 40px;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 30px;
+}
+.nav li a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 16px;
+}
+.nav li a:hover {
+  color: #ddd;
+}
+.nav li.on a {
+  font-weight: bold;
+  text-decoration: underline;
+}
