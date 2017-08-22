@@ -1,13 +1,13 @@
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/test');
 var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
+db.on('error', console.error.bind(console, '----------connection error--------:'));
 db.once('open', function (callback) {
   console.log(callback);
 });
 
 var Book = mongoose.model('User', {name: String, price: Number});
-var oneBook = new Book({name: 'Storys', price: 18.88});
+var oneBook = new Book({name: 'Storys', price: 'xxx'});
 oneBook.save(function(err, result) {
   if(err) {
     console.log(err);
