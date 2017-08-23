@@ -2,6 +2,7 @@ const express = require('express')
 const path = require('path')
 const app = express()
 const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
 
 function getLang(headers) {
   var accept = headers['accept-language'];
@@ -12,6 +13,15 @@ function getLang(headers) {
 }
 
 let fy = require('./public/baidu-fy/index.js');
+
+app.use(cookieParser());
+
+app.use((req, res, next) => {
+  // console.log(req.headers);
+  // console.log(req.header('User-Agent'));
+  // console.log(req.header('user-agent'));
+  next();
+})
 
 // app.use(express.static(path.join(__dirname, 'public')))
 // app.use('/bower_components', express.static(path.join(__dirname, 'bower_components')))
