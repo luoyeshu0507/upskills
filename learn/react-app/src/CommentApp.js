@@ -5,12 +5,22 @@ import CommentList from './CommentList';
 class CommentApp extends Component {
   constructor () {
     super();
+    console.log('CommentApp constructor');
     this.state = {
       commentList: []
     }
   }
 
+  componentWillMount () {
+    console.log('CommentApp componentWillMount');
+  }
+
+  componentDidMount () {
+    console.log('CommentApp componentWillMount');
+  }
+  
   render () {
+    console.log('CommentApp render');
     return (
       <div className="comment-app">
         <CommentInput handleSubmit={ this.handleSubmit.bind(this) }/>

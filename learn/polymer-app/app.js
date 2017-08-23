@@ -25,6 +25,7 @@ app.use((req, res, next) => {
 
 // app.use(express.static(path.join(__dirname, 'public')))
 // app.use('/bower_components', express.static(path.join(__dirname, 'bower_components')))
+
 app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname));
 app.use(bodyParser.json());
