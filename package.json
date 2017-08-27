@@ -1,0 +1,28 @@
+{
+  "name": "upskills",
+  "version": "1.0.0",
+  "description": "This repo is used to test something or learn something new!",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "gulp": "^3.9.1",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoyeshu0507/upskills.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luoyeshu0507/upskills/issues"
+  },
+  "homepage": "https://github.com/luoyeshu0507/upskills#readme"
+}
