@@ -1,0 +1,26 @@
+{
+  "name": "karma-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-html-reporter": "^0.2.7",
+    "karma-jasmine": "^1.1.0",
+    "karma-safari-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.15"
+  },
+  "devDependencies": {
+    "karma-phantomjs-launcher": "^1.0.4"
+  }
+}
