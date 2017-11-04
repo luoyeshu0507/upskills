@@ -1,7 +1,9 @@
 function closeText() {
   var button = document.querySelector('.liveplayerToolBar-damuBtn a');
   if (button) {
-    button.click();
+    setTimeout(function (){
+      button.click();
+    }, 1000);
   } else {
     setTimeout(closeText, 100);
   }
