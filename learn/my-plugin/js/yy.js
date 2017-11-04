@@ -1,5 +1,5 @@
 function closeText() {
-  var button = document.querySelector('.liveplayerToolBar-setting-enable.liveplayerToolBar-left');
+  var button = document.querySelector('.liveplayerToolBar-damuBtn');
   if (button) {
     button.click();
   } else {
