@@ -1,5 +1,5 @@
 function closeText() {
-  var button = document.querySelector('.liveplayerToolBar-damuBtn');
+  var button = document.querySelector('.liveplayerToolBar-damuBtn a');
   if (button) {
     button.click();
   } else {
