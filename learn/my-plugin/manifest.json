@@ -29,6 +29,15 @@
       "all_frames": true
     },
     {
+      "css": ["css/huziketang.css"],
+      "matches": [
+        "http://huziketang.com/*",
+        "https://huziketang.com/*"
+      ],
+      "run_at": "document_idle",
+      "all_frames": true
+    },
+    {
       // "css": ["salesforce.css"],
       // "js": ["js/content.js"],
       "js": ["js/2.taobao.js"],
