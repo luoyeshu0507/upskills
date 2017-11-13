@@ -27,6 +27,19 @@
       ],
       "run_at": "document_idle",
       "all_frames": true
+    },
+    {
+      // "css": ["salesforce.css"],
+      // "js": ["js/content.js"],
+      "js": ["js/2.taobao.js"],
+      "matches": [
+        "http://2.taobao.com/*",
+        "https://2.taobao.com/*",
+        "http://s.2.taobao.com/*",
+        "https://s.2.taobao.com/*"
+      ],
+      "run_at": "document_idle",
+      "all_frames": true
     }
   ],
   "options_page": "view/options.html",

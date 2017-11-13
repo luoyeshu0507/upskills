@@ -6,23 +6,23 @@
   "directories": {
     "test": "test"
   },
+  "dependencies": {
+    "express": "^4.15.4",
+    "gulp": "^3.9.1",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "xxx": "ls && NODE_ENV=production node xxx.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luoyeshu0507/upskills.git"
   },
-  "author": "",
+  "author": "luoyeshu0507",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/luoyeshu0507/upskills/issues"
   },
-  "homepage": "https://github.com/luoyeshu0507/upskills#readme",
-  "dependencies": {
-    "express": "^4.15.4",
-    "gulp": "^3.9.1",
-    "webpack": "^3.5.5"
-  }
+  "homepage": "https://github.com/luoyeshu0507/upskills#readme"
 }
