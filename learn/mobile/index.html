@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      font-size: 24px;
+    }
+    .test {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+    }
+    .test2 {
+      width: 700px;
+      height: 200px;
+      background-color: blue;
+    }
+    .test3 {
+      width: 700px;
+      height: 500px;
+      background-color: green;
+      font-size: 100px;
+    }
+  </style>
+  <script>
+    var width = document.documentElement.scrollWidth;
+    var scale = width / 750;
+    document.querySelector('meta[name=viewport]').setAttribute('content', 'width=device-width, initial-scale=' + scale + ', minimum-scale=' + scale + ', maximum-scale=' + scale + ', user-scalable=no')
+  </script>
+</head>
+<body>
+  <div class="test">123445555</div>
+  <div class="test2">42343 fasffsj</div>
+  <div class="test3">你好</div>
+</body>
+</html>
