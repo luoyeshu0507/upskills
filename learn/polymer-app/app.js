@@ -20,6 +20,8 @@ app.use((req, res, next) => {
   // console.log(req.headers);
   // console.log(req.header('User-Agent'));
   // console.log(req.header('user-agent'));
+  res.cookie('hello', 'world');
+  console.log(req.cookies);
   next();
 })
 

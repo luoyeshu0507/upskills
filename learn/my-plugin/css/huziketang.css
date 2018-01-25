@@ -1,0 +1,3 @@
+body>*:last-child:not(.wrapper), #granted-modal{
+  display: none !important;
+}
