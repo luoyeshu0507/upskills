@@ -4,6 +4,7 @@ import './App.css';
 import Nav from './Nav';
 import Hello from './Hello';
 import CommentApp from './CommentApp';
+import TestMobx from './Test-mobx';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         </p>
         <Hello text="Hello world"/>
         <CommentApp/>
+        <TestMobx/>
       </div>
     );
   }
