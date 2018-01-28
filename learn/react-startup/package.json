@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --config ./config/webpack.config.js"
   },
   "dependencies": {
     "autoprefixer": "7.1.6",

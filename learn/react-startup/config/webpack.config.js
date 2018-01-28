@@ -55,7 +55,11 @@ module.exports = {
   },
   devServer: {
     port: 3000,
-    hot: true
+    hot: true,
+    clientLogLevel: 'none',
+    stats: {
+      modules: false
+    }
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -63,6 +67,6 @@ module.exports = {
     }),
     new CleanWebpackPlugin(path.join(__dirname, '../dist')),
     new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin(),
   ]
 };
