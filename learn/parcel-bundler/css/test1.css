@@ -1,0 +1,9 @@
+html {
+  height: 100%;
+}
+body {
+  color: red;
+  height: 100%;
+  width: 100%;
+  background: url('../images/joinus-icons.png') center no-repeat;
+}
