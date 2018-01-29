@@ -1,0 +1,818 @@
+@font-face {
+	font-family: "Icons";
+	src: url('./Icons.eot');
+	src: url('./Icons.eot?#iefix') format('eot'),
+		url('./Icons.woff2') format('woff2'),
+		url('./Icons.woff') format('woff'),
+		url('./Icons.ttf') format('truetype'),
+		url('./Icons.svg#Icons') format('svg');
+}
+
+.icon:before {
+	font-family: "Icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-uEA01-chat_32x32:before {
+	content: "\E001";
+}
+
+.icon-uEA02-comment_32x32:before {
+	content: "\E002";
+}
+
+.icon-uEA03-email_32x32:before {
+	content: "\E003";
+}
+
+.icon-uEA04-message_32x32:before {
+	content: "\E004";
+}
+
+.icon-uEA05-phone_32x32:before {
+	content: "\E005";
+}
+
+.icon-uEA06-sms_32x32:before {
+	content: "\E006";
+}
+
+.icon-uEA07-chart_16x16:before {
+	content: "\E007";
+}
+
+.icon-uEA08-document_16x16:before {
+	content: "\E008";
+}
+
+.icon-uEA09-document_csv_16x16:before {
+	content: "\E009";
+}
+
+.icon-uEA0A-document_pdf_16x16:before {
+	content: "\E00A";
+}
+
+.icon-uEA0B-document_word_16x16:before {
+	content: "\E00B";
+}
+
+.icon-uEA0C-document_xls_16x16:before {
+	content: "\E00C";
+}
+
+.icon-uEA0D-image_16x16:before {
+	content: "\E00D";
+}
+
+.icon-uEA0E-note_16x16:before {
+	content: "\E00E";
+}
+
+.icon-uEA0F-website_16x16:before {
+	content: "\E00F";
+}
+
+.icon-uEA10-administration_32x32:before {
+	content: "\E010";
+}
+
+.icon-uEA11-alerts_32x32:before {
+	content: "\E011";
+}
+
+.icon-uEA12-analysis_32x32:before {
+	content: "\E012";
+}
+
+.icon-uEA13-analytics_32x32:before {
+	content: "\E013";
+}
+
+.icon-uEA14-asset_32x32:before {
+	content: "\E014";
+}
+
+.icon-uEA15-asset_ingestion_32x32:before {
+	content: "\E015";
+}
+
+.icon-uEA16-attribute_32x32:before {
+	content: "\E016";
+}
+
+.icon-uEA17-bug_32x32:before {
+	content: "\E017";
+}
+
+.icon-uEA18-calendar_32x32:before {
+	content: "\E018";
+}
+
+.icon-uEA19-cases_32x32:before {
+	content: "\E019";
+}
+
+.icon-uEA1A-catalog_32x32:before {
+	content: "\E01A";
+}
+
+.icon-uEA1B-dashboard_32x32:before {
+	content: "\E01B";
+}
+
+.icon-uEA1C-data_sources_32x32:before {
+	content: "\E01C";
+}
+
+.icon-uEA1D-deployments_32x32:before {
+	content: "\E01D";
+}
+
+.icon-uEA1E-dev_ops_32x32:before {
+	content: "\E01E";
+}
+
+.icon-uEA1F-digital_twin_32x32:before {
+	content: "\E01F";
+}
+
+.icon-uEA20-home_32x32:before {
+	content: "\E020";
+}
+
+.icon-uEA21-log_32x32:before {
+	content: "\E021";
+}
+
+.icon-uEA22-microservice_32x32:before {
+	content: "\E022";
+}
+
+.icon-uEA23-orchestration_32x32:before {
+	content: "\E023";
+}
+
+.icon-uEA24-orders_32x32:before {
+	content: "\E024";
+}
+
+.icon-uEA25-pipeline_32x32:before {
+	content: "\E025";
+}
+
+.icon-uEA26-products_32x32:before {
+	content: "\E026";
+}
+
+.icon-uEA27-spaces_32x32:before {
+	content: "\E027";
+}
+
+.icon-uEA28-tag_32x32:before {
+	content: "\E028";
+}
+
+.icon-uEA29-tag_group_32x32:before {
+	content: "\E029";
+}
+
+.icon-uEA2A-templates_32x32:before {
+	content: "\E02A";
+}
+
+.icon-uEA2B-time_32x32:before {
+	content: "\E02B";
+}
+
+.icon-uEA2C-users_32x32:before {
+	content: "\E02C";
+}
+
+.icon-uEA2D-versions_32x32:before {
+	content: "\E02D";
+}
+
+.icon-uEA2E-back_22x22:before {
+	content: "\E02E";
+}
+
+.icon-uEA2F-close_22x22:before {
+	content: "\E02F";
+}
+
+.icon-uEA30-collapse_22x22:before {
+	content: "\E030";
+}
+
+.icon-uEA31-compare_22x22:before {
+	content: "\E031";
+}
+
+.icon-uEA32-confirmed_22x22:before {
+	content: "\E032";
+}
+
+.icon-uEA33-connection_22x22:before {
+	content: "\E033";
+}
+
+.icon-uEA34-data_resolution_22x22:before {
+	content: "\E034";
+}
+
+.icon-uEA35-database_22x22:before {
+	content: "\E035";
+}
+
+.icon-uEA36-down_22x22:before {
+	content: "\E036";
+}
+
+.icon-uEA37-expand_22x22:before {
+	content: "\E037";
+}
+
+.icon-uEA38-favorite_22x22:before {
+	content: "\E038";
+}
+
+.icon-uEA39-generic_user_22x22:before {
+	content: "\E039";
+}
+
+.icon-uEA3A-grid_view_22x22:before {
+	content: "\E03A";
+}
+
+.icon-uEA3B-hamburger_22x22:before {
+	content: "\E03B";
+}
+
+.icon-uEA3C-hierarchy_22x22:before {
+	content: "\E03C";
+}
+
+.icon-uEA3D-home_22x22:before {
+	content: "\E03D";
+}
+
+.icon-uEA3E-inbox_view_22x22:before {
+	content: "\E03E";
+}
+
+.icon-uEA3F-instance_22x22:before {
+	content: "\E03F";
+}
+
+.icon-uEA40-list_view_22x22:before {
+	content: "\E040";
+}
+
+.icon-uEA41-log_out_22x22:before {
+	content: "\E041";
+}
+
+.icon-uEA42-menu_22x22:before {
+	content: "\E042";
+}
+
+.icon-uEA43-more_22x22:before {
+	content: "\E043";
+}
+
+.icon-uEA44-new_window_22x22:before {
+	content: "\E044";
+}
+
+.icon-uEA45-next_22x22:before {
+	content: "\E045";
+}
+
+.icon-uEA46-notification_22x22:before {
+	content: "\E046";
+}
+
+.icon-uEA47-open_context_22x22:before {
+	content: "\E047";
+}
+
+.icon-uEA48-pause_22x22:before {
+	content: "\E048";
+}
+
+.icon-uEA49-play_22x22:before {
+	content: "\E049";
+}
+
+.icon-uEA4A-reload_22x22:before {
+	content: "\E04A";
+}
+
+.icon-uEA4B-search_22x22:before {
+	content: "\E04B";
+}
+
+.icon-uEA4C-stop_22x22:before {
+	content: "\E04C";
+}
+
+.icon-uEA4D-summary_22x22:before {
+	content: "\E04D";
+}
+
+.icon-uEA4E-tile_view_22x22:before {
+	content: "\E04E";
+}
+
+.icon-uEA4F-timezone_22x22:before {
+	content: "\E04F";
+}
+
+.icon-uEA50-tree_22x22:before {
+	content: "\E050";
+}
+
+.icon-uEA51-unconfirmed_22x22:before {
+	content: "\E051";
+}
+
+.icon-uEA52-up_22x22:before {
+	content: "\E052";
+}
+
+.icon-uEAA9-add_brush_22x22:before {
+	content: "\E053";
+}
+
+.icon-uEAAA-all_points_in_area_22x22:before {
+	content: "\E054";
+}
+
+.icon-uEAAB-bring_to_front_22x22:before {
+	content: "\E055";
+}
+
+.icon-uEAAC-brush_22x22:before {
+	content: "\E056";
+}
+
+.icon-uEAAD-closest_point_22x22:before {
+	content: "\E057";
+}
+
+.icon-uEAAE-closest_point_series_22x22:before {
+	content: "\E058";
+}
+
+.icon-uEAAF-comment_22x22:before {
+	content: "\E059";
+}
+
+.icon-uEAB0-crosshair_22x22:before {
+	content: "\E05A";
+}
+
+.icon-uEAB1-draw_stripe_22x22:before {
+	content: "\E05B";
+}
+
+.icon-uEAB2-expand_radius_22x22:before {
+	content: "\E05C";
+}
+
+.icon-uEAB3-full_screen_22x22:before {
+	content: "\E05D";
+}
+
+.icon-uEAB4-hide_22x22:before {
+	content: "\E05E";
+}
+
+.icon-uEAB5-lasso_22x22:before {
+	content: "\E05F";
+}
+
+.icon-uEAB6-move_axis_22x22:before {
+	content: "\E060";
+}
+
+.icon-uEAB7-pan_22x22:before {
+	content: "\E061";
+}
+
+.icon-uEAB8-pin_22x22:before {
+	content: "\E062";
+}
+
+.icon-uEAB9-refresh_22x22:before {
+	content: "\E063";
+}
+
+.icon-uEABA-remove_brush_22x22:before {
+	content: "\E064";
+}
+
+.icon-uEABB-remove_stripe_22x22:before {
+	content: "\E065";
+}
+
+.icon-uEABC-reset_zoom_22x22:before {
+	content: "\E066";
+}
+
+.icon-uEABD-show_tooltip_22x22:before {
+	content: "\E067";
+}
+
+.icon-uEABE-shrink_radius_22x22:before {
+	content: "\E068";
+}
+
+.icon-uEABF-trash_series_22x22:before {
+	content: "\E069";
+}
+
+.icon-uEAC0-x_axis_22x22:before {
+	content: "\E06A";
+}
+
+.icon-uEAC1-xy_axis_22x22:before {
+	content: "\E06B";
+}
+
+.icon-uEAC2-y_axis_22x22:before {
+	content: "\E06C";
+}
+
+.icon-uEAC3-zoom_generic_22x22:before {
+	content: "\E06D";
+}
+
+.icon-uEAC4-zoom_in_22x22:before {
+	content: "\E06E";
+}
+
+.icon-uEAC5-zoom_out_22x22:before {
+	content: "\E06F";
+}
+
+.icon-uEAC6-zoom_out_one_level_22x22:before {
+	content: "\E070";
+}
+
+.icon-uEAC7-zoom_toolbar_22x22:before {
+	content: "\E071";
+}
+
+.icon-uEA76-add_16x16:before {
+	content: "\E072";
+}
+
+.icon-uEA77-alert_16x16:before {
+	content: "\E073";
+}
+
+.icon-uEA78-analysis_16x16:before {
+	content: "\E074";
+}
+
+.icon-uEA79-app_settings_16x16:before {
+	content: "\E075";
+}
+
+.icon-uEA7A-asset_16x16:before {
+	content: "\E076";
+}
+
+.icon-uEA7B-attribute_16x16:before {
+	content: "\E077";
+}
+
+.icon-uEA7C-calculation_16x16:before {
+	content: "\E078";
+}
+
+.icon-uEA7D-calendar_16x16:before {
+	content: "\E079";
+}
+
+.icon-uEA7E-camera_16x16:before {
+	content: "\E07A";
+}
+
+.icon-uEA7F-check_16x16:before {
+	content: "\E07B";
+}
+
+.icon-uEA80-chevron_16x16:before {
+	content: "\E07C";
+}
+
+.icon-uEA81-chevron_left_16x16:before {
+	content: "\E07D";
+}
+
+.icon-uEA82-chevron_right_16x16:before {
+	content: "\E07E";
+}
+
+.icon-uEA83-chevron_up_16x16:before {
+	content: "\E07F";
+}
+
+.icon-uEA84-clock_16x16:before {
+	content: "\E080";
+}
+
+.icon-uEA85-close_16x16:before {
+	content: "\E081";
+}
+
+.icon-uEA86-confirmed_16x16:before {
+	content: "\E082";
+}
+
+.icon-uEA87-copy_16x16:before {
+	content: "\E083";
+}
+
+.icon-uEA88-delete_16x16:before {
+	content: "\E084";
+}
+
+.icon-uEA89-desktop_computer_16x16:before {
+	content: "\E085";
+}
+
+.icon-uEA8A-download_16x16:before {
+	content: "\E086";
+}
+
+.icon-uEA8B-edit_16x16:before {
+	content: "\E087";
+}
+
+.icon-uEA8C-failure_16x16:before {
+	content: "\E088";
+}
+
+.icon-uEA8D-filter_16x16:before {
+	content: "\E089";
+}
+
+.icon-uEA8E-flag_16x16:before {
+	content: "\E08A";
+}
+
+.icon-uEA8F-folder_closed_16x16:before {
+	content: "\E08B";
+}
+
+.icon-uEA90-folder_open_16x16:before {
+	content: "\E08C";
+}
+
+.icon-uEA91-formula_16x16:before {
+	content: "\E08D";
+}
+
+.icon-uEA92-help_16x16:before {
+	content: "\E08E";
+}
+
+.icon-uEA93-information_16x16:before {
+	content: "\E08F";
+}
+
+.icon-uEA94-link_16x16:before {
+	content: "\E090";
+}
+
+.icon-uEA95-location_16x16:before {
+	content: "\E091";
+}
+
+.icon-uEA96-locked_16x16:before {
+	content: "\E092";
+}
+
+.icon-uEA97-map_16x16:before {
+	content: "\E093";
+}
+
+.icon-uEA98-module_settings_16x16:before {
+	content: "\E094";
+}
+
+.icon-uEA99-overflow_16x16:before {
+	content: "\E095";
+}
+
+.icon-uEA9A-phone_16x16:before {
+	content: "\E096";
+}
+
+.icon-uEA9B-qr_code_16x16:before {
+	content: "\E097";
+}
+
+.icon-uEA9C-remove_16x16:before {
+	content: "\E098";
+}
+
+.icon-uEA9D-reply_16x16:before {
+	content: "\E099";
+}
+
+.icon-uEA9E-save_16x16:before {
+	content: "\E09A";
+}
+
+.icon-uEA9F-search_16x16:before {
+	content: "\E09B";
+}
+
+.icon-uEAA0-share_16x16:before {
+	content: "\E09C";
+}
+
+.icon-uEAA1-swap_16x16:before {
+	content: "\E09D";
+}
+
+.icon-uEAA2-tablet_16x16:before {
+	content: "\E09E";
+}
+
+.icon-uEAA3-tag_16x16:before {
+	content: "\E09F";
+}
+
+.icon-uEAA4-tag_group_16x16:before {
+	content: "\E0A0";
+}
+
+.icon-uEAA5-unlink_16x16:before {
+	content: "\E0A1";
+}
+
+.icon-uEAA6-unlocked_16x16:before {
+	content: "\E0A2";
+}
+
+.icon-uEAA7-upload_16x16:before {
+	content: "\E0A3";
+}
+
+.icon-uEAA8-zoom_16x16:before {
+	content: "\E0A4";
+}
+
+.icon-uEA53-airplane_32x32:before {
+	content: "\E0A5";
+}
+
+.icon-uEA54-airplane_engine_32x32:before {
+	content: "\E0A6";
+}
+
+.icon-uEA55-airport_32x32:before {
+	content: "\E0A7";
+}
+
+.icon-uEA56-automobile_32x32:before {
+	content: "\E0A8";
+}
+
+.icon-uEA57-boiler_32x32:before {
+	content: "\E0A9";
+}
+
+.icon-uEA58-cell_tower_32x32:before {
+	content: "\E0AA";
+}
+
+.icon-uEA59-class_32x32:before {
+	content: "\E0AB";
+}
+
+.icon-uEA5A-condenser_32x32:before {
+	content: "\E0AC";
+}
+
+.icon-uEA5B-controller_32x32:before {
+	content: "\E0AD";
+}
+
+.icon-uEA5C-cooling_tower_32x32:before {
+	content: "\E0AE";
+}
+
+.icon-uEA5D-database_32x32:before {
+	content: "\E0AF";
+}
+
+.icon-uEA5E-desktop_32x32:before {
+	content: "\E0B0";
+}
+
+.icon-uEA5F-edge_box_32x32:before {
+	content: "\E0B1";
+}
+
+.icon-uEA60-fleet_32x32:before {
+	content: "\E0B2";
+}
+
+.icon-uEA61-gas_turbine_32x32:before {
+	content: "\E0B3";
+}
+
+.icon-uEA62-gateway_32x32:before {
+	content: "\E0B4";
+}
+
+.icon-uEA63-hrsg_32x32:before {
+	content: "\E0B5";
+}
+
+.icon-uEA64-imaging_machine_32x32:before {
+	content: "\E0B6";
+}
+
+.icon-uEA65-light_bulb_32x32:before {
+	content: "\E0B7";
+}
+
+.icon-uEA66-line_32x32:before {
+	content: "\E0B8";
+}
+
+.icon-uEA67-line_og_32x32:before {
+	content: "\E0B9";
+}
+
+.icon-uEA68-locomotive_32x32:before {
+	content: "\E0BA";
+}
+
+.icon-uEA69-machine_32x32:before {
+	content: "\E0BB";
+}
+
+.icon-uEA6A-manufacturing_line_32x32:before {
+	content: "\E0BC";
+}
+
+.icon-uEA6B-plant_32x32:before {
+	content: "\E0BD";
+}
+
+.icon-uEA6C-predix_box_32x32:before {
+	content: "\E0BE";
+}
+
+.icon-uEA6D-product_32x32:before {
+	content: "\E0BF";
+}
+
+.icon-uEA6E-rail_yard_32x32:before {
+	content: "\E0C0";
+}
+
+.icon-uEA6F-routes_32x32:before {
+	content: "\E0C1";
+}
+
+.icon-uEA70-sensor_32x32:before {
+	content: "\E0C2";
+}
+
+.icon-uEA71-solar_panel_32x32:before {
+	content: "\E0C3";
+}
+
+.icon-uEA72-steam_turbine_32x32:before {
+	content: "\E0C4";
+}
+
+.icon-uEA73-train_32x32:before {
+	content: "\E0C5";
+}
+
+.icon-uEA74-truck_32x32:before {
+	content: "\E0C6";
+}
+
+.icon-uEA75-wind_turbine_32x32:before {
+	content: "\E0C7";
+}
