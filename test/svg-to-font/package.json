@@ -11,6 +11,7 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-iconfont": "^9.1.0",
-    "gulp-iconfont-css": "^2.1.0"
+    "gulp-iconfont-css": "^2.1.0",
+    "svgr": "^1.7.0"
   }
 }
