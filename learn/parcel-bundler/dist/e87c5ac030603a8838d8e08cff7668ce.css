@@ -1,0 +1,12 @@
+html {
+  height: 100%;
+}
+body {
+  color: red;
+  height: 100%;
+  width: 100%;
+  background: url('6913e961642d782ec4a1ce75af61922f.png') center no-repeat;
+}.test {
+  color: blue; }
+  .test span {
+    display: block; }
