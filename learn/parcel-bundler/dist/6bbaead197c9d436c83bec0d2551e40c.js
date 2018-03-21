@@ -69,11 +69,11 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({7:[function(require,module,exports) {
+})({13:[function(require,module,exports) {
 module.exports = function() {
   console.log('hello');
 }
-},{}],8:[function(require,module,exports) {
+},{}],14:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -84,9 +84,9 @@ const hello2 = function () {
 };
 
 exports.default = hello2;
-},{}],6:[function(require,module,exports) {
+},{}],12:[function(require,module,exports) {
 module.exports="/dist/b7f4a12664e616d5b9aa5022f50da745.png";
-},{}],10:[function(require,module,exports) {
+},{}],16:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -117,7 +117,7 @@ function getBaseURL(url) {
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 
-},{}],9:[function(require,module,exports) {
+},{}],15:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -149,19 +149,19 @@ function reloadCSS() {
 
 module.exports = reloadCSS;
 
-},{"./bundle-url":10}],4:[function(require,module,exports) {
+},{"./bundle-url":16}],10:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../images/joinus-icons.png":6,"_css_loader":9}],5:[function(require,module,exports) {
+},{"./../images/joinus-icons.png":12,"_css_loader":15}],11:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":9}],2:[function(require,module,exports) {
+},{"_css_loader":15}],6:[function(require,module,exports) {
 'use strict';
 
 var _module = require('./module2');
@@ -186,7 +186,7 @@ hello();
 (0, _module2.default)();
 
 console.log(_joinusIcons2.default);
-},{"./module1":7,"./module2":8,"../css/test1.css":4,"../css/test2.scss":5,"../images/joinus-icons.png":6}],11:[function(require,module,exports) {
+},{"./module1":13,"./module2":14,"../css/test1.css":10,"../css/test2.scss":11,"../images/joinus-icons.png":12}],17:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -206,7 +206,7 @@ module.bundle.Module = Module;
 
 if (!module.bundle.parent && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
-  var ws = new WebSocket('ws://' + hostname + ':' + '56151' + '/');
+  var ws = new WebSocket('ws://' + hostname + ':' + '49235' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -307,5 +307,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[11,2])
+},{}]},{},[17,6])
 //# sourceMappingURL=/dist/6bbaead197c9d436c83bec0d2551e40c.map
