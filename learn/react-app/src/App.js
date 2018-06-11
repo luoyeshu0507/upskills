@@ -5,8 +5,13 @@ import Nav from './Nav';
 import Hello from './Hello';
 import CommentApp from './CommentApp';
 import TestMobx from './Test-mobx';
+import List from './List';
 
 class App extends Component {
+  state = {
+    list: [1, 2, 3, 4]
+  }
+
   render() {
     return (
       <div className="App">
@@ -21,8 +26,15 @@ class App extends Component {
         <Hello text="Hello world"/>
         <CommentApp/>
         <TestMobx/>
+        <List onClick={ this.modifyList.bind(this) } data={ this.state.list }/>
       </div>
     );
+  }
+
+  modifyList() {
+    this.setState({
+      list: this.state.list.splice(1)
+    })
   }
 }
 

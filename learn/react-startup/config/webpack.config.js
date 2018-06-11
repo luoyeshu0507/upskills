@@ -53,19 +53,21 @@ module.exports = {
       }
     ]
   },
-  devServer: {
-    port: 3000,
-    hot: true,
-    clientLogLevel: 'none',
-    stats: {
-      modules: false
-    }
-  },
+  // devServer: {
+  //   port: 3000,
+  //   hot: true,
+  //   clientLogLevel: 'none',
+  //   stats: {
+  //     modules: false
+  //   }
+  // },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, '../src/index.html')
     }),
-    new CleanWebpackPlugin(path.join(__dirname, '../dist')),
+    new CleanWebpackPlugin('dist', {
+      root: path.join(__dirname, '..')
+    }),
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),
   ]
