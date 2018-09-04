@@ -7,7 +7,7 @@
     "test": "test"
   },
   "dependencies": {
-    "express": "^4.15.4",
+    "express": "^4.16.3",
     "gulp": "^3.9.1",
     "webpack": "^3.5.5"
   },
