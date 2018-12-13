@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <iframe id="xx" src="./frame.html" frameborder="0"></iframe>
+    <button id="b">111</button>
+    <img src="http://picfileonline-30077.sz.gfp.tencent-cloud.com/pic/big/3007247596/86b4383d-891b-46f5-b13f-c8723e1a33b0?sign=q-sign-algorithm%3Dsha1%26q-ak%3DVtT7bgGvDWPsa0aTUqV5AMK9%26q-sign-time%3D1542852523%3B1542856123%26q-key-time%3D1542852523%3B1542856123%26q-header-list%3Dhost%26q-url-param-list%3D%26q-signature%3Dcd939e4d29b400d5ff7f7cb4d41ff4effcc5610c" alt="">
+    <script>
+        function hello(msg) {
+            alert(msg);
+        }
+
+        document.getElementById('b').onclick = function() {
+            // document.getElementById('xx').src = 'http://privatetest-1234432101.sztest.file.tencent-cloud.com/file/2852996647/27460daaf95b09df4de35ea1c783c368_58d97c8c-ffbe-474f-a9f8-9bcfca6d1d52?sign=q-sign-algorithm%3Dsha1%26q-ak%3DQmFzZTY0IGlzIGEgZ2VuZXJp%26q-sign-time%3D1543911147%3B1543914747%26q-key-time%3D1543911147%3B1543914747%26q-header-list%3Dhost%26q-url-param-list%3D%26q-signature%3D53abd31794723150c208112ffd4a42484f5cce9a';
+            var iframe = document.createElement('iframe');
+            iframe.src = 'http://privatetest-1234432101.sztest.file.tencent-cloud.com/file/2852996647/27460daaf95b09df4de35ea1c783c368_58d97c8c-ffbe-474f-a9f8-9bcfca6d1d52?sign=q-sign-algorithm%3Dsha1%26q-ak%3DQmFzZTY0IGlzIGEgZ2VuZXJp%26q-sign-time%3D1543911147%3B1543914747%26q-key-time%3D1543911147%3B1543914747%26q-header-list%3Dhost%26q-url-param-list%3D%26q-signature%3D53abd31794723150c208112ffd4a42484f5cce9a'; //原链接文件名无后缀 直接下载电脑无法识别 配了个nginx转发
+            iframe.style.display = 'none';
+            var body = document.getElementsByTagName('body')[0];
+            body.appendChild(iframe);
+            setTimeout(function() {
+                body.removeChild(iframe);
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
