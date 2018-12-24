@@ -40,4 +40,4 @@ function format(text) {
     console.log(result);
 };
 
-format('123d😀😍😚😜😝🤨🤪😱🤬sada[f_123]');
+format('123d😀😍😚😜😝🤨🤪😱🤬sada\n[f_123]');
