@@ -12,3 +12,9 @@ result$.subscribe(
     null,
     () => console.log('complete')
 )
+
+function (e) {
+    console.log(e);
+}
+
+e => console.log(e)
