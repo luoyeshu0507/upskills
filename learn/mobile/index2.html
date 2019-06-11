@@ -9,7 +9,7 @@
       padding: 0;
       margin: 0;
     }
-    .test {
+/*    .test {
       width: 2rem;
       height: 2rem;
       background-color: red;
@@ -18,16 +18,29 @@
       width: 7rem;
       height: 2rem;
       background-color: blue;
+      font-size: 0.32rem;
+    }*/
+    .test {
+      width: 10rem;
+      height: 10rem;
+      background-color: red;
+    }
+    .test2 {
+      width: 37rem;
+      height: 10rem;
+      background-color: blue;
+      font-size: 1.6rem;
     }
   </style>
   <script>
     var scale = 1 / window.devicePixelRatio;
     document.querySelector('meta[name=viewport]').setAttribute('content', 'width=device-width, initial-scale=' + scale + ', minimum-scale=' + scale + ', maximum-scale=' + scale + ', user-scalable=no');
-    document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+    // document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+    document.documentElement.style.fontSize = document.documentElement.clientWidth / 37.5 + 'px';
   </script>
 </head>
 <body>
-  <div class="test"></div>
-  <div class="test2"></div>
+  <div class="test">123</div>
+  <div class="test2">大家啊大家</div>
 </body>
 </html>

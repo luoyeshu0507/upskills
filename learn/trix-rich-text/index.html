@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="./node_modules/trix/dist/trix.css">
+  <script src="./node_modules/trix/dist/trix.js"></script>
+</head>
+<body>
+  <span>hello world</span>
+  <div class="edit">
+    <form>
+      <input id="x" type="hidden" name="content">
+      <trix-editor input="x"></trix-editor>
+    </form>
+  </div>
+  <div>xxx</div>
+  <script>
+    var editor = document.querySelector('trix-editor');
+    editor.addEventListener('trix-attachment-add', function(e) {
+      console.log(1, e);
+    }, false)
+    editor.addEventListener('trix-file-accept', function(e) {
+      console.log(2, e);
+    }, false)
+    console.log(editor.editor);
+  </script>
+</body>
+</html>
