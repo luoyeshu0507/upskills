@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <style>
+    body, html {
+      height: 100%;
+      overflow: auto;
+    }
+    .xx {
+      height: 140%;
+      width: 50%;
+      background: #ddd;
+      overflow: scroll;
+    }
+  </style>
+</head>
+<body>
+  <div class="xx">
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+    1 <br>
+    2 <br>
+  </div>
+  <script>
+    var xx = document.querySelector('.xx');
+    xx.addEventListener('touchmove', function() {
+      console.log('xx');
+    }, {passive: true});
+    document.body.addEventListener('scroll', function(e) {
+      console.log('body');
+      e.preventDefault();
+    },  false);
+  </script>
+</body>
+</html>
