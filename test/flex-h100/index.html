@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .wrap {
+      display: flex;
+      margin: 0 auto;
+      width: 80%;
+      background: yellow;
+      flex-wrap: wrap;
+    }
+    .item {
+      width: 25%;
+      margin-bottom: 10px;
+      background: gray;
+      border: 1px solid red;
+      box-sizing: border-box;
+    }
+    .item:before {
+      content: '';
+      display: block;
+      padding-top: 100%;
+    }
+    .inner {
+      margin-top: -100%;
+      height: 100%;
+      background: blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="item">
+      <div class="inner"></div>
+    </div>
+    <div class="item">
+      <div class="inner"></div>
+    </div>
+    <div class="item">
+      <div class="inner"></div>
+    </div>
+    <div class="item">
+      <div class="inner"></div>
+    </div>
+    <div class="item">
+      <div class="inner"></div>
+    </div>
+    <div class="item">
+      <div class="inner"></div>
+    </div>
+    <div class="item">
+      <div class="inner"></div>
+    </div>
+    <div class="item">
+      <div class="inner"></div>
+    </div>
+    <div class="item">
+      <div class="inner"></div>
+    </div>
+    <div class="item">
+      <div class="inner"></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+var html = `<a href='http://www.baidu.com' target="_blank" class="faqlib-result-hyperLink"> aaa </a> http://www.baidu.com  <a hre f=' target="_blank" class="faqlib-result-hyperLink">http://www.baidu.com' </a>你好的，https://oaadmin.qidian.qq.com/mng/account/index?jump=8'`;
+var match = html.replace(/(https?:\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?)(?![^<]*<\/a>)/ig, '<a href="$1">$1</a>')
+console.log(match);
