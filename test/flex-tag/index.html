@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .wrap {
+      display: flex;
+      margin-bottom: 20px;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+    .wrap div {
+      line-height: 24px;
+      height: 24px;
+      overflow: hidden;
+      margin-right: 10px;
+      flex: 0 1 auto;
+      text-align: center;
+      max-width: 100px;
+    }
+    .wrap div:first-child {
+      background-color: gray;
+      flex: 1 1 auto;
+      text-align: left;
+      max-width: 100%;
+    }
+    .wrap div:nth-child(2) {
+      background-color: yellow;
+    }
+    .wrap div:nth-child(3) {
+      background-color: blue;
+    }
+    .wrap div:nth-child(4) {
+      background-color: green;
+    }
+    .wrap div:last-child {
+      margin-right: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div>到哪家好的哈开大</div>
+  </div>
+  <div class="wrap">
+    <div>纷纷实发额丰富色</div>
+    <div>肺癌凤飞飞玩</div>
+  </div>
+  <div class="wrap">
+    <div>非法法尔范FS</div>
+    <div>FES防守打法是</div>
+    <div>范德萨发发顺丰如上坟撒</div>
+  </div>
+  <div class="wrap">
+    <div>非法法尔范FS非法法尔范FS非法法尔范FS非法法尔范FS非法法尔范FS非法法尔范FS</div>
+    <div>FES防守打法是</div>
+    <div>范德萨发发顺丰如上坟撒</div>
+    <div>范德萨发发顺丰如上坟撒</div>
+  </div>
+</body>
+</html>

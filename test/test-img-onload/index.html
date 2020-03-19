@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    img {
+      /*max-width: 100px;
+      max-height: 100px;*/
+    }
+  </style>
+</head>
+<body>
+  <img src="./a.png" alt="" id="aaa">
+  <script>
+    var img = document.getElementById('aaa');
+    aaa.onload = function(e) {
+      console.log(e);
+      var img = e.target;
+      if (img.width > 100) {
+        img.width = 100;
+      }
+    }
+  </script>
+</body>
+</html>

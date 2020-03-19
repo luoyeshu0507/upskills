@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .test {
+      width: 200px;
+      height: 200px;
+      background: gray;
+    }
+    .inner {
+      width: 100px;
+      height: 100px;
+      background: yellow;
+    }
+  </style>
+</head>
+<body>
+  <div class="test">
+    <div class="inner"></div>
+  </div>
+  <script>
+    var wrap = document.querySelector('.test');
+    var inner = document.querySelector('.inner');
+    wrap.addEventListener('mouseenter', function() {console.log('wrap mouseenter')}, false);
+    wrap.addEventListener('mouseover', function() {console.log('wrap mouseover')}, false);
+    wrap.addEventListener('mouseleave', function() {console.log('wrap mouseleave')}, false);
+    wrap.addEventListener('mouseout', function() {console.log('wrap mouseout')}, false);
+    inner.addEventListener('mouseenter', function() {console.log('inner mouseenter')}, false);
+    inner.addEventListener('mouseover', function() {console.log('inner mouseover')}, false);
+    inner.addEventListener('mouseleave', function() {console.log('inner mouseleave')}, false);
+    inner.addEventListener('mouseout', function() {console.log('inner mouseout')}, false);
+  </script>
+</body>
+</html>
