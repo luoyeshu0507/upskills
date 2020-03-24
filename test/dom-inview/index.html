@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .wrap {
+      width: 10000px;
+      height: 20000px;
+    }
+    .inner {
+      width: 200px;
+      height: 100px;
+      background: gray;
+      position: absolute;
+      top: 1500px;
+      left: 3000px;
+    }
+    .body, html {
+      overflow: auto;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="inner"></div>
+  </div>
+  <script>
+    var wrap = document.querySelector('.wrap');
+    var inner = document.querySelector('.inner');
+    var body = document.body;
+    function calcIsInView (el, gap){
+      var rect = el && el.getBoundingClientRect && el.getBoundingClientRect();
+      if (!rect) return false;
+      var winHeight = window.innerHeight;
+      var winWidth = window.innerWidth;
+      gap = gap || 0;
+      // 上边界或下边界在视线范围 && 左边界或右边界在视线范围 
+      return ((rect.top >= - gap && rect.top <= winHeight + gap) ||
+        (rect.bottom >= - gap && rect.bottom <= winHeight + gap)) && 
+        ((rect.left >= - gap && rect.left <= winWidth + gap) ||
+        (rect.right >= - gap && rect.right <= winWidth + gap));
+    }
+    function load() {
+      console.log('load');
+      console.log(calcIsInView(inner, -100));
+    }
+    var change = throttle(load, 100);
+    window.onscroll = change;
+    window.onresize = change;
+
+    function throttle(method, delay){
+        let timer = null
+        return function(){
+            let args = arguments;
+            clearTimeout(timer);
+            timer = setTimeout(function(){
+                method.apply(this.args);
+            },delay)
+        }
+    }
+  </script>
+</body>
+</html>
