@@ -1,0 +1,481 @@
+let data = {
+    "Nodes":[
+        {
+            "doc_id":"wb|4478109036466543",
+            "doc_like_num":39266,
+            "doc_influence":42811,
+            "author_id":"6279793937",
+            "author_name":"明日方舟Arknights",
+            "repost_num":1914,
+            "reply_num":1631,
+            "is_source":true,
+            "category_id":22,
+            "color":2,
+            "author_fans_num":965187,
+        },
+        {
+            "doc_id":"wb|4481694809456712",
+            "doc_like_num":1468,
+            "doc_influence":1877,
+            "author_id":"2667790915",
+            "author_name":"Haguruma-C齿车",
+            "repost_num":379,
+            "reply_num":30,
+            "is_source":false,
+            "category_id":22,
+            "color":2,
+            "author_fans_num":7482,
+        },
+        {
+            "doc_id":"wb|4480945761906585",
+            "doc_like_num":1317,
+            "doc_influence":1856,
+            "author_id":"6691973436",
+            "author_name":"明日方舟Arknice",
+            "repost_num":478,
+            "reply_num":61,
+            "is_source":false,
+            "category_id":22,
+            "color":2,
+            "author_fans_num":10968,
+        },
+        {
+            "doc_id":"wb|4481082395457719",
+            "doc_like_num":1120,
+            "doc_influence":1564,
+            "author_id":"3226786671",
+            "author_name":"颓废红",
+            "repost_num":358,
+            "reply_num":86,
+            "is_source":false,
+            "category_id":22,
+            "color":2,
+            "author_fans_num":7046,
+        },
+        {
+            "doc_id":"wb|4481390521818957",
+            "doc_like_num":1067,
+            "doc_influence":1546,
+            "author_id":"1626355111",
+            "author_name":"烤肉君KoRu",
+            "repost_num":429,
+            "reply_num":50,
+            "is_source":false,
+            "category_id":22,
+            "color":2,
+            "author_fans_num":18276,
+        },
+        {
+            "doc_id":"wb|4481402684863820",
+            "doc_like_num":683,
+            "doc_influence":884,
+            "author_id":"5608723806",
+            "author_name":"隐雷雷雷雷",
+            "repost_num":172,
+            "reply_num":29,
+            "is_source":false,
+            "category_id":22,
+            "color":2,
+            "author_fans_num":3591,
+        },
+        {
+            "doc_id":"wb|4481485899472313",
+            "doc_like_num":612,
+            "doc_influence":837,
+            "author_id":"5492833614",
+            "author_name":"valiant飒爽",
+            "repost_num":197,
+            "reply_num":28,
+            "is_source":false,
+            "category_id":22,
+            "color":2,
+            "author_fans_num":2318,
+        },
+        {
+            "doc_id":"wb|4480949381273043",
+            "doc_like_num":557,
+            "doc_influence":1077,
+            "author_id":"5090445475",
+            "author_name":"Mooi_Nanase",
+            "repost_num":421,
+            "reply_num":99,
+            "is_source":false,
+            "category_id":22,
+            "color":1,
+            "author_fans_num":16045,
+        },
+        {
+            "doc_id":"wb|4481580921820214",
+            "doc_like_num":551,
+            "doc_influence":717,
+            "author_id":"1949600584",
+            "author_name":"SquatDEF蹲防",
+            "repost_num":111,
+            "reply_num":55,
+            "is_source":false,
+            "category_id":22,
+            "color":1,
+            "author_fans_num":363,
+        },
+        {
+            "doc_id":"wb|4481607022574882",
+            "doc_like_num":547,
+            "doc_influence":633,
+            "author_id":"6438233314",
+            "author_name":"曦梦lxp",
+            "repost_num":2,
+            "reply_num":84,
+            "is_source":false,
+            "category_id":22,
+            "color":1,
+            "author_fans_num":61,
+        },
+        {
+            "doc_id":"wb|4481283046172172",
+            "doc_like_num":475,
+            "doc_influence":671,
+            "author_id":"2695142267",
+            "author_name":"疾北",
+            "repost_num":163,
+            "reply_num":33,
+            "is_source":false,
+            "category_id":22,
+            "color":1,
+            "author_fans_num":277,
+        },
+        {
+            "doc_id":"wb|4481348737985084",
+            "doc_like_num":408,
+            "doc_influence":477,
+            "author_id":"5073071275",
+            "author_name":"三番常乐-blackpanda",
+            "repost_num":19,
+            "reply_num":50,
+            "is_source":false,
+            "category_id":22,
+            "color":1,
+            "author_fans_num":4186,
+        },
+        {
+            "doc_id":"wb|4481702644455995",
+            "doc_like_num":391,
+            "doc_influence":402,
+            "author_id":"1347462091",
+            "author_name":"凌宇沫",
+            "repost_num":5,
+            "reply_num":6,
+            "is_source":false,
+            "category_id":22,
+            "color":1,
+            "author_fans_num":1148408,
+        },
+        {
+            "doc_id":"wb|4481482360267262",
+            "doc_like_num":341,
+            "doc_influence":459,
+            "author_id":"2695749753",
+            "author_name":"番小哒-PCJ",
+            "repost_num":90,
+            "reply_num":28,
+            "is_source":false,
+            "category_id":22,
+            "color":1,
+            "author_fans_num":452,
+        },
+        {
+            "doc_id":"wb|4481372934198406",
+            "doc_like_num":294,
+            "doc_influence":451,
+            "author_id":"3178422242",
+            "author_name":"柚梨菜果",
+            "repost_num":146,
+            "reply_num":11,
+            "is_source":false,
+            "category_id":22,
+            "color":1,
+            "author_fans_num":444,
+        },
+        {
+            "doc_id":"wb|4481264847826796",
+            "doc_like_num":258,
+            "doc_influence":328,
+            "author_id":"1934263807",
+            "author_name":"kiHaru__",
+            "repost_num":47,
+            "reply_num":23,
+            "is_source":false,
+            "category_id":22,
+            "color":1,
+            "author_fans_num":31766,
+        },
+        {
+            "doc_id":"wb|4481616837685235",
+            "doc_like_num":202,
+            "doc_influence":230,
+            "author_id":"2212092715",
+            "author_name":"飞飞飞君",
+            "repost_num":14,
+            "reply_num":14,
+            "is_source":false,
+            "category_id":22,
+            "color":1,
+            "author_fans_num":3351,
+        },
+        {
+            "doc_id":"wb|4481776573227153",
+            "doc_like_num":175,
+            "doc_influence":580,
+            "author_id":"7274755375",
+            "author_name":"明日方舟阿米娅主页",
+            "repost_num":352,
+            "reply_num":53,
+            "is_source":false,
+            "category_id":22,
+            "color":1,
+            "author_fans_num":3267,
+        },
+        {
+            "doc_id":"wb|4481590715153453",
+            "doc_like_num":146,
+            "doc_influence":203,
+            "author_id":"5695833168",
+            "author_name":"-壹之惑-",
+            "repost_num":0,
+            "reply_num":57,
+            "is_source":false,
+            "category_id":22,
+            "color":1,
+            "author_fans_num":39,
+        },
+        {
+            "doc_id":"wb|4481260418089237",
+            "doc_like_num":144,
+            "doc_influence":236,
+            "author_id":"1859188690",
+            "author_name":"洛子roko_",
+            "repost_num":81,
+            "reply_num":11,
+            "is_source":false,
+            "category_id":22,
+            "color":0,
+            "author_fans_num":13777,
+        },
+        {
+            "doc_id":"wb|4481332086781929",
+            "doc_like_num":142,
+            "doc_influence":155,
+            "author_id":"5710872435",
+            "author_name":"林氏十七叔",
+            "repost_num":10,
+            "reply_num":3,
+            "is_source":false,
+            "category_id":22,
+            "color":0,
+            "author_fans_num":850,
+        },
+        {
+            "doc_id":"wb|4481002862298801",
+            "doc_like_num":133,
+            "doc_influence":229,
+            "author_id":"6386113177",
+            "author_name":"情报姬_",
+            "repost_num":82,
+            "reply_num":14,
+            "is_source":false,
+            "category_id":22,
+            "color":0,
+            "author_fans_num":106403,
+        },
+        {
+            "doc_id":"wb|4481391569459134",
+            "doc_like_num":124,
+            "doc_influence":309,
+            "author_id":"5975929965",
+            "author_name":"_楚樱",
+            "repost_num":0,
+            "reply_num":185,
+            "is_source":false,
+            "category_id":22,
+            "color":0,
+            "author_fans_num":91,
+        },
+        {
+            "doc_id":"wb|4481720923249181",
+            "doc_like_num":112,
+            "doc_influence":126,
+            "author_id":"6092127488",
+            "author_name":"米拉厨",
+            "repost_num":14,
+            "reply_num":0,
+            "is_source":false,
+            "category_id":22,
+            "color":0,
+            "author_fans_num":140040,
+        },
+        {
+            "doc_id":"wb|4481335080872181",
+            "doc_like_num":104,
+            "doc_influence":154,
+            "author_id":"1116869172",
+            "author_name":"撞日而死",
+            "repost_num":1,
+            "reply_num":49,
+            "is_source":false,
+            "category_id":22,
+            "color":0,
+            "author_fans_num":63,
+        }
+    ],
+    "Lines":[
+        {
+            "source":"wb|4478109036466543",
+            "destination":"wb|4481616837685235"
+        },
+        {
+            "source":"wb|4478109036466543",
+            "destination":"wb|4481485899472313"
+        },
+        {
+            "source":"wb|4478109036466543",
+            "destination":"wb|4481607022574882"
+        },
+        {
+            "source":"wb|4478109036466543",
+            "destination":"wb|4481391569459134"
+        },
+        {
+            "source":"wb|4478109036466543",
+            "destination":"wb|4481260418089237"
+        },
+        {
+            "source":"wb|4478109036466543",
+            "destination":"wb|4481348737985084"
+        },
+        {
+            "source":"wb|4481616837685235",
+            "destination":"wb|4481580921820214"
+        },
+        {
+            "source":"wb|4481348737985084",
+            "destination":"wb|4481264847826796"
+        },
+        {
+            "source":"wb|4481391569459134",
+            "destination":"wb|4481482360267262"
+        },
+        {
+            "source":"wb|4481391569459134",
+            "destination":"wb|4481694809456712"
+        },
+        {
+            "source":"wb|4481616837685235",
+            "destination":"wb|4481702644455995"
+        },
+        {
+            "source":"wb|4481391569459134",
+            "destination":"wb|4481776573227153"
+        },
+        {
+            "source":"wb|4481260418089237",
+            "destination":"wb|4481720923249181"
+        },
+        {
+            "source":"wb|4481485899472313",
+            "destination":"wb|4481402684863820"
+        },
+        {
+            "source":"wb|4481348737985084",
+            "destination":"wb|4481335080872181"
+        },
+        {
+            "source":"wb|4481485899472313",
+            "destination":"wb|4481283046172172"
+        },
+        {
+            "source":"wb|4481485899472313",
+            "destination":"wb|4481590715153453"
+        },
+        {
+            "source":"wb|4481260418089237",
+            "destination":"wb|4481332086781929"
+        },
+        {
+            "source":"wb|4481482360267262",
+            "destination":"wb|4480945761906585"
+        },
+        {
+            "source":"wb|4481702644455995",
+            "destination":"wb|4481082395457719"
+        },
+        {
+            "source":"wb|4481485899472313",
+            "destination":"wb|4481002862298801"
+        },
+        {
+            "source":"wb|4481580921820214",
+            "destination":"wb|4481372934198406"
+        },
+        {
+            "source":"wb|4481283046172172",
+            "destination":"wb|4480949381273043"
+        },
+        {
+            "source":"wb|4481283046172172",
+            "destination":"wb|4481390521818957"
+        }
+    ]
+}
+
+function calcRelativePosition(start, angle, length) {
+  let [x, y] = start;
+  angle = angle * Math.PI / 180;
+  return [
+    parseFloat((Math.cos(angle) * length + x).toFixed(3)),
+    parseFloat((Math.sin(angle) * length + y).toFixed(3)),
+  ]
+}
+
+function calcAngle(node, angleRange, parentAngle, maxAngleStep, distance) {
+    let children= node.children || [];
+    let count = children.length;
+    if (!count) return;
+    let angleStep = 0;
+    if (angleRange === 360) count = count + 1;
+    if (count > 1) 
+    angleStep = angleRange / (count - 1);
+    if (angleStep > maxAngleStep) angleStep = maxAngleStep;
+    let startAngle = 0;
+    if (parentAngle !== null) {
+        startAngle =  parentAngle + (angleStep * (count - 1)) / 2;
+    }
+    children.forEach((cnode, i) => {
+        cnode.position = calcRelativePosition(node.position, startAngle + i * angleStep, distance);
+        calcAngle(cnode, 120, startAngle + i * angleStep, 30, distance);
+    });
+}
+
+function calcNodesPosition(data) {
+    let {Nodes, Lines} = data;
+    let nodeMap = {};
+    Nodes.forEach(node => nodeMap[node.doc_id] = node);
+    Lines.forEach(line => {
+        let source = nodeMap[line.source];
+        let destination = nodeMap[line.destination];
+        if (source && destination) {
+            if (source.children) {
+                source.children.push(destination);
+            } else {
+                source.children = [destination];
+            }
+            destination.pid = source.doc_id;
+        }
+    });
+    let result = Object.values(nodeMap).find(node => !node.pid);
+    result.position = [0, 0];
+    calcAngle(result, 360, null, 180, 10);
+    console.log(result);
+}
+
+calcNodesPosition(data);
+
+
