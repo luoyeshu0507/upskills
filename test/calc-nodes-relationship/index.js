@@ -449,8 +449,8 @@ function calcAngle(node, angleRange, parentAngle, maxAngleStep, distance) {
         startAngle =  parentAngle + (angleStep * (count - 1)) / 2;
     }
     children.forEach((cnode, i) => {
-        cnode.position = calcRelativePosition(node.position, startAngle + i * angleStep, distance);
-        calcAngle(cnode, 120, startAngle + i * angleStep, 30, distance);
+        cnode.position = calcRelativePosition(node.position, startAngle - i * angleStep, distance);
+        calcAngle(cnode, 120, startAngle - i * angleStep, 30, distance);
     });
 }
 
@@ -470,9 +470,15 @@ function calcNodesPosition(data) {
             destination.pid = source.doc_id;
         }
     });
-    let result = Object.values(nodeMap).find(node => !node.pid);
-    result.position = [0, 0];
-    calcAngle(result, 360, null, 180, 10);
+    let result = Object.values(nodeMap).filter(node => !node.pid);
+    result.forEach((pnode, i, list) => {
+        if (i === 0) {
+            pnode.position = [0, 0];
+        } else {
+            pnode.position = calcRelativePosition([0, 0], 360 / (list.length - 1) * (n - 1), 30)
+        }
+        calcAngle(result, 360, null, 180, 10);
+    });
     console.log(result);
 }
 
