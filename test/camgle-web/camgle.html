@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body, html {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+    .wrap {
+      height: 2000px;
+      margin-right: -170px;
+    }
+    .page {
+      height: 100%;
+      width: 100%;
+      transform: translate(-170px, -822px);
+      margin-right: -170px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <iframe class="page" src="http://bbs.camgle.com/forum.php?mod=forumdisplay&fid=10&filter=author&orderby=dateline" frameborder="0"></iframe>
+  </div>
+  <script>
+    var page = document.querySelector('.page');
+    setInterval(function() {
+      page.src = 'http://bbs.camgle.com/forum.php?mod=forumdisplay&fid=10&filter=author&orderby=dateline&time=' + new Date();
+    }, 20000);
+  </script>
+</body>
+</html>
