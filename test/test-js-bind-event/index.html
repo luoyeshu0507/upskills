@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // function a() {
+    //   console.log(Math.random());
+    // }
+    // document.documentElement.addEventListener('click', a, false);
+    // document.documentElement.addEventListener('click', a.bind(1), false);
+    // document.documentElement.addEventListener('click', a.bind(2), false);
+    // a();
+
+    function resize() {
+      console.log("customresize", Math.random());
+    }
+
+    function f(callback, delay) {
+      let timeout = null;
+
+      return function () {
+        console.log(this);
+        timeout && clearTimeout(timeout);
+        timeout = setTimeout(callback, delay);
+      };
+    }
+    const fresize = f(resize, 500);
+    const a = { name: "a" },
+      b = { name: "b" },
+      c = { name: "c" };
+    const aresize = fresize.bind(a),
+      bresize = fresize.bind(b),
+      cresize = fresize.bind(c);
+    window.addEventListener("click", aresize);
+    window.addEventListener("click", bresize);
+    window.addEventListener("click", cresize);
+  </script>
+</body>
+</html>
+
+
+
+<script>
+  var t = null;
+
+  function () {
+    console.log(this);
+    timeout && clearTimeout(timeout);
+    timeout = setTimeout(callback, delay);
+  };
+  set t
+  clear t 
+  set t
+  
+  
+</script>
+
+
+
+
+
+
