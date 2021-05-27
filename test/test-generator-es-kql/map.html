@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>网址导航</title>
+  <style>
+    .wrap {
+      width: 80%;
+      margin: 24px auto;
+    }
+    .title {
+      font-weight: bold;
+      line-height: 36px;
+      color: #333;
+      font-size: 16px;
+    }
+    a {
+      display: inline-block;
+      min-width: 180px;
+      line-height: 36px;
+      color: #0FB7F5;
+      text-decoration: none;
+      font-size: 14px;
+      margin-right: 24px;
+    }
+    a:visited {
+      color: #0FB7F5;
+    }
+    span {
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="title">管理后台</div>
+    <a target="_blank" href="https://www.fsight.ai/admin">风讯后台（测试）</a>
+    <a target="_blank" href="http://fsight.wepub.ied.com/admin/system-config/project">风讯后台（预发布）</a>
+    <a target="_blank" href="http://fsight.wetest.ied.com/admin/system-config/project">风讯后台（正式）</a>
+    <br />
+    <a target="_blank" href="https://wetest.qq.com/admin">wetest 后台（测试）</a>
+    <a target="_blank" href="http://wepub.ied.com/">wetest 后台（预发布）</a>
+    <a target="_blank" href="http://wetest.ied.com/">wetest 后台（正式）</a>
+  </div>
+  <div class="wrap">
+    <div class="title">日志</div>
+    <a target="_blank" href="https://wetest.qq.com/kibana/app/kibana#/home?_g=()">wetest kibana（测试）</a>
+    <a target="_blank" href="http://wepub.ied.com/">wetest kibana（预发布）(点击日志系统)</a>
+    <a target="_blank" href="http://wetest.ied.com/">wetest kibana（正式）(点击日志系统)</a>
+    <br />
+    <a target="_blank" href="http://luoyeshu.oa.com/">风讯 pv uv</a>
+  </div>
+  <div class="wrap">
+    <div class="title">日志查询语句生成</div>
+    <input id="req" style="width: 300px;" type="text" placeholder="请输入'复制群成员账号'的结果">
+    <input class="btn" type="button" value="生成es查询语句">
+    <br />
+    <div class="res" style="padding: 20px 0;line-height: 36px;"></div>
+    <script>
+      var req = document.querySelector('#req');
+      var btn = document.querySelector('.btn');
+      var res = document.querySelector('.res');
+      btn.onclick = function() {
+        var val = req.value || '';
+        var str = 'userName.keyword : ' + val.replace(/[^a-zA-Z;_]/g, '').replace(/;$/, '').split(';').join(' or userName.keyword : ');
+        res.innerHTML = '<strong>包含该成员的查询语句：</strong>' + str + '<br />' + '<strong>排除该成员的查询语句：</strong>not (' + str + ')';
+      }
+    </script>
+  </div>
+  <div class="wrap">
+    <br />
+    <br />
+    <span>添加新网址请联系 luoyeshuli(李志玮)</span>
+  </div>
+</body>
+</html>
