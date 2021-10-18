@@ -1,3 +1,5 @@
+const md5 = require('blueimp-md5');
+
 /**
  * get type of variable
  * @param  {Any} val variable to get type
@@ -5,6 +7,37 @@
  */
 function _getType(val) {
   return Object.prototype.toString.call(val).toLowerCase().replace(/^\[object\s|\]$/g, '');
+}
+
+/**
+ * parse object key values to array of key=value
+ * @param  {[type]} obj [description]
+ * @return {[type]}     [description]
+ */
+function _parseObject2array(obj) {
+  let res = [];
+  Object.keys(obj)
+    .sort()
+    .filter((key) => obj[key] !== undefined)
+    .forEach((key) => {
+      switch(_getType(obj[key])) {
+        case 'string':
+        case 'null':
+        case 'number':
+        case 'boolean':
+          res.push(`${key}=${obj[key]}`);
+          break;
+        case 'undefined':
+          res.push(`${key}=`);
+          break;
+        case 'object':
+          res = res.concat(_parseObject2array(obj[key]));
+          break;
+        default:
+          res.push(`${key}=${obj[key]}`);
+      }
+    });
+  return res;
 }
 
 /**
@@ -35,10 +68,9 @@ function sign(method = 'get', path = '', params = {}, body = {}, salt = '') {
   method = method.toLowerCase();
   path = path.replace(/^\/|\/$/g, '');
   let arr = [method, path];
-  Object.keys(params)
-    .sort()
-    .filter((key) => params[key] !== undefined)
-    .forEach((key) => arr.push(`${key}=${params[key]}`));
-
+  arr = arr.concat(_parseObject2array(params), _parseObject2array(body));
   arr.push(salt);
+  return md5(arr.join('&'));
 }
+
+module.exports = sign;

@@ -1,0 +1,1 @@
+const axiosMiddleware = require('../axios-middleware')('123');
