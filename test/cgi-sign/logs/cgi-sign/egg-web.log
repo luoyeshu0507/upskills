@@ -1,0 +1,407 @@
+2021-10-19 11:07:56,008 INFO 91317 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 11:07:56,024 INFO 91317 [egg-multipart] stream mode enable
+2021-10-19 11:07:56,066 INFO 91317 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 11:07:56,067 INFO 91317 [egg-security] use csrf middleware
+2021-10-19 11:07:56,068 INFO 91317 [egg-security] use methodnoallow middleware
+2021-10-19 11:07:56,068 INFO 91317 [egg-security] use noopen middleware
+2021-10-19 11:07:56,068 INFO 91317 [egg-security] use nosniff middleware
+2021-10-19 11:07:56,068 INFO 91317 [egg-security] use xssProtection middleware
+2021-10-19 11:07:56,068 INFO 91317 [egg-security] use xframe middleware
+2021-10-19 11:07:56,069 INFO 91317 [egg-security] use dta middleware
+2021-10-19 11:07:56,069 INFO 91317 [egg-security] compose 7 middlewares into one security middleware
+2021-10-19 11:07:56,074 INFO 91317 [egg:core] dump config after load, 3ms
+2021-10-19 11:07:56,084 INFO 91317 [egg-watcher:application] watcher start success
+2021-10-19 11:07:56,088 INFO 91317 [egg:core] dump config after ready, 2ms
+2021-10-19 14:35:58,232 INFO 99505 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 14:35:58,249 INFO 99505 [egg-multipart] stream mode enable
+2021-10-19 14:35:58,313 INFO 99505 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 14:35:58,314 INFO 99505 [egg-security] use csrf middleware
+2021-10-19 14:35:58,315 INFO 99505 [egg-security] use methodnoallow middleware
+2021-10-19 14:35:58,316 INFO 99505 [egg-security] use noopen middleware
+2021-10-19 14:35:58,316 INFO 99505 [egg-security] use nosniff middleware
+2021-10-19 14:35:58,317 INFO 99505 [egg-security] use xssProtection middleware
+2021-10-19 14:35:58,317 INFO 99505 [egg-security] use xframe middleware
+2021-10-19 14:35:58,318 INFO 99505 [egg-security] use dta middleware
+2021-10-19 14:35:58,318 INFO 99505 [egg-security] compose 7 middlewares into one security middleware
+2021-10-19 14:35:58,324 INFO 99505 [egg:core] dump config after load, 3ms
+2021-10-19 14:35:58,333 INFO 99505 [egg-watcher:application] watcher start success
+2021-10-19 14:35:58,338 INFO 99505 [egg:core] dump config after ready, 4ms
+2021-10-19 14:38:03,810 INFO 99697 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 14:38:03,827 INFO 99697 [egg-multipart] stream mode enable
+2021-10-19 14:38:03,890 INFO 99697 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 14:38:03,892 INFO 99697 [egg-security] use csrf middleware
+2021-10-19 14:38:03,893 INFO 99697 [egg-security] use methodnoallow middleware
+2021-10-19 14:38:03,893 INFO 99697 [egg-security] use noopen middleware
+2021-10-19 14:38:03,894 INFO 99697 [egg-security] use nosniff middleware
+2021-10-19 14:38:03,894 INFO 99697 [egg-security] use xssProtection middleware
+2021-10-19 14:38:03,895 INFO 99697 [egg-security] use xframe middleware
+2021-10-19 14:38:03,896 INFO 99697 [egg-security] use dta middleware
+2021-10-19 14:38:03,896 INFO 99697 [egg-security] compose 7 middlewares into one security middleware
+2021-10-19 14:38:03,902 INFO 99697 [egg:core] dump config after load, 4ms
+2021-10-19 14:38:03,910 INFO 99697 [egg-watcher:application] watcher start success
+2021-10-19 14:38:03,917 INFO 99697 [egg:core] dump config after ready, 6ms
+2021-10-19 14:39:04,445 INFO 99787 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 14:39:04,462 INFO 99787 [egg-multipart] stream mode enable
+2021-10-19 14:39:04,497 INFO 99787 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 14:39:04,499 INFO 99787 [egg-security] use csrf middleware
+2021-10-19 14:39:04,499 INFO 99787 [egg-security] use methodnoallow middleware
+2021-10-19 14:39:04,499 INFO 99787 [egg-security] use noopen middleware
+2021-10-19 14:39:04,499 INFO 99787 [egg-security] use nosniff middleware
+2021-10-19 14:39:04,500 INFO 99787 [egg-security] use xssProtection middleware
+2021-10-19 14:39:04,500 INFO 99787 [egg-security] use xframe middleware
+2021-10-19 14:39:04,500 INFO 99787 [egg-security] use dta middleware
+2021-10-19 14:39:04,500 INFO 99787 [egg-security] compose 7 middlewares into one security middleware
+2021-10-19 14:39:04,505 INFO 99787 [egg:core] dump config after load, 3ms
+2021-10-19 14:39:04,513 INFO 99787 [egg-watcher:application] watcher start success
+2021-10-19 14:39:04,518 INFO 99787 [egg:core] dump config after ready, 4ms
+2021-10-19 14:41:50,617 INFO 149 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 14:41:50,639 INFO 149 [egg-multipart] stream mode enable
+2021-10-19 14:41:50,708 INFO 149 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 14:41:50,710 INFO 149 [egg-security] use methodnoallow middleware
+2021-10-19 14:41:50,711 INFO 149 [egg-security] use noopen middleware
+2021-10-19 14:41:50,712 INFO 149 [egg-security] use nosniff middleware
+2021-10-19 14:41:50,712 INFO 149 [egg-security] use xssProtection middleware
+2021-10-19 14:41:50,713 INFO 149 [egg-security] use xframe middleware
+2021-10-19 14:41:50,713 INFO 149 [egg-security] use dta middleware
+2021-10-19 14:41:50,713 INFO 149 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 14:41:50,721 INFO 149 [egg:core] dump config after load, 4ms
+2021-10-19 14:41:50,729 INFO 149 [egg-watcher:application] watcher start success
+2021-10-19 14:41:50,733 INFO 149 [egg:core] dump config after ready, 3ms
+2021-10-19 14:41:58,929 INFO 219 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 14:41:58,946 INFO 219 [egg-multipart] stream mode enable
+2021-10-19 14:41:58,981 INFO 219 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 14:41:58,982 INFO 219 [egg-security] use methodnoallow middleware
+2021-10-19 14:41:58,982 INFO 219 [egg-security] use noopen middleware
+2021-10-19 14:41:58,983 INFO 219 [egg-security] use nosniff middleware
+2021-10-19 14:41:58,983 INFO 219 [egg-security] use xssProtection middleware
+2021-10-19 14:41:58,983 INFO 219 [egg-security] use xframe middleware
+2021-10-19 14:41:58,983 INFO 219 [egg-security] use dta middleware
+2021-10-19 14:41:58,983 INFO 219 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 14:41:58,989 INFO 219 [egg:core] dump config after load, 2ms
+2021-10-19 14:41:58,997 INFO 219 [egg-watcher:application] watcher start success
+2021-10-19 14:41:59,003 INFO 219 [egg:core] dump config after ready, 5ms
+2021-10-19 14:45:24,161 INFO 525 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 14:45:24,177 INFO 525 [egg-multipart] stream mode enable
+2021-10-19 14:45:24,214 INFO 525 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 14:45:24,215 INFO 525 [egg-security] use methodnoallow middleware
+2021-10-19 14:45:24,215 INFO 525 [egg-security] use noopen middleware
+2021-10-19 14:45:24,216 INFO 525 [egg-security] use nosniff middleware
+2021-10-19 14:45:24,216 INFO 525 [egg-security] use xssProtection middleware
+2021-10-19 14:45:24,216 INFO 525 [egg-security] use xframe middleware
+2021-10-19 14:45:24,216 INFO 525 [egg-security] use dta middleware
+2021-10-19 14:45:24,216 INFO 525 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 14:45:24,222 INFO 525 [egg:core] dump config after load, 3ms
+2021-10-19 14:45:24,230 INFO 525 [egg-watcher:application] watcher start success
+2021-10-19 14:45:24,236 INFO 525 [egg:core] dump config after ready, 4ms
+2021-10-19 14:46:16,829 INFO 576 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 14:46:16,846 INFO 576 [egg-multipart] stream mode enable
+2021-10-19 14:46:16,880 INFO 576 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 14:46:16,881 INFO 576 [egg-security] use methodnoallow middleware
+2021-10-19 14:46:16,882 INFO 576 [egg-security] use noopen middleware
+2021-10-19 14:46:16,882 INFO 576 [egg-security] use nosniff middleware
+2021-10-19 14:46:16,882 INFO 576 [egg-security] use xssProtection middleware
+2021-10-19 14:46:16,882 INFO 576 [egg-security] use xframe middleware
+2021-10-19 14:46:16,883 INFO 576 [egg-security] use dta middleware
+2021-10-19 14:46:16,883 INFO 576 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 14:46:16,888 INFO 576 [egg:core] dump config after load, 3ms
+2021-10-19 14:46:16,896 INFO 576 [egg-watcher:application] watcher start success
+2021-10-19 14:46:16,902 INFO 576 [egg:core] dump config after ready, 4ms
+2021-10-19 14:51:03,289 INFO 988 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 14:51:03,305 INFO 988 [egg-multipart] stream mode enable
+2021-10-19 14:51:03,339 INFO 988 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 14:51:03,341 INFO 988 [egg-security] use methodnoallow middleware
+2021-10-19 14:51:03,341 INFO 988 [egg-security] use noopen middleware
+2021-10-19 14:51:03,341 INFO 988 [egg-security] use nosniff middleware
+2021-10-19 14:51:03,341 INFO 988 [egg-security] use xssProtection middleware
+2021-10-19 14:51:03,341 INFO 988 [egg-security] use xframe middleware
+2021-10-19 14:51:03,342 INFO 988 [egg-security] use dta middleware
+2021-10-19 14:51:03,342 INFO 988 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 14:51:03,347 INFO 988 [egg:core] dump config after load, 3ms
+2021-10-19 14:51:03,356 INFO 988 [egg-watcher:application] watcher start success
+2021-10-19 14:51:03,362 INFO 988 [egg:core] dump config after ready, 5ms
+2021-10-19 14:53:05,805 INFO 1116 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 14:53:05,821 INFO 1116 [egg-multipart] stream mode enable
+2021-10-19 14:53:05,884 INFO 1116 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 14:53:05,885 INFO 1116 [egg-security] use methodnoallow middleware
+2021-10-19 14:53:05,886 INFO 1116 [egg-security] use noopen middleware
+2021-10-19 14:53:05,887 INFO 1116 [egg-security] use nosniff middleware
+2021-10-19 14:53:05,887 INFO 1116 [egg-security] use xssProtection middleware
+2021-10-19 14:53:05,888 INFO 1116 [egg-security] use xframe middleware
+2021-10-19 14:53:05,888 INFO 1116 [egg-security] use dta middleware
+2021-10-19 14:53:05,888 INFO 1116 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 14:53:05,894 INFO 1116 [egg:core] dump config after load, 3ms
+2021-10-19 14:53:05,903 INFO 1116 [egg-watcher:application] watcher start success
+2021-10-19 14:53:05,908 INFO 1116 [egg:core] dump config after ready, 4ms
+2021-10-19 14:54:07,489 INFO 1181 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 14:54:07,506 INFO 1181 [egg-multipart] stream mode enable
+2021-10-19 14:54:07,567 INFO 1181 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 14:54:07,569 INFO 1181 [egg-security] use methodnoallow middleware
+2021-10-19 14:54:07,570 INFO 1181 [egg-security] use noopen middleware
+2021-10-19 14:54:07,570 INFO 1181 [egg-security] use nosniff middleware
+2021-10-19 14:54:07,571 INFO 1181 [egg-security] use xssProtection middleware
+2021-10-19 14:54:07,571 INFO 1181 [egg-security] use xframe middleware
+2021-10-19 14:54:07,571 INFO 1181 [egg-security] use dta middleware
+2021-10-19 14:54:07,571 INFO 1181 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 14:54:07,578 INFO 1181 [egg:core] dump config after load, 3ms
+2021-10-19 14:54:07,586 INFO 1181 [egg-watcher:application] watcher start success
+2021-10-19 14:54:07,592 INFO 1181 [egg:core] dump config after ready, 4ms
+2021-10-19 14:57:21,905 INFO 1547 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 14:57:21,925 INFO 1547 [egg-multipart] stream mode enable
+2021-10-19 14:57:21,988 INFO 1547 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 14:57:21,990 INFO 1547 [egg-security] use methodnoallow middleware
+2021-10-19 14:57:21,990 INFO 1547 [egg-security] use noopen middleware
+2021-10-19 14:57:21,991 INFO 1547 [egg-security] use nosniff middleware
+2021-10-19 14:57:21,991 INFO 1547 [egg-security] use xssProtection middleware
+2021-10-19 14:57:21,992 INFO 1547 [egg-security] use xframe middleware
+2021-10-19 14:57:21,993 INFO 1547 [egg-security] use dta middleware
+2021-10-19 14:57:21,993 INFO 1547 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 14:57:21,998 INFO 1547 [egg:core] dump config after load, 3ms
+2021-10-19 14:57:22,007 INFO 1547 [egg-watcher:application] watcher start success
+2021-10-19 14:57:22,012 INFO 1547 [egg:core] dump config after ready, 4ms
+2021-10-19 15:05:11,164 INFO 2032 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:05:11,180 INFO 2032 [egg-multipart] stream mode enable
+2021-10-19 15:05:11,237 INFO 2032 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:05:11,239 INFO 2032 [egg-security] use methodnoallow middleware
+2021-10-19 15:05:11,240 INFO 2032 [egg-security] use noopen middleware
+2021-10-19 15:05:11,240 INFO 2032 [egg-security] use nosniff middleware
+2021-10-19 15:05:11,241 INFO 2032 [egg-security] use xssProtection middleware
+2021-10-19 15:05:11,241 INFO 2032 [egg-security] use xframe middleware
+2021-10-19 15:05:11,242 INFO 2032 [egg-security] use dta middleware
+2021-10-19 15:05:11,242 INFO 2032 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:05:11,248 INFO 2032 [egg:core] dump config after load, 3ms
+2021-10-19 15:05:11,258 INFO 2032 [egg-watcher:application] watcher start success
+2021-10-19 15:05:11,265 INFO 2032 [egg:core] dump config after ready, 5ms
+2021-10-19 15:07:09,351 INFO 2178 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:07:09,368 INFO 2178 [egg-multipart] stream mode enable
+2021-10-19 15:07:09,402 INFO 2178 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:07:09,404 INFO 2178 [egg-security] use methodnoallow middleware
+2021-10-19 15:07:09,404 INFO 2178 [egg-security] use noopen middleware
+2021-10-19 15:07:09,404 INFO 2178 [egg-security] use nosniff middleware
+2021-10-19 15:07:09,405 INFO 2178 [egg-security] use xssProtection middleware
+2021-10-19 15:07:09,405 INFO 2178 [egg-security] use xframe middleware
+2021-10-19 15:07:09,405 INFO 2178 [egg-security] use dta middleware
+2021-10-19 15:07:09,405 INFO 2178 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:07:09,411 INFO 2178 [egg:core] dump config after load, 3ms
+2021-10-19 15:07:09,419 INFO 2178 [egg-watcher:application] watcher start success
+2021-10-19 15:07:09,425 INFO 2178 [egg:core] dump config after ready, 4ms
+2021-10-19 15:12:41,654 INFO 2631 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:12:41,670 INFO 2631 [egg-multipart] stream mode enable
+2021-10-19 15:12:41,704 INFO 2631 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:12:41,706 INFO 2631 [egg-security] use methodnoallow middleware
+2021-10-19 15:12:41,706 INFO 2631 [egg-security] use noopen middleware
+2021-10-19 15:12:41,706 INFO 2631 [egg-security] use nosniff middleware
+2021-10-19 15:12:41,706 INFO 2631 [egg-security] use xssProtection middleware
+2021-10-19 15:12:41,707 INFO 2631 [egg-security] use xframe middleware
+2021-10-19 15:12:41,707 INFO 2631 [egg-security] use dta middleware
+2021-10-19 15:12:41,707 INFO 2631 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:12:41,712 INFO 2631 [egg:core] dump config after load, 3ms
+2021-10-19 15:12:41,721 INFO 2631 [egg-watcher:application] watcher start success
+2021-10-19 15:12:41,726 INFO 2631 [egg:core] dump config after ready, 4ms
+2021-10-19 15:16:15,054 INFO 2911 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:16:15,070 INFO 2911 [egg-multipart] stream mode enable
+2021-10-19 15:16:15,104 INFO 2911 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:16:15,106 INFO 2911 [egg-security] use methodnoallow middleware
+2021-10-19 15:16:15,106 INFO 2911 [egg-security] use noopen middleware
+2021-10-19 15:16:15,107 INFO 2911 [egg-security] use nosniff middleware
+2021-10-19 15:16:15,107 INFO 2911 [egg-security] use xssProtection middleware
+2021-10-19 15:16:15,107 INFO 2911 [egg-security] use xframe middleware
+2021-10-19 15:16:15,107 INFO 2911 [egg-security] use dta middleware
+2021-10-19 15:16:15,107 INFO 2911 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:16:15,113 INFO 2911 [egg:core] dump config after load, 3ms
+2021-10-19 15:16:15,122 INFO 2911 [egg-watcher:application] watcher start success
+2021-10-19 15:16:15,129 INFO 2911 [egg:core] dump config after ready, 5ms
+2021-10-19 15:16:52,628 INFO 2969 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:16:52,648 INFO 2969 [egg-multipart] stream mode enable
+2021-10-19 15:16:52,709 INFO 2969 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:16:52,710 INFO 2969 [egg-security] use methodnoallow middleware
+2021-10-19 15:16:52,711 INFO 2969 [egg-security] use noopen middleware
+2021-10-19 15:16:52,712 INFO 2969 [egg-security] use nosniff middleware
+2021-10-19 15:16:52,712 INFO 2969 [egg-security] use xssProtection middleware
+2021-10-19 15:16:52,713 INFO 2969 [egg-security] use xframe middleware
+2021-10-19 15:16:52,713 INFO 2969 [egg-security] use dta middleware
+2021-10-19 15:16:52,713 INFO 2969 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:16:52,722 INFO 2969 [egg:core] dump config after load, 6ms
+2021-10-19 15:16:52,732 INFO 2969 [egg-watcher:application] watcher start success
+2021-10-19 15:16:52,737 INFO 2969 [egg:core] dump config after ready, 3ms
+2021-10-19 15:18:19,009 INFO 3120 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:18:19,028 INFO 3120 [egg-multipart] stream mode enable
+2021-10-19 15:18:19,063 INFO 3120 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:18:19,065 INFO 3120 [egg-security] use methodnoallow middleware
+2021-10-19 15:18:19,065 INFO 3120 [egg-security] use noopen middleware
+2021-10-19 15:18:19,065 INFO 3120 [egg-security] use nosniff middleware
+2021-10-19 15:18:19,065 INFO 3120 [egg-security] use xssProtection middleware
+2021-10-19 15:18:19,066 INFO 3120 [egg-security] use xframe middleware
+2021-10-19 15:18:19,066 INFO 3120 [egg-security] use dta middleware
+2021-10-19 15:18:19,066 INFO 3120 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:18:19,072 INFO 3120 [egg:core] dump config after load, 3ms
+2021-10-19 15:18:19,080 INFO 3120 [egg-watcher:application] watcher start success
+2021-10-19 15:18:19,086 INFO 3120 [egg:core] dump config after ready, 4ms
+2021-10-19 15:21:17,827 INFO 3370 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:21:17,844 INFO 3370 [egg-multipart] stream mode enable
+2021-10-19 15:21:17,879 INFO 3370 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:21:17,880 INFO 3370 [egg-security] use methodnoallow middleware
+2021-10-19 15:21:17,880 INFO 3370 [egg-security] use noopen middleware
+2021-10-19 15:21:17,880 INFO 3370 [egg-security] use nosniff middleware
+2021-10-19 15:21:17,881 INFO 3370 [egg-security] use xssProtection middleware
+2021-10-19 15:21:17,881 INFO 3370 [egg-security] use xframe middleware
+2021-10-19 15:21:17,881 INFO 3370 [egg-security] use dta middleware
+2021-10-19 15:21:17,881 INFO 3370 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:21:17,886 INFO 3370 [egg:core] dump config after load, 3ms
+2021-10-19 15:21:17,895 INFO 3370 [egg-watcher:application] watcher start success
+2021-10-19 15:21:17,904 INFO 3370 [egg:core] dump config after ready, 8ms
+2021-10-19 15:22:21,691 INFO 3437 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:22:21,708 INFO 3437 [egg-multipart] stream mode enable
+2021-10-19 15:22:21,769 INFO 3437 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:22:21,770 INFO 3437 [egg-security] use methodnoallow middleware
+2021-10-19 15:22:21,771 INFO 3437 [egg-security] use noopen middleware
+2021-10-19 15:22:21,771 INFO 3437 [egg-security] use nosniff middleware
+2021-10-19 15:22:21,772 INFO 3437 [egg-security] use xssProtection middleware
+2021-10-19 15:22:21,772 INFO 3437 [egg-security] use xframe middleware
+2021-10-19 15:22:21,773 INFO 3437 [egg-security] use dta middleware
+2021-10-19 15:22:21,773 INFO 3437 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:22:21,779 INFO 3437 [egg:core] dump config after load, 3ms
+2021-10-19 15:22:21,789 INFO 3437 [egg-watcher:application] watcher start success
+2021-10-19 15:22:21,795 INFO 3437 [egg:core] dump config after ready, 5ms
+2021-10-19 15:22:40,555 INFO 3485 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:22:40,572 INFO 3485 [egg-multipart] stream mode enable
+2021-10-19 15:22:40,636 INFO 3485 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:22:40,638 INFO 3485 [egg-security] use methodnoallow middleware
+2021-10-19 15:22:40,638 INFO 3485 [egg-security] use noopen middleware
+2021-10-19 15:22:40,639 INFO 3485 [egg-security] use nosniff middleware
+2021-10-19 15:22:40,640 INFO 3485 [egg-security] use xssProtection middleware
+2021-10-19 15:22:40,640 INFO 3485 [egg-security] use xframe middleware
+2021-10-19 15:22:40,641 INFO 3485 [egg-security] use dta middleware
+2021-10-19 15:22:40,641 INFO 3485 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:22:40,648 INFO 3485 [egg:core] dump config after load, 3ms
+2021-10-19 15:22:40,657 INFO 3485 [egg-watcher:application] watcher start success
+2021-10-19 15:22:40,663 INFO 3485 [egg:core] dump config after ready, 5ms
+2021-10-19 15:23:37,161 INFO 3541 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:23:37,178 INFO 3541 [egg-multipart] stream mode enable
+2021-10-19 15:23:37,241 INFO 3541 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:23:37,244 INFO 3541 [egg-security] use methodnoallow middleware
+2021-10-19 15:23:37,245 INFO 3541 [egg-security] use noopen middleware
+2021-10-19 15:23:37,246 INFO 3541 [egg-security] use nosniff middleware
+2021-10-19 15:23:37,246 INFO 3541 [egg-security] use xssProtection middleware
+2021-10-19 15:23:37,247 INFO 3541 [egg-security] use xframe middleware
+2021-10-19 15:23:37,247 INFO 3541 [egg-security] use dta middleware
+2021-10-19 15:23:37,247 INFO 3541 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:23:37,254 INFO 3541 [egg:core] dump config after load, 4ms
+2021-10-19 15:23:37,262 INFO 3541 [egg-watcher:application] watcher start success
+2021-10-19 15:23:37,266 INFO 3541 [egg:core] dump config after ready, 2ms
+2021-10-19 15:24:30,445 INFO 3586 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:24:30,461 INFO 3586 [egg-multipart] stream mode enable
+2021-10-19 15:24:30,525 INFO 3586 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:24:30,526 INFO 3586 [egg-security] use methodnoallow middleware
+2021-10-19 15:24:30,527 INFO 3586 [egg-security] use noopen middleware
+2021-10-19 15:24:30,528 INFO 3586 [egg-security] use nosniff middleware
+2021-10-19 15:24:30,528 INFO 3586 [egg-security] use xssProtection middleware
+2021-10-19 15:24:30,529 INFO 3586 [egg-security] use xframe middleware
+2021-10-19 15:24:30,529 INFO 3586 [egg-security] use dta middleware
+2021-10-19 15:24:30,529 INFO 3586 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:24:30,536 INFO 3586 [egg:core] dump config after load, 3ms
+2021-10-19 15:24:30,544 INFO 3586 [egg-watcher:application] watcher start success
+2021-10-19 15:24:30,549 INFO 3586 [egg:core] dump config after ready, 4ms
+2021-10-19 15:25:14,452 INFO 3661 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:25:14,468 INFO 3661 [egg-multipart] stream mode enable
+2021-10-19 15:25:14,532 INFO 3661 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:25:14,533 INFO 3661 [egg-security] use methodnoallow middleware
+2021-10-19 15:25:14,534 INFO 3661 [egg-security] use noopen middleware
+2021-10-19 15:25:14,535 INFO 3661 [egg-security] use nosniff middleware
+2021-10-19 15:25:14,535 INFO 3661 [egg-security] use xssProtection middleware
+2021-10-19 15:25:14,536 INFO 3661 [egg-security] use xframe middleware
+2021-10-19 15:25:14,536 INFO 3661 [egg-security] use dta middleware
+2021-10-19 15:25:14,536 INFO 3661 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:25:14,542 INFO 3661 [egg:core] dump config after load, 3ms
+2021-10-19 15:25:14,551 INFO 3661 [egg-watcher:application] watcher start success
+2021-10-19 15:25:14,556 INFO 3661 [egg:core] dump config after ready, 4ms
+2021-10-19 15:26:54,752 INFO 3800 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:26:54,769 INFO 3800 [egg-multipart] stream mode enable
+2021-10-19 15:26:54,832 INFO 3800 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:26:54,834 INFO 3800 [egg-security] use methodnoallow middleware
+2021-10-19 15:26:54,834 INFO 3800 [egg-security] use noopen middleware
+2021-10-19 15:26:54,835 INFO 3800 [egg-security] use nosniff middleware
+2021-10-19 15:26:54,836 INFO 3800 [egg-security] use xssProtection middleware
+2021-10-19 15:26:54,836 INFO 3800 [egg-security] use xframe middleware
+2021-10-19 15:26:54,837 INFO 3800 [egg-security] use dta middleware
+2021-10-19 15:26:54,837 INFO 3800 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:26:54,843 INFO 3800 [egg:core] dump config after load, 3ms
+2021-10-19 15:26:54,852 INFO 3800 [egg-watcher:application] watcher start success
+2021-10-19 15:26:54,858 INFO 3800 [egg:core] dump config after ready, 4ms
+2021-10-19 15:28:57,634 INFO 4015 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:28:57,650 INFO 4015 [egg-multipart] stream mode enable
+2021-10-19 15:28:57,713 INFO 4015 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:28:57,715 INFO 4015 [egg-security] use methodnoallow middleware
+2021-10-19 15:28:57,716 INFO 4015 [egg-security] use noopen middleware
+2021-10-19 15:28:57,716 INFO 4015 [egg-security] use nosniff middleware
+2021-10-19 15:28:57,717 INFO 4015 [egg-security] use xssProtection middleware
+2021-10-19 15:28:57,717 INFO 4015 [egg-security] use xframe middleware
+2021-10-19 15:28:57,718 INFO 4015 [egg-security] use dta middleware
+2021-10-19 15:28:57,718 INFO 4015 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:28:57,724 INFO 4015 [egg:core] dump config after load, 3ms
+2021-10-19 15:28:57,733 INFO 4015 [egg-watcher:application] watcher start success
+2021-10-19 15:28:57,738 INFO 4015 [egg:core] dump config after ready, 4ms
+2021-10-19 15:29:14,163 INFO 4046 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:29:14,179 INFO 4046 [egg-multipart] stream mode enable
+2021-10-19 15:29:14,214 INFO 4046 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:29:14,215 INFO 4046 [egg-security] use methodnoallow middleware
+2021-10-19 15:29:14,215 INFO 4046 [egg-security] use noopen middleware
+2021-10-19 15:29:14,215 INFO 4046 [egg-security] use nosniff middleware
+2021-10-19 15:29:14,216 INFO 4046 [egg-security] use xssProtection middleware
+2021-10-19 15:29:14,216 INFO 4046 [egg-security] use xframe middleware
+2021-10-19 15:29:14,216 INFO 4046 [egg-security] use dta middleware
+2021-10-19 15:29:14,216 INFO 4046 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:29:14,221 INFO 4046 [egg:core] dump config after load, 3ms
+2021-10-19 15:29:14,230 INFO 4046 [egg-watcher:application] watcher start success
+2021-10-19 15:29:14,235 INFO 4046 [egg:core] dump config after ready, 4ms
+2021-10-19 15:29:28,855 INFO 4067 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:29:28,871 INFO 4067 [egg-multipart] stream mode enable
+2021-10-19 15:29:28,906 INFO 4067 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:29:28,908 INFO 4067 [egg-security] use methodnoallow middleware
+2021-10-19 15:29:28,908 INFO 4067 [egg-security] use noopen middleware
+2021-10-19 15:29:28,908 INFO 4067 [egg-security] use nosniff middleware
+2021-10-19 15:29:28,908 INFO 4067 [egg-security] use xssProtection middleware
+2021-10-19 15:29:28,908 INFO 4067 [egg-security] use xframe middleware
+2021-10-19 15:29:28,909 INFO 4067 [egg-security] use dta middleware
+2021-10-19 15:29:28,909 INFO 4067 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:29:28,914 INFO 4067 [egg:core] dump config after load, 3ms
+2021-10-19 15:29:28,923 INFO 4067 [egg-watcher:application] watcher start success
+2021-10-19 15:29:28,928 INFO 4067 [egg:core] dump config after ready, 4ms
+2021-10-19 15:30:23,309 INFO 4175 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:30:23,329 INFO 4175 [egg-multipart] stream mode enable
+2021-10-19 15:30:23,363 INFO 4175 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:30:23,365 INFO 4175 [egg-security] use methodnoallow middleware
+2021-10-19 15:30:23,365 INFO 4175 [egg-security] use noopen middleware
+2021-10-19 15:30:23,365 INFO 4175 [egg-security] use nosniff middleware
+2021-10-19 15:30:23,365 INFO 4175 [egg-security] use xssProtection middleware
+2021-10-19 15:30:23,366 INFO 4175 [egg-security] use xframe middleware
+2021-10-19 15:30:23,366 INFO 4175 [egg-security] use dta middleware
+2021-10-19 15:30:23,366 INFO 4175 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:30:23,372 INFO 4175 [egg:core] dump config after load, 4ms
+2021-10-19 15:30:23,380 INFO 4175 [egg-watcher:application] watcher start success
+2021-10-19 15:30:23,386 INFO 4175 [egg:core] dump config after ready, 4ms
+2021-10-19 15:31:12,164 INFO 4247 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:31:12,181 INFO 4247 [egg-multipart] stream mode enable
+2021-10-19 15:31:12,216 INFO 4247 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:31:12,217 INFO 4247 [egg-security] use methodnoallow middleware
+2021-10-19 15:31:12,217 INFO 4247 [egg-security] use noopen middleware
+2021-10-19 15:31:12,218 INFO 4247 [egg-security] use nosniff middleware
+2021-10-19 15:31:12,218 INFO 4247 [egg-security] use xssProtection middleware
+2021-10-19 15:31:12,218 INFO 4247 [egg-security] use xframe middleware
+2021-10-19 15:31:12,218 INFO 4247 [egg-security] use dta middleware
+2021-10-19 15:31:12,218 INFO 4247 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:31:12,224 INFO 4247 [egg:core] dump config after load, 3ms
+2021-10-19 15:31:12,232 INFO 4247 [egg-watcher:application] watcher start success
+2021-10-19 15:31:12,238 INFO 4247 [egg:core] dump config after ready, 5ms
+2021-10-19 15:31:56,257 INFO 4304 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-19 15:31:56,273 INFO 4304 [egg-multipart] stream mode enable
+2021-10-19 15:31:56,308 INFO 4304 [egg-static] starting static serve /public/ -> /Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public
+2021-10-19 15:31:56,310 INFO 4304 [egg-security] use methodnoallow middleware
+2021-10-19 15:31:56,310 INFO 4304 [egg-security] use noopen middleware
+2021-10-19 15:31:56,310 INFO 4304 [egg-security] use nosniff middleware
+2021-10-19 15:31:56,311 INFO 4304 [egg-security] use xssProtection middleware
+2021-10-19 15:31:56,311 INFO 4304 [egg-security] use xframe middleware
+2021-10-19 15:31:56,311 INFO 4304 [egg-security] use dta middleware
+2021-10-19 15:31:56,311 INFO 4304 [egg-security] compose 6 middlewares into one security middleware
+2021-10-19 15:31:56,317 INFO 4304 [egg:core] dump config after load, 3ms
+2021-10-19 15:31:56,326 INFO 4304 [egg-watcher:application] watcher start success
+2021-10-19 15:31:56,332 INFO 4304 [egg:core] dump config after ready, 5ms

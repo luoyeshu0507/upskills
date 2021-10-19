@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "egg-bin dev --port 8888"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.23.0",
     "blueimp-md5": "^2.19.0",
+    "egg": "^2.30.0",
+    "egg-bin": "^4.16.4",
     "express": "^4.17.1"
   }
 }

@@ -3,7 +3,7 @@ const md5 = require('blueimp-md5');
 /**
  * get type of variable
  * @param  {Any} val variable to get type
- * @return {String}     undefined | null | string | number | object | function | boolean | symbol | regexp | url ...
+ * @return {String}     undefined | null | string | number | object | function | boolean | symbol | regexp | url | array ...
  */
 function _getType(val) {
   return Object.prototype.toString.call(val).toLowerCase().replace(/^\[object\s|\]$/g, '');
@@ -18,7 +18,7 @@ function _parseObject2array(obj) {
   let res = [];
   Object.keys(obj)
     .sort()
-    .filter((key) => obj[key] !== undefined)
+    .filter((key) => obj[key] !== undefined && obj[key] !== null)
     .forEach((key) => {
       switch(_getType(obj[key])) {
         case 'string':
@@ -27,9 +27,7 @@ function _parseObject2array(obj) {
         case 'boolean':
           res.push(`${key}=${obj[key]}`);
           break;
-        case 'undefined':
-          res.push(`${key}=`);
-          break;
+        case 'array':
         case 'object':
           res = res.concat(_parseObject2array(obj[key]));
           break;
@@ -65,6 +63,7 @@ function _parseBody(body = {}) {
  * @return {String}        sign string
  */
 function sign(method = 'get', path = '', params = {}, body = {}, salt = '') {
+  path = path.replace(/\?.*/, '');
   method = method.toLowerCase();
   path = path.replace(/^\/|\/$/g, '');
   let arr = [method, path];

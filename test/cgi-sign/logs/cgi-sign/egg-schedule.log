@@ -1,0 +1,180 @@
+2021-10-19 11:07:56,093 INFO 91316 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62523909ms at 2021-10-20 04:30:00.002
+2021-10-19 11:07:56,093 INFO 91316 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 46323907ms at 2021-10-20 00:00:00.000
+2021-10-19 11:07:56,093 INFO 91316 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46324907ms at 2021-10-20 00:00:01.000
+2021-10-19 11:07:56,024 INFO 91317 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 11:07:56,024 INFO 91317 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 11:07:56,024 INFO 91317 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 14:35:58,343 INFO 99504 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50041659ms at 2021-10-20 04:30:00.002
+2021-10-19 14:35:58,343 INFO 99504 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33841657ms at 2021-10-20 00:00:00.000
+2021-10-19 14:35:58,343 INFO 99504 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33842657ms at 2021-10-20 00:00:01.000
+2021-10-19 14:35:58,248 INFO 99505 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 14:35:58,248 INFO 99505 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 14:35:58,248 INFO 99505 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 14:38:03,921 INFO 99696 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49916081ms at 2021-10-20 04:30:00.002
+2021-10-19 14:38:03,922 INFO 99696 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33716079ms at 2021-10-20 00:00:00.001
+2021-10-19 14:38:03,922 INFO 99696 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33717078ms at 2021-10-20 00:00:01.000
+2021-10-19 14:38:03,826 INFO 99697 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 14:38:03,826 INFO 99697 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 14:38:03,826 INFO 99697 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 14:39:04,461 INFO 99787 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 14:39:04,461 INFO 99787 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 14:39:04,461 INFO 99787 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 14:41:50,639 INFO 149 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 14:41:50,639 INFO 149 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 14:41:50,639 INFO 149 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 14:41:59,007 INFO 218 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49680995ms at 2021-10-20 04:30:00.002
+2021-10-19 14:41:59,008 INFO 218 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33480992ms at 2021-10-20 00:00:00.000
+2021-10-19 14:41:59,008 INFO 218 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33481992ms at 2021-10-20 00:00:01.000
+2021-10-19 14:41:58,946 INFO 219 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 14:41:58,946 INFO 219 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 14:41:58,946 INFO 219 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 14:45:24,240 INFO 524 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49475762ms at 2021-10-20 04:30:00.002
+2021-10-19 14:45:24,241 INFO 524 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33275760ms at 2021-10-20 00:00:00.001
+2021-10-19 14:45:24,241 INFO 524 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33276759ms at 2021-10-20 00:00:01.000
+2021-10-19 14:45:24,177 INFO 525 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 14:45:24,177 INFO 525 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 14:45:24,177 INFO 525 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 14:46:16,907 INFO 575 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49423096ms at 2021-10-20 04:30:00.003
+2021-10-19 14:46:16,907 INFO 575 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33223093ms at 2021-10-20 00:00:00.000
+2021-10-19 14:46:16,907 INFO 575 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33224093ms at 2021-10-20 00:00:01.000
+2021-10-19 14:46:16,845 INFO 576 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 14:46:16,845 INFO 576 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 14:46:16,845 INFO 576 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 14:51:03,367 INFO 987 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49136636ms at 2021-10-20 04:30:00.003
+2021-10-19 14:51:03,367 INFO 987 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 32936633ms at 2021-10-20 00:00:00.000
+2021-10-19 14:51:03,367 INFO 987 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32937633ms at 2021-10-20 00:00:01.000
+2021-10-19 14:51:03,305 INFO 988 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 14:51:03,305 INFO 988 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 14:51:03,305 INFO 988 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 14:53:05,913 INFO 1115 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49014089ms at 2021-10-20 04:30:00.002
+2021-10-19 14:53:05,913 INFO 1115 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 32814087ms at 2021-10-20 00:00:00.000
+2021-10-19 14:53:05,914 INFO 1115 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32815087ms at 2021-10-20 00:00:01.001
+2021-10-19 14:53:05,821 INFO 1116 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 14:53:05,821 INFO 1116 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 14:53:05,821 INFO 1116 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 14:54:07,597 INFO 1167 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48952405ms at 2021-10-20 04:30:00.002
+2021-10-19 14:54:07,597 INFO 1167 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 32752403ms at 2021-10-20 00:00:00.000
+2021-10-19 14:54:07,598 INFO 1167 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32753403ms at 2021-10-20 00:00:01.001
+2021-10-19 14:54:07,505 INFO 1181 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 14:54:07,505 INFO 1181 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 14:54:07,505 INFO 1181 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 14:57:22,017 INFO 1546 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48757985ms at 2021-10-20 04:30:00.002
+2021-10-19 14:57:22,017 INFO 1546 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 32557983ms at 2021-10-20 00:00:00.000
+2021-10-19 14:57:22,017 INFO 1546 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32558983ms at 2021-10-20 00:00:01.000
+2021-10-19 14:57:21,925 INFO 1547 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 14:57:21,925 INFO 1547 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 14:57:21,925 INFO 1547 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:05:11,271 INFO 2031 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48288732ms at 2021-10-20 04:30:00.003
+2021-10-19 15:05:11,271 INFO 2031 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 32088729ms at 2021-10-20 00:00:00.000
+2021-10-19 15:05:11,271 INFO 2031 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32089729ms at 2021-10-20 00:00:01.000
+2021-10-19 15:05:11,180 INFO 2032 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:05:11,180 INFO 2032 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:05:11,180 INFO 2032 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:07:09,429 INFO 2177 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48170573ms at 2021-10-20 04:30:00.002
+2021-10-19 15:07:09,430 INFO 2177 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31970571ms at 2021-10-20 00:00:00.001
+2021-10-19 15:07:09,430 INFO 2177 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31971570ms at 2021-10-20 00:00:01.000
+2021-10-19 15:07:09,367 INFO 2178 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:07:09,367 INFO 2178 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:07:09,368 INFO 2178 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:12:41,730 INFO 2630 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47838271ms at 2021-10-20 04:30:00.001
+2021-10-19 15:12:41,731 INFO 2630 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31638269ms at 2021-10-20 00:00:00.000
+2021-10-19 15:12:41,731 INFO 2630 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31639269ms at 2021-10-20 00:00:01.000
+2021-10-19 15:12:41,669 INFO 2631 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:12:41,669 INFO 2631 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:12:41,669 INFO 2631 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:16:15,134 INFO 2910 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47624869ms at 2021-10-20 04:30:00.003
+2021-10-19 15:16:15,134 INFO 2910 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31424866ms at 2021-10-20 00:00:00.000
+2021-10-19 15:16:15,134 INFO 2910 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31425866ms at 2021-10-20 00:00:01.000
+2021-10-19 15:16:15,070 INFO 2911 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:16:15,070 INFO 2911 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:16:15,070 INFO 2911 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:16:52,742 INFO 2968 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47587260ms at 2021-10-20 04:30:00.002
+2021-10-19 15:16:52,742 INFO 2968 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31387258ms at 2021-10-20 00:00:00.000
+2021-10-19 15:16:52,742 INFO 2968 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31388258ms at 2021-10-20 00:00:01.000
+2021-10-19 15:16:52,648 INFO 2969 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:16:52,648 INFO 2969 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:16:52,648 INFO 2969 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:18:19,091 INFO 3119 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47500912ms at 2021-10-20 04:30:00.003
+2021-10-19 15:18:19,091 INFO 3119 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31300909ms at 2021-10-20 00:00:00.000
+2021-10-19 15:18:19,091 INFO 3119 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31301909ms at 2021-10-20 00:00:01.000
+2021-10-19 15:18:19,028 INFO 3120 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:18:19,028 INFO 3120 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:18:19,028 INFO 3120 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:21:17,909 INFO 3369 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47322094ms at 2021-10-20 04:30:00.003
+2021-10-19 15:21:17,909 INFO 3369 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31122091ms at 2021-10-20 00:00:00.000
+2021-10-19 15:21:17,909 INFO 3369 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31123091ms at 2021-10-20 00:00:01.000
+2021-10-19 15:21:17,843 INFO 3370 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:21:17,843 INFO 3370 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:21:17,843 INFO 3370 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:22:21,800 INFO 3436 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47258203ms at 2021-10-20 04:30:00.003
+2021-10-19 15:22:21,801 INFO 3436 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31058200ms at 2021-10-20 00:00:00.001
+2021-10-19 15:22:21,801 INFO 3436 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31059199ms at 2021-10-20 00:00:01.000
+2021-10-19 15:22:21,708 INFO 3437 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:22:21,708 INFO 3437 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:22:21,708 INFO 3437 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:22:40,668 INFO 3484 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47239334ms at 2021-10-20 04:30:00.002
+2021-10-19 15:22:40,668 INFO 3484 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31039332ms at 2021-10-20 00:00:00.000
+2021-10-19 15:22:40,668 INFO 3484 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31040332ms at 2021-10-20 00:00:01.000
+2021-10-19 15:22:40,571 INFO 3485 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:22:40,571 INFO 3485 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:22:40,571 INFO 3485 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:23:37,271 INFO 3540 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47182732ms at 2021-10-20 04:30:00.003
+2021-10-19 15:23:37,271 INFO 3540 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30982729ms at 2021-10-20 00:00:00.000
+2021-10-19 15:23:37,271 INFO 3540 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30983729ms at 2021-10-20 00:00:01.000
+2021-10-19 15:23:37,178 INFO 3541 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:23:37,178 INFO 3541 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:23:37,178 INFO 3541 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:24:30,554 INFO 3585 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47129448ms at 2021-10-20 04:30:00.002
+2021-10-19 15:24:30,554 INFO 3585 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30929446ms at 2021-10-20 00:00:00.000
+2021-10-19 15:24:30,555 INFO 3585 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30930446ms at 2021-10-20 00:00:01.001
+2021-10-19 15:24:30,461 INFO 3586 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:24:30,461 INFO 3586 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:24:30,461 INFO 3586 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:25:14,561 INFO 3660 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47085441ms at 2021-10-20 04:30:00.002
+2021-10-19 15:25:14,561 INFO 3660 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30885439ms at 2021-10-20 00:00:00.000
+2021-10-19 15:25:14,562 INFO 3660 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30886439ms at 2021-10-20 00:00:01.001
+2021-10-19 15:25:14,468 INFO 3661 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:25:14,468 INFO 3661 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:25:14,468 INFO 3661 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:26:54,862 INFO 3782 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46985140ms at 2021-10-20 04:30:00.002
+2021-10-19 15:26:54,862 INFO 3782 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30785138ms at 2021-10-20 00:00:00.000
+2021-10-19 15:26:54,863 INFO 3782 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30786138ms at 2021-10-20 00:00:01.001
+2021-10-19 15:26:54,769 INFO 3800 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:26:54,769 INFO 3800 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:26:54,769 INFO 3800 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:28:57,743 INFO 4014 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46862259ms at 2021-10-20 04:30:00.002
+2021-10-19 15:28:57,743 INFO 4014 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30662257ms at 2021-10-20 00:00:00.000
+2021-10-19 15:28:57,743 INFO 4014 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30663257ms at 2021-10-20 00:00:01.000
+2021-10-19 15:28:57,650 INFO 4015 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:28:57,650 INFO 4015 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:28:57,650 INFO 4015 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:29:14,240 INFO 4045 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46845762ms at 2021-10-20 04:30:00.002
+2021-10-19 15:29:14,240 INFO 4045 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30645760ms at 2021-10-20 00:00:00.000
+2021-10-19 15:29:14,240 INFO 4045 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30646760ms at 2021-10-20 00:00:01.000
+2021-10-19 15:29:14,179 INFO 4046 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:29:14,179 INFO 4046 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:29:14,179 INFO 4046 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:29:28,933 INFO 4065 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46831069ms at 2021-10-20 04:30:00.002
+2021-10-19 15:29:28,933 INFO 4065 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30631067ms at 2021-10-20 00:00:00.000
+2021-10-19 15:29:28,934 INFO 4065 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30632067ms at 2021-10-20 00:00:01.001
+2021-10-19 15:29:28,871 INFO 4067 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:29:28,871 INFO 4067 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:29:28,871 INFO 4067 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:30:23,391 INFO 4174 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46776611ms at 2021-10-20 04:30:00.002
+2021-10-19 15:30:23,391 INFO 4174 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30576609ms at 2021-10-20 00:00:00.000
+2021-10-19 15:30:23,391 INFO 4174 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30577609ms at 2021-10-20 00:00:01.000
+2021-10-19 15:30:23,328 INFO 4175 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:30:23,328 INFO 4175 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:30:23,328 INFO 4175 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:31:12,243 INFO 4246 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46727760ms at 2021-10-20 04:30:00.003
+2021-10-19 15:31:12,243 INFO 4246 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30527757ms at 2021-10-20 00:00:00.000
+2021-10-19 15:31:12,244 INFO 4246 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30528757ms at 2021-10-20 00:00:01.001
+2021-10-19 15:31:12,181 INFO 4247 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:31:12,181 INFO 4247 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:31:12,181 INFO 4247 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-10-19 15:31:56,336 INFO 4303 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46683666ms at 2021-10-20 04:30:00.002
+2021-10-19 15:31:56,336 INFO 4303 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30483664ms at 2021-10-20 00:00:00.000
+2021-10-19 15:31:56,337 INFO 4303 [Timer] /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30484664ms at 2021-10-20 00:00:01.001
+2021-10-19 15:31:56,272 INFO 4304 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-10-19 15:31:56,272 INFO 4304 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-10-19 15:31:56,273 INFO 4304 [egg-schedule]: register schedule /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
