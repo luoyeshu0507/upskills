@@ -1,5 +1,11 @@
 const sign = require('./lib');
 
+/**
+ * generate eggjs middleware
+ * @param  {String}  salt    salt for md5, ths sign should be the same as axios middleware salt.
+ * @param  {Boolean} enabled if sign enabled
+ * @return {Function}          eggjs middleware
+ */
 function getAxiosMiddleware(salt, enabled = true) {
   const middleware = async function(ctx, next) {
     if (enabled) {

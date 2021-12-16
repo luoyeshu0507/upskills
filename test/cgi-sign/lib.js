@@ -39,21 +39,6 @@ function _parseObject2array(obj) {
 }
 
 /**
- * parse request body
- * @param  {Object} body request body object
- * @return {Array}      body object key array
- */
-function _parseBody(body = {}) {
-  let res = [];
-  Object.keys(params)
-    .sort()
-    .filter((key) => params[key] !== undefined)
-    .forEach((key) => {
-      
-    });
-}
-
-/**
  * make sign of request
  * @param  {String} method request method
  * @param  {String} path   request path
@@ -71,5 +56,24 @@ function sign(method = 'get', path = '', params = {}, body = {}, salt = '') {
   arr.push(salt);
   return md5(arr.join('&'));
 }
+
+const postBody = {
+  a: 1,
+  b: '你好',
+  c: 'hello',
+  d: undefined,
+  e: null,
+  f: true,
+  g: [1, 2, 3, {
+    a: 1,
+    b: 2,
+    c: undefined,
+  }],
+  h: {
+    a: 1,
+  },
+};
+
+console.log(_parseObject2array);
 
 module.exports = sign;
