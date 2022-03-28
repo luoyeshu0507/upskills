@@ -1,0 +1,209 @@
+2021-10-19 14:35:58,361 ERROR 99505 [-/127.0.0.1/-/3ms GET /?a=1&b=%E4%BD%A0%E5%A5%BD&c=hello&f=true] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 99505
+hostname: LUOYESHULI-MC0
+
+2021-10-19 14:35:58,379 ERROR 99505 [-/127.0.0.1/-/8ms POST /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 99505
+hostname: LUOYESHULI-MC0
+
+2021-10-19 14:38:03,940 ERROR 99697 [-/127.0.0.1/-/2ms GET /?a=1&b=%E4%BD%A0%E5%A5%BD&c=hello&f=true] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 99697
+hostname: LUOYESHULI-MC0
+
+2021-10-19 14:38:03,958 ERROR 99697 [-/127.0.0.1/-/8ms POST /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 99697
+hostname: LUOYESHULI-MC0
+
+2021-10-19 15:05:11,293 ERROR 2032 [-/127.0.0.1/-/6ms GET /?a=1&b=%E4%BD%A0%E5%A5%BD&c=hello&f=true] nodejs.Error: non-error thrown: key not match
+    at Object.app.context.onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/lib/application.js:165:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2032
+hostname: LUOYESHULI-MC0
+
+2021-10-19 15:05:11,313 ERROR 2032 [-/127.0.0.1/-/10ms POST /] nodejs.Error: non-error thrown: key not match
+    at Object.app.context.onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/lib/application.js:165:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2032
+hostname: LUOYESHULI-MC0
+
+2021-10-19 15:07:09,450 ERROR 2178 [-/127.0.0.1/-/5ms GET /?a=1&b=%E4%BD%A0%E5%A5%BD&c=hello&f=true] nodejs.Error: non-error thrown: key not match
+    at Object.app.context.onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/lib/application.js:165:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2178
+hostname: LUOYESHULI-MC0
+
+2021-10-19 15:07:09,461 ERROR 2178 [-/127.0.0.1/-/6ms POST /] nodejs.Error: non-error thrown: key not match
+    at Object.app.context.onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/lib/application.js:165:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2178
+hostname: LUOYESHULI-MC0
+
+2021-10-19 15:12:41,753 ERROR 2631 [-/127.0.0.1/-/4ms GET /?a=1&b=%E4%BD%A0%E5%A5%BD&c=hello&f=true] nodejs.Error: non-error thrown: key not match
+    at Object.app.context.onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/lib/application.js:165:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2631
+hostname: LUOYESHULI-MC0
+
+2021-10-19 15:12:41,764 ERROR 2631 [-/127.0.0.1/-/6ms POST /] nodejs.Error: non-error thrown: key not match
+    at Object.app.context.onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/lib/application.js:165:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2631
+hostname: LUOYESHULI-MC0
+
+2021-10-19 15:16:15,154 ERROR 2911 [-/127.0.0.1/-/4ms GET /?a=1&b=%E4%BD%A0%E5%A5%BD&c=hello&f=true] nodejs.Error: non-error thrown: key not match
+    at Object.app.context.onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/lib/application.js:165:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2911
+hostname: LUOYESHULI-MC0
+
+2021-10-19 15:16:15,164 ERROR 2911 [-/127.0.0.1/-/6ms POST /] nodejs.Error: non-error thrown: key not match
+    at Object.app.context.onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/lib/application.js:165:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2911
+hostname: LUOYESHULI-MC0
+
+2021-10-19 15:16:52,755 ERROR 2969 [-/127.0.0.1/-/4ms GET /?a=1&b=%E4%BD%A0%E5%A5%BD&c=hello&f=true] nodejs.Error: non-error thrown: key not match
+    at Object.app.context.onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/lib/application.js:165:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2969
+hostname: LUOYESHULI-MC0
+
+2021-10-19 15:18:19,110 ERROR 3120 [-/127.0.0.1/-/6ms GET /?a=1&b=%E4%BD%A0%E5%A5%BD&c=hello&f=true] nodejs.Error: non-error thrown: key not match
+    at Object.app.context.onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/lib/application.js:165:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3120
+hostname: LUOYESHULI-MC0
+
+2021-10-19 15:21:17,925 ERROR 3370 [-/127.0.0.1/-/4ms GET /?a=1&b=%E4%BD%A0%E5%A5%BD&c=hello&f=true] nodejs.ReferenceError: params is not defined
+    at middleware (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/egg-middleware.js:17:29)
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-compose/index.js:45:18)
+    at /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-compose/index.js:44:32)
+    at /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 3370
+hostname: LUOYESHULI-MC0
+
+2021-10-19 15:22:21,821 ERROR 3437 [-/127.0.0.1/-/4ms GET /?a=1&b=%E4%BD%A0%E5%A5%BD&c=hello&f=true] nodejs.ReferenceError: params is not defined
+    at middleware (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/egg-middleware.js:17:29)
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-compose/index.js:45:18)
+    at /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-compose/index.js:44:32)
+    at /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 3437
+hostname: LUOYESHULI-MC0
+
+2021-10-19 15:23:37,294 ERROR 3541 [-/127.0.0.1/-/13ms POST /] nodejs.Error: non-error thrown: key not match
+    at Object.app.context.onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/lib/application.js:165:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3541
+hostname: LUOYESHULI-MC0
+
+2021-10-19 15:24:30,583 ERROR 3586 [-/127.0.0.1/-/14ms POST /] nodejs.Error: non-error thrown: key not match
+    at Object.app.context.onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/lib/application.js:165:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3586
+hostname: LUOYESHULI-MC0
+
+2021-10-19 15:25:14,596 ERROR 3661 [-/127.0.0.1/-/21ms POST /] nodejs.Error: non-error thrown: key not match
+    at Object.app.context.onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/lib/application.js:165:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3661
+hostname: LUOYESHULI-MC0
+
+2021-10-19 15:28:57,768 ERROR 4015 [-/127.0.0.1/-/13ms POST /] nodejs.TypeError: ctx.thorw is not a function
+    at middleware (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/egg-middleware.js:21:13)
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-compose/index.js:45:18)
+    at /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-compose/index.js:44:32)
+    at /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/luoyeshuli/workspace/upskills/test/cgi-sign/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 4015
+hostname: LUOYESHULI-MC0
+

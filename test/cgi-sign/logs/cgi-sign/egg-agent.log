@@ -1,0 +1,315 @@
+2021-10-19 11:07:55,570 INFO 91316 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 11:07:55,577 INFO 91316 [egg:core] dump config after load, 2ms
+2021-10-19 11:07:55,599 INFO 91316 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 11:07:55,599 INFO 91316 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 11:07:55,600 INFO 91316 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 11:07:55,600 INFO 91316 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 11:07:55,600 INFO 91316 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 11:07:55,600 INFO 91316 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 11:07:55,600 INFO 91316 [egg-watcher:agent] watcher start success
+2021-10-19 11:07:55,605 INFO 91316 [egg:core] dump config after ready, 2ms
+2021-10-19 11:07:56,077 INFO 91316 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app/public","stat":{"dev":16777221,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":100838248,"size":64,"blocks":0,"atimeMs":1634612876066.1233,"mtimeMs":1634612876066.1233,"ctimeMs":1634612876066.1233,"birthtimeMs":1634612876066.1233,"atime":"2021-10-19T03:07:56.066Z","mtime":"2021-10-19T03:07:56.066Z","ctime":"2021-10-19T03:07:56.066Z","birthtime":"2021-10-19T03:07:56.066Z"},"remove":false,"isDirectory":true,"isFile":false}
+2021-10-19 14:35:57,744 INFO 99504 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 14:35:57,751 INFO 99504 [egg:core] dump config after load, 3ms
+2021-10-19 14:35:57,777 INFO 99504 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 14:35:57,777 INFO 99504 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 14:35:57,777 INFO 99504 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 14:35:57,777 INFO 99504 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 14:35:57,777 INFO 99504 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 14:35:57,777 INFO 99504 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 14:35:57,778 INFO 99504 [egg-watcher:agent] watcher start success
+2021-10-19 14:35:57,784 INFO 99504 [egg:core] dump config after ready, 2ms
+2021-10-19 14:38:03,321 INFO 99696 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 14:38:03,330 INFO 99696 [egg:core] dump config after load, 2ms
+2021-10-19 14:38:03,354 INFO 99696 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 14:38:03,354 INFO 99696 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 14:38:03,354 INFO 99696 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 14:38:03,354 INFO 99696 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 14:38:03,354 INFO 99696 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 14:38:03,354 INFO 99696 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 14:38:03,355 INFO 99696 [egg-watcher:agent] watcher start success
+2021-10-19 14:38:03,361 INFO 99696 [egg:core] dump config after ready, 2ms
+2021-10-19 14:39:04,015 WARN 99696 [agent:development] reload worker because /Users/luoyeshuli/workspace/upskills/test/cgi-sign/config/config.default.js change
+2021-10-19 14:39:03,808 INFO 99696 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config/config.default.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":100876966,"size":23,"blocks":8,"atimeMs":1634625543807.9526,"mtimeMs":1634625543696.4343,"ctimeMs":1634625543696.4343,"birthtimeMs":1634625453532.7385,"atime":"2021-10-19T06:39:03.808Z","mtime":"2021-10-19T06:39:03.696Z","ctime":"2021-10-19T06:39:03.696Z","birthtime":"2021-10-19T06:37:33.533Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-10-19 14:41:49,864 WARN 99696 [agent:development] reload worker because /Users/luoyeshuli/workspace/upskills/test/cgi-sign/config/config.default.js change
+2021-10-19 14:41:49,659 INFO 99696 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config/config.default.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":100876966,"size":82,"blocks":8,"atimeMs":1634625709658.8245,"mtimeMs":1634625709597.9268,"ctimeMs":1634625709597.9268,"birthtimeMs":1634625453532.7385,"atime":"2021-10-19T06:41:49.659Z","mtime":"2021-10-19T06:41:49.598Z","ctime":"2021-10-19T06:41:49.598Z","birthtime":"2021-10-19T06:37:33.533Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-10-19 14:41:58,485 INFO 218 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 14:41:58,491 INFO 218 [egg:core] dump config after load, 2ms
+2021-10-19 14:41:58,515 INFO 218 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 14:41:58,515 INFO 218 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 14:41:58,515 INFO 218 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 14:41:58,515 INFO 218 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 14:41:58,515 INFO 218 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 14:41:58,515 INFO 218 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 14:41:58,516 INFO 218 [egg-watcher:agent] watcher start success
+2021-10-19 14:41:58,523 INFO 218 [egg:core] dump config after ready, 1ms
+2021-10-19 14:44:39,416 INFO 428 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 14:44:39,422 INFO 428 [egg:core] dump config after load, 2ms
+2021-10-19 14:44:39,446 INFO 428 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 14:44:39,446 INFO 428 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 14:44:39,447 INFO 428 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 14:44:39,447 INFO 428 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 14:44:39,447 INFO 428 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 14:44:39,447 INFO 428 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 14:44:39,448 INFO 428 [egg-watcher:agent] watcher start success
+2021-10-19 14:44:39,453 INFO 428 [egg:core] dump config after ready, 2ms
+2021-10-19 14:44:59,190 INFO 491 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 14:44:59,197 INFO 491 [egg:core] dump config after load, 3ms
+2021-10-19 14:44:59,217 INFO 491 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 14:44:59,217 INFO 491 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 14:44:59,217 INFO 491 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 14:44:59,217 INFO 491 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 14:44:59,217 INFO 491 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 14:44:59,217 INFO 491 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 14:44:59,218 INFO 491 [egg-watcher:agent] watcher start success
+2021-10-19 14:44:59,223 INFO 491 [egg:core] dump config after ready, 2ms
+2021-10-19 14:45:23,723 INFO 524 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 14:45:23,729 INFO 524 [egg:core] dump config after load, 3ms
+2021-10-19 14:45:23,750 INFO 524 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 14:45:23,750 INFO 524 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 14:45:23,750 INFO 524 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 14:45:23,750 INFO 524 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 14:45:23,750 INFO 524 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 14:45:23,750 INFO 524 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 14:45:23,751 INFO 524 [egg-watcher:agent] watcher start success
+2021-10-19 14:45:23,756 INFO 524 [egg:core] dump config after ready, 2ms
+2021-10-19 14:46:16,375 INFO 575 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 14:46:16,382 INFO 575 [egg:core] dump config after load, 3ms
+2021-10-19 14:46:16,405 INFO 575 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 14:46:16,405 INFO 575 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 14:46:16,405 INFO 575 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 14:46:16,405 INFO 575 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 14:46:16,405 INFO 575 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 14:46:16,406 INFO 575 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 14:46:16,407 INFO 575 [egg-watcher:agent] watcher start success
+2021-10-19 14:46:16,413 INFO 575 [egg:core] dump config after ready, 2ms
+2021-10-19 14:51:02,850 INFO 987 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 14:51:02,856 INFO 987 [egg:core] dump config after load, 2ms
+2021-10-19 14:51:02,877 INFO 987 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 14:51:02,877 INFO 987 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 14:51:02,877 INFO 987 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 14:51:02,877 INFO 987 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 14:51:02,877 INFO 987 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 14:51:02,877 INFO 987 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 14:51:02,878 INFO 987 [egg-watcher:agent] watcher start success
+2021-10-19 14:51:02,894 INFO 987 [egg:core] dump config after ready, 13ms
+2021-10-19 14:53:05,316 INFO 1115 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 14:53:05,324 INFO 1115 [egg:core] dump config after load, 2ms
+2021-10-19 14:53:05,351 INFO 1115 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 14:53:05,351 INFO 1115 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 14:53:05,351 INFO 1115 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 14:53:05,351 INFO 1115 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 14:53:05,351 INFO 1115 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 14:53:05,351 INFO 1115 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 14:53:05,352 INFO 1115 [egg-watcher:agent] watcher start success
+2021-10-19 14:53:05,358 INFO 1115 [egg:core] dump config after ready, 2ms
+2021-10-19 14:54:07,004 INFO 1167 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 14:54:07,010 INFO 1167 [egg:core] dump config after load, 3ms
+2021-10-19 14:54:07,033 INFO 1167 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 14:54:07,033 INFO 1167 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 14:54:07,033 INFO 1167 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 14:54:07,033 INFO 1167 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 14:54:07,033 INFO 1167 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 14:54:07,033 INFO 1167 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 14:54:07,034 INFO 1167 [egg-watcher:agent] watcher start success
+2021-10-19 14:54:07,041 INFO 1167 [egg:core] dump config after ready, 3ms
+2021-10-19 14:57:21,381 INFO 1546 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 14:57:21,392 INFO 1546 [egg:core] dump config after load, 3ms
+2021-10-19 14:57:21,423 INFO 1546 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 14:57:21,423 INFO 1546 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 14:57:21,424 INFO 1546 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 14:57:21,424 INFO 1546 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 14:57:21,424 INFO 1546 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 14:57:21,424 INFO 1546 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 14:57:21,425 INFO 1546 [egg-watcher:agent] watcher start success
+2021-10-19 14:57:21,432 INFO 1546 [egg:core] dump config after ready, 2ms
+2021-10-19 15:05:10,674 INFO 2031 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:05:10,683 INFO 2031 [egg:core] dump config after load, 2ms
+2021-10-19 15:05:10,709 INFO 2031 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:05:10,709 INFO 2031 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:05:10,709 INFO 2031 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:05:10,709 INFO 2031 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:05:10,709 INFO 2031 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:05:10,710 INFO 2031 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:05:10,710 INFO 2031 [egg-watcher:agent] watcher start success
+2021-10-19 15:05:10,717 INFO 2031 [egg:core] dump config after ready, 2ms
+2021-10-19 15:07:08,902 INFO 2177 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:07:08,908 INFO 2177 [egg:core] dump config after load, 2ms
+2021-10-19 15:07:08,930 INFO 2177 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:07:08,930 INFO 2177 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:07:08,930 INFO 2177 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:07:08,930 INFO 2177 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:07:08,930 INFO 2177 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:07:08,930 INFO 2177 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:07:08,931 INFO 2177 [egg-watcher:agent] watcher start success
+2021-10-19 15:07:08,937 INFO 2177 [egg:core] dump config after ready, 2ms
+2021-10-19 15:12:41,209 INFO 2630 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:12:41,215 INFO 2630 [egg:core] dump config after load, 2ms
+2021-10-19 15:12:41,235 INFO 2630 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:12:41,235 INFO 2630 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:12:41,235 INFO 2630 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:12:41,235 INFO 2630 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:12:41,235 INFO 2630 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:12:41,235 INFO 2630 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:12:41,236 INFO 2630 [egg-watcher:agent] watcher start success
+2021-10-19 15:12:41,242 INFO 2630 [egg:core] dump config after ready, 2ms
+2021-10-19 15:16:14,612 INFO 2910 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:16:14,618 INFO 2910 [egg:core] dump config after load, 2ms
+2021-10-19 15:16:14,638 INFO 2910 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:16:14,638 INFO 2910 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:16:14,639 INFO 2910 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:16:14,639 INFO 2910 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:16:14,639 INFO 2910 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:16:14,639 INFO 2910 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:16:14,640 INFO 2910 [egg-watcher:agent] watcher start success
+2021-10-19 15:16:14,646 INFO 2910 [egg:core] dump config after ready, 2ms
+2021-10-19 15:16:52,128 INFO 2968 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:16:52,137 INFO 2968 [egg:core] dump config after load, 2ms
+2021-10-19 15:16:52,165 INFO 2968 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:16:52,165 INFO 2968 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:16:52,165 INFO 2968 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:16:52,165 INFO 2968 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:16:52,165 INFO 2968 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:16:52,165 INFO 2968 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:16:52,166 INFO 2968 [egg-watcher:agent] watcher start success
+2021-10-19 15:16:52,172 INFO 2968 [egg:core] dump config after ready, 2ms
+2021-10-19 15:18:18,554 INFO 3119 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:18:18,564 INFO 3119 [egg:core] dump config after load, 2ms
+2021-10-19 15:18:18,586 INFO 3119 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:18:18,586 INFO 3119 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:18:18,586 INFO 3119 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:18:18,586 INFO 3119 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:18:18,586 INFO 3119 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:18:18,586 INFO 3119 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:18:18,587 INFO 3119 [egg-watcher:agent] watcher start success
+2021-10-19 15:18:18,593 INFO 3119 [egg:core] dump config after ready, 2ms
+2021-10-19 15:21:17,377 INFO 3369 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:21:17,384 INFO 3369 [egg:core] dump config after load, 3ms
+2021-10-19 15:21:17,404 INFO 3369 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:21:17,405 INFO 3369 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:21:17,405 INFO 3369 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:21:17,405 INFO 3369 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:21:17,405 INFO 3369 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:21:17,405 INFO 3369 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:21:17,406 INFO 3369 [egg-watcher:agent] watcher start success
+2021-10-19 15:21:17,412 INFO 3369 [egg:core] dump config after ready, 2ms
+2021-10-19 15:22:21,206 INFO 3436 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:22:21,215 INFO 3436 [egg:core] dump config after load, 2ms
+2021-10-19 15:22:21,242 INFO 3436 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:22:21,242 INFO 3436 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:22:21,242 INFO 3436 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:22:21,242 INFO 3436 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:22:21,242 INFO 3436 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:22:21,242 INFO 3436 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:22:21,243 INFO 3436 [egg-watcher:agent] watcher start success
+2021-10-19 15:22:21,249 INFO 3436 [egg:core] dump config after ready, 2ms
+2021-10-19 15:22:40,036 INFO 3484 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:22:40,044 INFO 3484 [egg:core] dump config after load, 3ms
+2021-10-19 15:22:40,070 INFO 3484 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:22:40,070 INFO 3484 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:22:40,070 INFO 3484 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:22:40,070 INFO 3484 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:22:40,070 INFO 3484 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:22:40,070 INFO 3484 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:22:40,071 INFO 3484 [egg-watcher:agent] watcher start success
+2021-10-19 15:22:40,078 INFO 3484 [egg:core] dump config after ready, 2ms
+2021-10-19 15:23:36,655 INFO 3540 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:23:36,662 INFO 3540 [egg:core] dump config after load, 2ms
+2021-10-19 15:23:36,686 INFO 3540 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:23:36,686 INFO 3540 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:23:36,686 INFO 3540 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:23:36,686 INFO 3540 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:23:36,686 INFO 3540 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:23:36,686 INFO 3540 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:23:36,687 INFO 3540 [egg-watcher:agent] watcher start success
+2021-10-19 15:23:36,693 INFO 3540 [egg:core] dump config after ready, 2ms
+2021-10-19 15:24:29,919 INFO 3585 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:24:29,927 INFO 3585 [egg:core] dump config after load, 3ms
+2021-10-19 15:24:29,951 INFO 3585 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:24:29,951 INFO 3585 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:24:29,952 INFO 3585 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:24:29,952 INFO 3585 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:24:29,952 INFO 3585 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:24:29,952 INFO 3585 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:24:29,953 INFO 3585 [egg-watcher:agent] watcher start success
+2021-10-19 15:24:29,958 INFO 3585 [egg:core] dump config after ready, 2ms
+2021-10-19 15:25:13,971 INFO 3660 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:25:13,977 INFO 3660 [egg:core] dump config after load, 3ms
+2021-10-19 15:25:14,000 INFO 3660 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:25:14,000 INFO 3660 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:25:14,000 INFO 3660 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:25:14,000 INFO 3660 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:25:14,000 INFO 3660 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:25:14,000 INFO 3660 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:25:14,001 INFO 3660 [egg-watcher:agent] watcher start success
+2021-10-19 15:25:14,007 INFO 3660 [egg:core] dump config after ready, 2ms
+2021-10-19 15:26:54,266 INFO 3782 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:26:54,273 INFO 3782 [egg:core] dump config after load, 2ms
+2021-10-19 15:26:54,297 INFO 3782 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:26:54,297 INFO 3782 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:26:54,297 INFO 3782 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:26:54,297 INFO 3782 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:26:54,297 INFO 3782 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:26:54,297 INFO 3782 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:26:54,298 INFO 3782 [egg-watcher:agent] watcher start success
+2021-10-19 15:26:54,304 INFO 3782 [egg:core] dump config after ready, 2ms
+2021-10-19 15:28:57,152 INFO 4014 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:28:57,161 INFO 4014 [egg:core] dump config after load, 2ms
+2021-10-19 15:28:57,184 INFO 4014 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:28:57,184 INFO 4014 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:28:57,185 INFO 4014 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:28:57,185 INFO 4014 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:28:57,185 INFO 4014 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:28:57,185 INFO 4014 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:28:57,186 INFO 4014 [egg-watcher:agent] watcher start success
+2021-10-19 15:28:57,192 INFO 4014 [egg:core] dump config after ready, 2ms
+2021-10-19 15:29:13,721 INFO 4045 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:29:13,727 INFO 4045 [egg:core] dump config after load, 3ms
+2021-10-19 15:29:13,748 INFO 4045 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:29:13,748 INFO 4045 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:29:13,748 INFO 4045 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:29:13,748 INFO 4045 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:29:13,748 INFO 4045 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:29:13,748 INFO 4045 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:29:13,749 INFO 4045 [egg-watcher:agent] watcher start success
+2021-10-19 15:29:13,755 INFO 4045 [egg:core] dump config after ready, 2ms
+2021-10-19 15:29:28,408 INFO 4065 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:29:28,414 INFO 4065 [egg:core] dump config after load, 3ms
+2021-10-19 15:29:28,434 INFO 4065 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:29:28,434 INFO 4065 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:29:28,434 INFO 4065 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:29:28,434 INFO 4065 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:29:28,434 INFO 4065 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:29:28,434 INFO 4065 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:29:28,435 INFO 4065 [egg-watcher:agent] watcher start success
+2021-10-19 15:29:28,441 INFO 4065 [egg:core] dump config after ready, 2ms
+2021-10-19 15:30:22,870 INFO 4174 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:30:22,876 INFO 4174 [egg:core] dump config after load, 3ms
+2021-10-19 15:30:22,896 INFO 4174 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:30:22,896 INFO 4174 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:30:22,897 INFO 4174 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:30:22,897 INFO 4174 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:30:22,897 INFO 4174 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:30:22,897 INFO 4174 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:30:22,898 INFO 4174 [egg-watcher:agent] watcher start success
+2021-10-19 15:30:22,903 INFO 4174 [egg:core] dump config after ready, 2ms
+2021-10-19 15:31:11,725 INFO 4246 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:31:11,731 INFO 4246 [egg:core] dump config after load, 2ms
+2021-10-19 15:31:11,751 INFO 4246 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:31:11,751 INFO 4246 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:31:11,751 INFO 4246 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:31:11,751 INFO 4246 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:31:11,751 INFO 4246 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:31:11,751 INFO 4246 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:31:11,752 INFO 4246 [egg-watcher:agent] watcher start success
+2021-10-19 15:31:11,758 INFO 4246 [egg:core] dump config after ready, 2ms
+2021-10-19 15:31:55,812 INFO 4303 [egg:logger] init all loggers with options: {"dir":"/Users/luoyeshuli/workspace/upskills/test/cgi-sign/logs/cgi-sign","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cgi-sign-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-19 15:31:55,818 INFO 4303 [egg:core] dump config after load, 3ms
+2021-10-19 15:31:55,839 INFO 4303 [egg-watcher] Start watching: ["/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy","/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"]
+2021-10-19 15:31:55,839 INFO 4303 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app"
+2021-10-19 15:31:55,839 INFO 4303 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/config"
+2021-10-19 15:31:55,839 INFO 4303 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks"
+2021-10-19 15:31:55,839 INFO 4303 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/mocks_proxy"
+2021-10-19 15:31:55,839 INFO 4303 [egg-watcher] Start watching: "/Users/luoyeshuli/workspace/upskills/test/cgi-sign/app.js"
+2021-10-19 15:31:55,840 INFO 4303 [egg-watcher:agent] watcher start success
+2021-10-19 15:31:55,846 INFO 4303 [egg:core] dump config after ready, 2ms

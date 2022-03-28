@@ -1,18 +1,15 @@
 {
-  "name": "cgi-sign",
+  "name": "test-axios-node-multipl-request-header",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "egg-bin dev --port 8888"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.23.0",
-    "blueimp-md5": "^2.19.0",
-    "egg": "^2.30.0",
-    "egg-bin": "^4.16.4",
+    "axios": "^0.21.0",
     "express": "^4.17.1"
   }
 }
