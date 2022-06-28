@@ -7,7 +7,7 @@
     "test": "test"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.2",
     "express": "^4.16.3",
     "gulp": "^3.9.1",
     "webpack": "^3.12.0",
