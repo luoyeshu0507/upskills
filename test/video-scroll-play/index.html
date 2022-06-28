@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+    }
+    .wrap {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+    }
+    .header {
+      height: 150px;
+      background: gray;
+      flex: 0 0 auto;
+      text-align: center;
+      line-height: 150px;
+      color: #fff;
+      font-size: 36px;
+    }
+    .list {
+      flex: 1 1 auto;
+      display: flex;
+      flex-wrap: wrap;
+      overflow: auto;
+      background: #ddd;
+      height: 100%;
+    }
+    .video {
+      width: 50%;
+      height: 300px;
+      border: 1px solid #666;
+      box-sizing: border-box;
+    }
+    .list-wraper {
+      height: 100%;
+      flex: 1 1 auto;
+      position: relative;
+    }
+    .list-wraper:before, .list-wraper:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background: red;
+      left: 0;
+      top: 15%;
+    }
+    .list-wraper:after {
+      top: 45%;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">Hello World!</div>
+    <!-- list-wraper 为了划 15% 45% 线 其实不需要 -->
+    <div class="list-wraper">
+      <div class="list">
+        <div class="video">1</div>
+        <div class="video">2</div>
+        <div class="video">3</div>
+        <div class="video">4</div>
+        <div class="video">5</div>
+        <div class="video">6</div>
+        <div class="video">7</div>
+        <div class="video">8</div>
+        <div class="video">9</div>
+        <div class="video">10</div>
+        <div class="video">11</div>
+        <div class="video">12</div>
+        <div class="video">13</div>
+        <div class="video">14</div>
+        <div class="video">15</div>
+        <div class="video">16</div>
+        <div class="video">17</div>
+        <div class="video">18</div>
+        <div class="video">19</div>
+        <div class="video">20</div>
+        <div class="video">21</div>
+        <div class="video">22</div>
+        <div class="video">23</div>
+        <div class="video">24</div>
+        <div class="video">25</div>
+        <div class="video">26</div>
+        <div class="video">27</div>
+        <div class="video">28</div>
+        <div class="video">29</div>
+        <div class="video">30</div>
+        <div class="video">31</div>
+        <div class="video">32</div>
+        <div class="video">33</div>
+        <div class="video">34</div>
+        <div class="video">35</div>
+        <div class="video">36</div>
+        <div class="video">37</div>
+        <div class="video">38</div>
+        <div class="video">39</div>
+        <div class="video">40</div>
+        <div class="video">41</div>
+        <div class="video">42</div>
+        <div class="video">43</div>
+        <div class="video">44</div>
+        <div class="video">45</div>
+        <div class="video">46</div>
+        <div class="video">47</div>
+        <div class="video">48</div>
+        <div class="video">49</div>
+        <div class="video">50</div>
+        <div class="video">51</div>
+        <div class="video">52</div>
+        <div class="video">53</div>
+        <div class="video">54</div>
+        <div class="video">55</div>
+        <div class="video">56</div>
+        <div class="video">57</div>
+        <div class="video">58</div>
+        <div class="video">59</div>
+        <div class="video">60</div>
+        <div class="video">61</div>
+        <div class="video">62</div>
+        <div class="video">63</div>
+        <div class="video">64</div>
+        <div class="video">65</div>
+        <div class="video">66</div>
+        <div class="video">67</div>
+        <div class="video">68</div>
+        <div class="video">69</div>
+        <div class="video">70</div>
+        <div class="video">71</div>
+        <div class="video">72</div>
+        <div class="video">73</div>
+        <div class="video">74</div>
+        <div class="video">75</div>
+        <div class="video">76</div>
+        <div class="video">77</div>
+        <div class="video">78</div>
+        <div class="video">79</div>
+        <div class="video">80</div>
+        <div class="video">81</div>
+        <div class="video">82</div>
+        <div class="video">83</div>
+        <div class="video">84</div>
+        <div class="video">85</div>
+        <div class="video">86</div>
+        <div class="video">87</div>
+        <div class="video">88</div>
+        <div class="video">89</div>
+        <div class="video">90</div>
+        <div class="video">91</div>
+        <div class="video">92</div>
+        <div class="video">93</div>
+        <div class="video">94</div>
+        <div class="video">95</div>
+        <div class="video">96</div>
+        <div class="video">97</div>
+        <div class="video">98</div>
+        <div class="video">99</div>
+        <div class="video">100</div>
+      </div>
+    </div>
+  </div>
+  <script>
+    var scrollTop = 0;
+    var currentVedioIndex = 0;
+    var $list = document.querySelector('.list');
+    var WAPER_HIGHT = $list.offsetHeight;
+    var $firstVideo = $list.querySelector('.video');
+    var VIDEO_HIGHT = $firstVideo.offsetHeight;
+    var HIGHT_15 = WAPER_HIGHT * 0.15;
+    var HIGHT_45 = WAPER_HIGHT * 0.45;
+    var DEBOUNCE_TIME = 50;
+    var isScrolled = false;
+    var t = 0;
+
+    function debounce(e) {
+      if (t) {
+        clearTimeout(t);
+      }
+      var top = e.target.scrollTop;
+      t = setTimeout(() => calcVedioIndex(top), DEBOUNCE_TIME);
+    }
+
+    function calcVedioIndex(top) {
+      var distanceChange = top - scrollTop;
+      var direction = distanceChange < 0 ? 'down': 'up';
+      // 开始往下滑动时，播放第二个卡片（必须 第二行未触发 45%线的前提）
+      if (!isScrolled) {
+        isScrolled = true;
+        if (VIDEO_HIGHT + top < HIGHT_45) {
+          return setVideoPlay(1);
+        }
+      }
+
+      var line45 = 0;
+      var line45Offset = 0;
+      var line15 = 0;
+      var line15Offset = 0;
+      var h45 = top + HIGHT_45;
+      var h15 = top + HIGHT_15;
+      // 离 45 最近的上边框
+      line45Offset = h45 % VIDEO_HIGHT;
+      line45 = parseInt(h45 / VIDEO_HIGHT);
+      // 离 15 最近的上边框
+      line15Offset = h15 % VIDEO_HIGHT;
+      line15 = parseInt(h15 / VIDEO_HIGHT);
+
+      var position = 'left';
+      var index = 0;
+      var line = line45;
+      if (direction === 'up') {
+        if (line45Offset > line15Offset) {
+          position = 'right';
+          line = line15;
+        }
+        index = line * 2 + (position === 'right'? 1: 0);
+      } else {
+        line45 = line45 + 1;
+        line45Offset = VIDEO_HIGHT - line45Offset;
+        line15 = line15 + 1;
+        line = line45 - 1;
+        position = 'right';
+        line15Offset = VIDEO_HIGHT - line15Offset;
+        if (line45Offset > line15Offset) {
+          position = 'left';
+          line = line15;
+        }
+        index = line * 2 + (position === 'right'? 1: 0);
+      }
+      if (index !== currentVedioIndex) {
+        setVideoPlay(index);
+        this.scrollTop = top;
+      }
+    }
+
+    function setVideoPlay(index) {
+      var pre = $list.querySelector(`.video:nth-child(${currentVedioIndex + 1})`);
+      pre && (pre.style.background = 'transparent');
+      var cur = $list.querySelector(`.video:nth-child(${index + 1})`);
+      cur && (cur.style.background = '#666');
+      currentVedioIndex = index;
+    }
+    $list.addEventListener('scroll', debounce, false);
+    setVideoPlay(0);
+  </script>
+</body>
+</html>
+
+
+
+
+
