@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "formstream": "^1.1.0",
-    "urllib": "^2.36.1"
+    "urllib": "^2.38.1"
   }
 }
