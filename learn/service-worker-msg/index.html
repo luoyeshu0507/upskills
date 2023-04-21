@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        if (!("Notification" in window)) {
+            // Check if the browser supports notifications
+            alert("This browser does not support desktop notification");
+        } else if (Notification.permission === "granted") {
+            // Check whether notification permissions have already been granted;
+            // if so, create a notification
+            console.log('notice1')
+            var notification = new Notification("Hi there!");
+            // …
+        } else if (Notification.permission !== "denied") {
+            // We need to ask the user for permission
+            Notification.requestPermission().then((permission) => {
+                // If the user accepts, let's create a notification
+                if (permission === "granted") {
+                    console.log('notice2');
+                    var notification = new Notification("Hi there!");
+                }
+            });
+        }
+        const registerServiceWorker = async () => {
+            if ("serviceWorker" in navigator) {
+                try {
+                    const registration = await navigator.serviceWorker.register("./sw.js", {
+                        scope: "/",
+                    });
+                    if (registration.installing) {
+                        console.log("Service worker installing");
+                    } else if (registration.waiting) {
+                        console.log("Service worker installed");
+                    } else if (registration.active) {
+                        console.log("Service worker active");
+                    }
+                    console.log(registration);
+                    registration.pushManager.subscribe({
+                        userVisibleOnly: true,
+                        applicationServerKey: 'BMLAhtVCVTUoksaFwzGqRHcdaoL1w6NDa3_5tpHgBXVIddG8ACbYy6JtNiVbXLLZhDkMwNBzZLMahh8Ftu826VU',
+                    }).then(
+                        (pushSubscription) => {
+                            console.log(pushSubscription);
+                            console.log(pushSubscription.subscriptionId);
+                            console.log(pushSubscription.endpoint);
+                            // The push subscription details needed by the application
+                            // server are now available, and can be sent to it using,
+                            // for example, an XMLHttpRequest.
+                        }, (error) => {
+                            // During development it often helps to log errors to the
+                            // console. In a production environment it might make sense to
+                            // also report information about errors back to the
+                            // application server.
+                            console.error(error);
+                        }
+                    );
+                } catch (error) {
+                    console.error(`Registration failed with ${error}`);
+                }
+            }
+        };
+        registerServiceWorker();
+    </script>
+</body>
+</html>

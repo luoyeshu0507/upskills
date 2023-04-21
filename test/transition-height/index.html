@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .test {
+      transition: height .3s;
+      min-height: 100px;
+      background: red;
+      height: 100px;
+    }
+    .test.active {
+      height: auto;
+    }
+    .test.active .content {
+      height: 300px;
+      background: gray;
+      width: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="test">
+    <div class="content"></div>
+  </div>
+  <script>
+    var test = document.querySelector('.test');
+    test.addEventListener('click', function () {
+      if (test.className === 'test active') {
+        test.className = 'test';
+      } else {
+        test.className = 'test active';
+      }
+    }, false);
+  </script>
+</body>
+</html>

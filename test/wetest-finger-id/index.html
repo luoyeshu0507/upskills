@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script src="https://cdn.wetest.qq.com/cube/com/apmcc/wetest-fingerprint.min.js"></script>
+<script>
+    console.log(getWeTestFingerId);
+    getWeTestFingerId.load().then(fp => {
+        console.log(fp);
+        fp.get().then(result => {
+            console.log(result);
+            const wetestFingerId = result.visitorId;
+            console.log(wetestFingerId);
+        });
+    });
+</script>
+</body>
+</html>
