@@ -97,3 +97,69 @@ lru.get(1);
 lru.delete(9);
 lru.delete(4);
 lru.get(2);
+
+
+function LruMemory(max) {
+    this.max = max;
+    this.head = {
+        next: null,
+    };
+    this.tail = {
+        pre: this.head,
+    };
+    this.head.next = this.tail;
+    this.map = {};
+    this.length = 0;
+}
+
+LruMemory.prototype.set = function(key, val) {
+    const { length, head, tail, map, max } = this;
+    if (map[key] !== undefined) {
+        this.delete(key);
+    }
+    this.length = length + 1;
+    if (this.length > max) {
+        this.delete(head.next.key);
+    }
+    const item = {
+        next: tail,
+        key,
+        val,
+        pre: tail.pre,
+    };
+    tail.pre.next = item;
+    tail.pre = item;
+    map[key] = item;
+}
+
+LruMemory.prototype.get = function(key) {
+    const { map } = this;
+    const item = map[key];
+    if (item === undefined) return null;
+    this.delete(key);
+    this.set(key, item.val);
+    return item.val;
+}
+
+LruMemory.prototype.delete = function(key) {
+    const { length, map } = this;
+    let item = map[key];
+    if (item === undefined) return;
+    this.length = length - 1;
+    item.pre.next = item.next;
+    item.next.pre = item.pre;
+    item = null;
+    delete map[key];
+}
+
+let lru2 = new LruMemory(3);
+lru2.set(1, 1);
+console.log(lru2.get(1));
+lru2.set(2, 2);
+console.log(lru2.get(2));
+lru2.set(3, 3);
+console.log(lru2.get(3));
+lru2.set(4, 4);
+console.log(lru2.get(4));
+console.log(lru2.get(1));
+console.log(lru2.get(2));

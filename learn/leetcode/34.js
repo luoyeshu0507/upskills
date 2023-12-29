@@ -1,35 +1,26 @@
-// Given an array of integers sorted in ascending order, find the starting and ending position of a given target value.
-
-// Your algorithm's runtime complexity must be in the order of O(log n).
-
-// If the target is not found in the array, return [-1, -1].
-
-// For example,
-// Given [5, 7, 7, 8, 8, 10] and target value 8,
-// return [3, 4].
-
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
- */
 var searchRange = function(nums, target) {
-    var start, end;
-    for (var i = 0, len = nums.length; i < len; i++) {
-    	if (start === undefined) {
-    		if (nums[i] === target) {
-    			start = i;
-    		}
-    	}
-    	if (end === undefined) {
-    		if (nums[len - i - 1] === target) {
-    			end = len - i - 1;
-    		}
-    	}
-    	if (start !== undefined && end !== undefined) {
-    		return [start, end];
-    	}
+    var len = nums.length;
+    if (nums[len - 1] < target || nums[0] > nums) {
+        return [-1, -1];
     }
-    return [-1, -1];
+    return [findIndex(nums, target, 0, len - 1, 'left'), findIndex(nums, target, 0, len - 1, 'right')];
 };
-console.log(searchRange([], 8));
+
+function findIndex(arr, target, l = 0, r = arr.length - 1, side) {
+    if (l >= r) {
+        return arr[l] === target ? l : -1;
+    }
+    var mid = l + ((r - l) >> 1);
+    var val = arr[mid];
+    if (val > target) {
+        return findIndex(arr, target, l, mid - 1, side);
+    } else if (val < target) {
+        return findIndex(arr, target, mid + 1, r, side);
+    } else if (side === 'left') {
+        return findIndex(arr, target, l, mid, side);
+    } else if (side === 'right') {
+        return findIndex(arr, target, mid, r, side);
+    }
+}
+
+console.log(searchRange([5,7,7,8,8,10], 8));

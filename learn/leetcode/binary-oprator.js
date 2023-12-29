@@ -1,6 +1,7 @@
 function binaryAdd(a, b) {
     var s1 = a ^ b;
     var s2 = (a & b) << 1;
+    s2 = s2 & (~ (1 << 31));
     return s2 === 0 ? s1 : binaryAdd(s1, s2);
 }
 
