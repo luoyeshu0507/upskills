@@ -29,3 +29,4 @@ const HOST = '127.0.0.1';
 server.listen(PORT, HOST, () => {
   console.log(`Server running at http://${HOST}:${PORT}/`);
 });
+// 思路就是 ssr 的 html 可以分成三段 header vue-app footer, header 跟 footer 其实是静态的，vue-app 是异步耗时生成的，可以先把 header 返回给浏览器处理，让浏览器先去加载 header 里面的 js/css 节约时间，把 index.html 的响应变成流式的，分段响应

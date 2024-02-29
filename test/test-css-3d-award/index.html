@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=`, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .content {
+      width: 100px;
+      height: 150px;
+      margin: 20px auto;
+      perspective: 200px;
+      perspective-origin: 50% 120%;
+    }
+    .wrap {
+      width: 100px;
+      height: 150px;
+      position: relative;
+      perspective: 200px;
+    }
+    .wrap div {
+      width: 100%;
+      height: 100%;
+      background-color: #999;
+      transform-origin: 50% 50% -120px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0.5;
+    }
+    .wrap div:nth-child(1) {
+      transform: rotateX(-20deg) rotateY(0deg);
+    }
+    .wrap div:nth-child(2) {
+      transform: rotateX(-20deg) rotateY(60deg);
+    }
+    .wrap div:nth-child(3) {
+      transform: rotateX(-20deg) rotateY(120deg);
+    }
+    .wrap div:nth-child(4) {
+      transform: rotateX(-20deg) rotateY(180deg);
+    }
+    .wrap div:nth-child(5) {
+      transform: rotateX(-20deg) rotateY(240deg);
+    }
+    .wrap div:nth-child(6) {
+      transform: rotateX(-20deg) rotateY(300deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="wrap">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</body>
+</html>

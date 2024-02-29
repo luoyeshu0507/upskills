@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      perspective: 1000px;
+      perspective-origin: 50% 50%;
+      margin: 0;
+      overflow: hidden;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      position: relative;
+      transform-style: preserve-3d;
+      animation: rotateAnimation 10s infinite linear;
+    }
+
+    .rect {
+      position: absolute;
+      width: 100px;
+      height: 50px;
+      background-color: #3498db;
+      transform-origin: 50% 100%;
+    }
+
+    .rect:nth-child(1) { transform: rotateY(0deg) translateZ(200px); }
+    .rect:nth-child(2) { transform: rotateY(60deg) translateZ(200px); }
+    .rect:nth-child(3) { transform: rotateY(120deg) translateZ(200px); }
+    .rect:nth-child(4) { transform: rotateY(180deg) translateZ(200px); }
+    .rect:nth-child(5) { transform: rotateY(240deg) translateZ(200px); }
+    .rect:nth-child(6) { transform: rotateY(300deg) translateZ(200px); }
+
+    @keyframes rotateAnimation {
+      from { transform: rotateY(0deg); }
+      to { transform: rotateY(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="rect"></div>
+    <div class="rect"></div>
+    <div class="rect"></div>
+    <div class="rect"></div>
+    <div class="rect"></div>
+    <div class="rect"></div>
+  </div>
+</body>
+</html>
