@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function downloadVideoBlob(url, name) {
+      const xmlHttp = new XMLHttpRequest()
+      xmlHttp.onload = () => {
+        console.log('loaded')
+      }
+      xmlHttp.open('GET', url)
+      xmlHttp.setRequestHeader("Content-Type", "blob")
+      xmlHttp.setRequestHeader("Cookie", "access-token-yunxiao.devops.xiaohongshu.com=internal.yanxiao.AT-216f06312b9e44bb9b0c0ba3d224483e-3c8f684e534d48c2865a0a56de20fb71; abRequestId=dc3a44f4-f264-56e3-b5ba-fa83563dd65f; a1=18c8abe88db7c1o2hsmq2xf7x6kzgzw7oqini4b3y30000630809; webId=c785f5f71390b52769d1ef17b3c8fecc; gid=yYSY0DdYSSl8yYSY0DdYYA4DfDWSylJxM6AJ3qvCiWCKTIq8ukuEW3888Kq8Y8j8j4j8K2fj; access-token-redcloud.devops.xiaohongshu.com=internal.tech.AT-a5d9fd9042a74ea79be6757b50e4dff9-87e494f7064b4e26944c10d7b377a491; xhsSEM=de7a0f0d-44ac-481a-a706-b7dfc75aa237; xhsSEM.sig=XIS6eudZKOfDDc9Qe4mp0Sr7QaCT3T-KQDwUwn-Zn8M; access-token-docs.xiaohongshu.com=internal.docs.AT-2d23b807ab4048cd99b358413489ce8b-3537e1a7378544a7861c7ef760c24b92; common-internal-access-token-prod=AT-2d23b807ab4048cd99b358413489ce8b-3537e1a7378544a7861c7ef760c24b92; access-token-city.xiaohongshu.com=internal.xhsoa.AT-00e09ab586394f7f8df3fe848e154fd0-abae8b9d63a1411f8c1902fa7dd53f9e; redpass_did=5B5D3174-49ED-5D01-A941-03F2D8FBE625; web_session=030037a2b0923c0b64005b0dab224a7b12d13b; access-token-nps.devops.xiaohongshu.com=internal.robin-nps.AT-e0ee0f6d013c44e0a94c4d10b25e32d7-01af324684c7461d93262009be35714f; access-token-okr.xiaohongshu.com=internal.xhsoa.AT-4a5b255868b94058aa775c06df1a982b-eaab2e0791bd4d3385501eb21969364a; porch_beaker_session_id=6efd625f2d24918214a75fecd0c65418dbd2c72cgAJ9cQAoWAMAAABfaWRxAVggAAAAYjFjMDFiYzRmMjQxNDQwYmE3YTIyNzExZjMzMTBiYTVxAlgOAAAAX2FjY2Vzc2VkX3RpbWVxA0qsFbNlWAoAAABleHBpcmVkX2F0cQRKrLwpZlgNAAAAcG9yY2gtdXNlci1pZHEFWBgAAAA2NTY4NWNlYjExMDAwMDAwMDAwMDAwMDdxBlgQAAAAcG9yY2gtYXV0aC10b2tlbnEHWEEAAABkYzBkMTAzNDM1Yzc0NGIyODk0NzhiN2IzNzQ3ODhjZC1hY2NkMDllNzEwM2I0Y2E1OWVlM2RmZmIyZTlhODdmOXEIWA4AAABfY3JlYXRpb25fdGltZXEJSqwVs2V1Lg==; portal-new-marked=1709887400560; portal-guide=done; customerClientId=913292438930874; x-user-id-universe.sit.xiaohongshu.com=6405502f000000000e00b5cb; x-user-id-universe.beta.xiaohongshu.com=6405502f000000000e00b5cb; x-user-id-universe.xiaohongshu.com=6405502f000000000e00b5cb; access-token-hr.xiaohongshu.com=internal.xhsoa.AT-3b7c5ac2486f408fbdc2ca73dd3e61b2-2a3364448e454f298edf3e38605a1e8b; timeslogin=bcaaf25683b3e140577cbfbe2118c5e7; newresults=; customer-sso-sid=65f41b714800000000000019; hulk.sso.jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoVG9rZW4iOiJkYzBkMTAzNDM1Yzc0NGIyODk0NzhiN2IzNzQ3ODhjZC1hY2NkMDllNzEwM2I0Y2E1OWVlM2RmZmIyZTlhODdmOSIsInVzZXJJZCI6IjY1Njg1Y2ViMTEwMDAwMDAwMDAwMDAwNyIsInVzZXJTdWJzeXN0ZW1zSW5mbyI6e30sImlhdCI6MTcxMDU3MzgxNSwiZXhwIjoxNzExMTc4NjE1fQ.eMs_GhpRoO-R6bzlZF80OUtOT0PBrlIkjraFTx3DO4g; webBuild=4.6.0; xsecappid=xhs-pc-web; websectiga=f3d8eaee8a8c63016320d94a1bd00562d516a5417bc43a032a80cbf70f07d5c0; unread={%22ub%22:%2265ed3661000000000d00c121%22%2C%22ue%22:%2265eb6d6e000000000102b71e%22%2C%22uc%22:26}; sit_porch_beaker_session_id=0859bf0c33f4628c265636f793b22e308f13d122KGRwMQpWcG9yY2gtdXNlci1pZApwMgpWNjU2ODVjZWIxMTAwMDAwMDAwMDAwMDA3CnAzCnNWX2lkCnA0ClY2ODhkODIzMGU0ZDcxMWVlOGM3YzdmMzc0MmZmNzFjYgpwNQpzVl9hY2Nlc3NlZF90aW1lCnA2CkYxNzEwNzMyNDMxLjgyNjk5OTkKc1Zwb3JjaC1hdXRoLXRva2VuCnA3ClZkYzBkMTAzNDM1Yzc0NGIyODk0NzhiN2IzNzQ3ODhjZC1hY2NkMDllNzEwM2I0Y2E1OWVlM2RmZmIyZTlhODdmOQpwOApzVl9jcmVhdGlvbl90aW1lCnA5CkYxNzEwNzMyNDMxLjgyNjk5OTkKc1ZleHBpcmVkX2F0CnAxMApJMTcxODUwODQzMQpzLg==; x-user-id=65685ceb1100000000000007; _porch_uuid=432236387612514")
+
+      xmlHttp.addEventListener('progress', event => {
+        // 响应头要有Content-Length
+        console.log('process', event)
+      }, false)
+      xmlHttp.addEventListener('error', console.error)
+
+      xmlHttp.send()
+    }
+
+    downloadVideoBlob('http://v.xiaohongshu.com/stream/110/258/01e5f3db8b383f68010370038e4093580f_258.mp4?sign=84d90228bee2f92a761edd1baebef854&t=65f9b680')
+  </script>
+</body>
+</html>

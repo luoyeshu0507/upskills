@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <filter id="colorNegativeFilter">
+      <feColorMatrix type="matrix"
+        values="-1 0 0 0 1
+                 0 -1 0 0 1
+                 0 0 -1 0 1
+                 0 0 0 1 0" />
+    </filter>
+  </svg>
+  <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <filter id="reverseFilter">
+      <feComponentTransfer>
+        <feFuncR type="table" tableValues="0 1" />
+        <feFuncG type="table" tableValues="0 1" />
+        <feFuncB type="table" tableValues="0 1" />
+      </feComponentTransfer>
+    </filter>
+  </svg>
+  <img src="b.webp" style="filter:url(#colorNegativeFilter)" />
+  <img src="b.webp" style="filter:invert(1)" />
+  <img src="b.webp" style="filter:url(#reverseFilter)" />
+  <img src="b.webp" />
+</body>
+</html>
