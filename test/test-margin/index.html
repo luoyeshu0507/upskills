@@ -4,21 +4,77 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <style>
+    .wrap {
+      border: 1px solid #000;
+      background-color: transparent;
+      margin-bottom: 100px;
+    }
     div {
-      height: 100px;
-      background: gray;
+      background-color: #999;
+      height: 50px;
     }
-    .div1 {
-      margin-bottom: 20px;
-    }
-    .div2 {
-      height: 0;
+    em {
+      display: inline-block;
+      background-color: #999;
+      height: 50px;
     }
   </style>
 </head>
 <body>
-  <div class="div1"></div>
-  <div class="div2"></div>
-  <div class="div3"></div>
+  <div class="wrap">
+    <div style="margin-bottom: 10px;">margin-bottom: 10px</div>
+    <div style="margin-top: 20px;">margin-top: 20px</div>
+  </div>
+  <div class="wrap">
+    <div style="margin-bottom: -10px;">margin-bottom: -10px</div>
+    <div style="margin-top: 20px;">margin-top: 20px</div>
+  </div>
+  <div class="wrap">
+    <em style="margin-right: 10px;">margin-right: 10px</em>
+    <em style="margin-left: 20px;">margin-left: 20px</em>
+  </div>
+  <div class="wrap">
+    <em style="margin-right: 10px;float: left;">margin-right: 10px float: left;</em>
+    <em style="margin-left: 20px;float: left;">margin-left: 20px float: left;</em>
+  </div>
+  <div class="wrap">
+    <div style="margin-top: 20px;">
+      <div style="margin-top: 10px;"></div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div style="margin-top: 20px;">
+      <div style="margin-top: - 10px;"></div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div style="margin-top: -20px;">
+      <div style="margin-top: 10px;"></div>
+    </div>
+  </div>
+  <div class="wrap">
+    <em style="margin-right: -10px;float: left;">margin-right: -10px float: left;</em>
+    <em style="margin-left: 20px;float: left;">margin-left: 20px float: left;</em>
+  </div>
+  <div class="wrap">
+    <div></div>
+    <div></div>
+  </div>
+  <div class="wrap">
+    <div></div>
+    <div></div>
+  </div>
+  <div class="wrap">
+    <div></div>
+    <div></div>
+  </div>
+  <div class="wrap">
+    <div></div>
+    <div></div>
+  </div>
+  <div class="wrap">
+    <div></div>
+    <div></div>
+  </div>
 </body>
 </html>
